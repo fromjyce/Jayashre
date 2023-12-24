@@ -1,5 +1,5 @@
 import "../styles/Experience.css";
-import { FaPython, FaPenAlt, FaGithub } from "react-icons/fa";
+import { FaPython, FaPenAlt, FaGithub, FaJava } from "react-icons/fa";
 import { SiTorbrowser } from "react-icons/si";
 import { CgWebsite, CgBrowse } from "react-icons/cg";
 
@@ -35,7 +35,7 @@ function Experience () {
                 <br />
                 <div className="stack-concepts left-aligned-paragraph">
                   <strong>Tech Stack & Concepts: </strong>Python, OOPs, CNN,
-                  Project Management, GUI
+                  Project Management, Tkinter-GUI
                 </div>
                 <p className="job-description left-aligned-paragraph">
                   At InternPe, I mastered Object-Oriented Programming, creating
@@ -208,7 +208,49 @@ function Experience () {
               </div>
             </div>
           </div>
-          
+          <div className="sixth-experience">
+            <div className="experience-point sixth">
+              <div className="e-logo">
+                <FaJava size={25} color="#343434" />
+              </div>
+            </div>
+            <div div className="experience-box-white-black sixth-exp">
+              <div className="full-experience-paragraph-right">
+                <div className="date right-aligned-paragraph">
+                  August 2023 - September 2023
+                </div>{" "}
+                <br />
+                <div className="job-title right-aligned-paragraph">
+                  <a href="/#">
+                    <FaGithub size={22} color="#db2b39" />
+                  </a>{" "}
+                  Java Programming Intern{" "}
+                </div>
+                <br />
+                <div className="company right-aligned-paragraph">CodSoft</div>
+                <br />
+                <div className="stack-concepts right-aligned-paragraph">
+                  <strong>Tech Stack & Concepts: </strong>Java, API, OOPs,
+                  JavaFX-GUI,
+                </div>
+                <p className="job-description right-aligned-paragraph">
+                  Throughout my Java programming internship at CodSoft, I
+                  underwent a significant evolution, transitioning from an
+                  intern to a skilled Java programmer. The projects I undertook
+                  during this period speak to the diverse range of skills I
+                  acquired. From creating a Number Game that involved number
+                  generation and user interaction to developing The Student
+                  Grade Calculator for grade calculations and implementing a
+                  user-friendly ATM Interface with transaction handling, each
+                  project contributed to my growth. The Real-Time Currency
+                  Converter demonstrated my ability to integrate real-time data
+                  using external APIs, while the Student Management System
+                  showcased my proficiency in designing user-friendly interfaces
+                  for efficient data management.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     );
