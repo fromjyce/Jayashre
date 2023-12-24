@@ -1,5 +1,11 @@
 import "../styles/Experience.css";
-import { FaPython, FaPenAlt, FaGithub, FaJava } from "react-icons/fa";
+import {
+  FaPython,
+  FaPenAlt,
+  FaGithub,
+  FaJava,
+  FaChalkboardTeacher,
+} from "react-icons/fa";
 import { SiTorbrowser, SiWebpack } from "react-icons/si";
 import { CgWebsite, CgBrowse } from "react-icons/cg";
 
@@ -335,6 +341,42 @@ function Experience () {
                   "Digital Library Management System" automated book-keeping,
                   issuance, fine calculation, and report generation, enhancing
                   library operations.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="ninth-experience">
+            <div className="experience-point ninth">
+              <div className="e-logo">
+                <FaChalkboardTeacher size={25} color="#343434" />
+              </div>
+            </div>
+            <div div className="experience-box-white-black ninth-exp">
+              <div className="full-experience-paragraph-left">
+                <div className="date left-aligned-paragraph">
+                  April 2021 - Present
+                </div>{" "}
+                <br />
+                <div className="job-title left-aligned-paragraph">
+                  Educational Operations Coordinator{" "}
+                </div>
+                <br />
+                <div className="company left-aligned-paragraph">
+                  RAJ Online Tutoring
+                </div>
+                <br />
+                <div className="stack-concepts left-aligned-paragraph">
+                  <strong>Tech Stack & Concepts: </strong>Google Suite,
+                  Administration, Tutoring
+                </div>
+                <p className="job-description left-aligned-paragraph">
+                  As the Assistant Tutor and Administrator at Raj Online
+                  Tutoring, I serve as the Substitute Tutor when the main tutor
+                  is unavailable. In addition to conducting tutoring sessions,
+                  my responsibilities extend to managing meeting links,
+                  overseeing the financial aspects of weekly fees, preparing
+                  assignments and question papers, and addressing any software
+                  or technical issues that may arise during classes.
                 </p>
               </div>
             </div>
