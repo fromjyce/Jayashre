@@ -1,5 +1,8 @@
 
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Manrope&family=Oswald&display=swap');
+
+
 * {
 	padding: 0;
 	margin: 0;
@@ -8,8 +11,7 @@
 }
 
 div .experience-container {
-    background-color: #343434;
-    background-image: -webkit-linear-gradient(-67.4deg, #343434 50%, #F9F6EE 50%);
+    background-color: blue;
     margin-top: -500px;
 }
 
@@ -17,10 +19,10 @@ div .experience-title {
     margin-top: 500px;
     text-align: center;
     position: relative;
-    top: 80px;
+    top: 100px;
     font-family: 'Outfit', sans-serif;
     font-size: 20px;
-    color: #F9F6EE;
+    color: #343434;
 }
 
 .experience-box-contain {
@@ -35,9 +37,9 @@ div .experience-title {
 
 .vertical-line {
     border-left: 5px solid #db2b39;
-    height: 1000px;
+    height: 2000px;
     margin-left: 760px;
-    margin-top: 165px;
+    margin-top: 175px;
 }
 
 .experience-point {
@@ -46,13 +48,173 @@ div .experience-title {
   background-color: #CC7722;
   border-radius: 50%;
   display: inline-block;
-  justify-content: center;
+}
+
+.e-logo {
+    position: relative;
+    bottom: -7.5px;
+}
+
+.experience-box-black-white {
+    display: inline-block;
+    border-radius: 30px;
+    border: 7px solid #F9F6EE;
+    background-color: #302F2F;
+    color:#F9F6EE;
+}
+
+
+.experience-box-white-black {
+    display: inline-block;
+    border-radius: 30px;
+    border: 7px solid #302F2F;
+    background-color: #F9F6EE;
+    color:#343434;
+}
+
+.date {
+    font-family: 'Oswald', sans-serif;
+    font-size: 19px;
+    position: relative;
+    top: -20px;
+    color: #db2b39;
+}
+
+.job-title{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 30px;
+    position: relative;
+    top: -30px;
+}
+
+.company {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 22px;
+    position: relative;
+    top: -40px;
+}
+
+.stack-concepts {
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    position: relative;
+    top: -50px;
+}
+
+.job-description {
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+    position: relative;
+    top: -40px;
+}
+
+.full-experience-paragraph-left {
+    position: relative;
+    top: 35px;
+    left: 10px;
+    width: 600px;
+}
+
+.full-experience-paragraph-right {
+    position: relative;
+    top: 35px;
+    left: 10px;
+    width: 600px;
+}
+
+div .left-aligned-paragraph {
+    text-align: left;
+}
+
+div .right-aligned-paragraph {
+    text-align: right;
+}
+
+.first-experience {
+    position: relative;
+    top: -1000px;
 }
 
 .experience-point.first {
-    margin-top: 875px;
     position: relative;
-    right: 377px;
-    justify-content: center;
-    align-items: center;
+    top: -1115px;
+    left: 323px;
 }
+
+.experience-box-white-black.first-exp {
+    width: 635px;
+    height: 275px;
+    position: relative;
+    top: -1000px;
+    left: 350px;
+    justify-content: left !important;
+    text-align: left !important;
+}
+
+.second-experience {
+    position: relative;
+    top: -975px;
+}
+
+.experience-point.second {
+    position: relative;
+    top: -1095px;
+    left: 323px;
+}
+
+.experience-box-white-black.second-exp {
+    width: 635px;
+    height: 275px;
+    position: relative;
+    top: -975px;
+    left: -375px;
+    justify-content: right !important;
+    text-align: right !important;
+}
+
+.third-experience {
+    position: relative;
+    top: -950px;
+}
+
+.experience-point.third {
+    position: relative;
+    top: -1035px;
+    left: 323px;
+}
+
+.experience-box-white-black.third-exp {
+    width: 635px;
+    height: 275px;
+    position: relative;
+    top: -950px;
+    left: 350px;
+    justify-content: left !important;
+    text-align: left !important;
+}
+
+.fourth-experience {
+    position: relative;
+    top: -925px;
+}
+
+.experience-point.fourth {
+    position: relative;
+    top: -1065px;
+    left: 323px;
+}
+
+.experience-box-white-black.fourth-exp {
+    width: 635px;
+    height: 315px;
+    position: relative;
+    top: -925px;
+    left: -375px;
+    justify-content: right !important;
+    text-align: right !important;
+}
+
+
+
+
+
