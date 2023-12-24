@@ -13,6 +13,7 @@
 div .experience-container {
     background-color: blue;
     margin-top: -500px;
+    padding-bottom: 0rem;
 }
 
 div .experience-title {
@@ -280,6 +281,7 @@ div .right-aligned-paragraph {
 .eighth-experience {
     position: relative;
     top: -1875px;
+    
 }
 
 .experience-point.eighth {
@@ -301,6 +303,7 @@ div .right-aligned-paragraph {
 .ninth-experience {
     position: relative;
     top: -1900px;
+    
 }
 
 .experience-point.ninth {
@@ -317,5 +320,18 @@ div .right-aligned-paragraph {
     left: 350px;
     justify-content: left !important;
     text-align: left !important;
+}
+
+
+
+.experience-list {
+    list-style: none;
+    
+    
+}
+
+.experience-item {
+    display: inline-block;
+    margin-right: 10px;
 }
 

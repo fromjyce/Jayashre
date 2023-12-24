@@ -35,7 +35,7 @@ function Experience () {
                   <a href="/#">
                     <FaGithub size={22} color="#db2b39" />
                   </a>
-                </div>{" "}
+                </div>
                 <br />
                 <div className="company left-aligned-paragraph">InternPe</div>
                 <br />
@@ -318,7 +318,7 @@ function Experience () {
                   <a href="/#">
                     <FaGithub size={22} color="#db2b39" />
                   </a>{" "}
-                  Java Programming Intern{" "}
+                  Java Programming Intern
                 </div>
                 <br />
                 <div className="company right-aligned-paragraph">
@@ -355,10 +355,10 @@ function Experience () {
               <div className="full-experience-paragraph-left">
                 <div className="date left-aligned-paragraph">
                   April 2021 - Present
-                </div>{" "}
+                </div>
                 <br />
                 <div className="job-title left-aligned-paragraph">
-                  Educational Operations Coordinator{" "}
+                  Educational Operations Coordinator
                 </div>
                 <br />
                 <div className="company left-aligned-paragraph">
@@ -380,6 +380,16 @@ function Experience () {
                 </p>
               </div>
             </div>
+          </div>
+          <div className="buttons-other">
+            <ul className="experience-list">
+              <li className="experience-item">
+                <button>Virtual Experience</button>
+              </li>
+              <li className="experience-item">
+                <button>Mentee Experience</button>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
