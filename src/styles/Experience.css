@@ -37,7 +37,7 @@ div .experience-title {
 
 .vertical-line {
     border-left: 5px solid #db2b39;
-    height: 2000px;
+    height: 3000px;
     margin-left: 760px;
     margin-top: 175px;
 }
@@ -132,7 +132,7 @@ div .right-aligned-paragraph {
 
 .first-experience {
     position: relative;
-    top: -1000px;
+    top: -2000px;
 }
 
 .experience-point.first {
@@ -153,7 +153,7 @@ div .right-aligned-paragraph {
 
 .second-experience {
     position: relative;
-    top: -975px;
+    top: -1975px;
 }
 
 .experience-point.second {
@@ -174,7 +174,7 @@ div .right-aligned-paragraph {
 
 .third-experience {
     position: relative;
-    top: -950px;
+    top: -1950px;
 }
 
 .experience-point.third {
@@ -195,7 +195,7 @@ div .right-aligned-paragraph {
 
 .fourth-experience {
     position: relative;
-    top: -925px;
+    top: -1925px;
 }
 
 .experience-point.fourth {
@@ -216,11 +216,10 @@ div .right-aligned-paragraph {
 
 .fifth-experience {
     position: relative;
-    top: -900px;
+    top: -1900px;
 }
 
 .experience-point.fifth {
-    position: relative;
     position: relative;
     top: -1055px;
     left: 323px;
@@ -236,6 +235,26 @@ div .right-aligned-paragraph {
     text-align: left !important;
 }
 
+.sixth-experience {
+    position: relative;
+    top: -1875px;
+}
+
+.experience-point.sixth {
+    position: relative;
+    top: -1070px;
+    left: 323px;
+}
+
+.experience-box-white-black.sixth-exp {
+    width: 635px;
+    height: 325px;
+    position: relative;
+    top: -925px;
+    left: -375px;
+    justify-content: right !important;
+    text-align: right !important;
+}
 
 
 
