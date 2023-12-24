@@ -50,7 +50,7 @@ function Navbar() {
           </a>
         </Tippy>
         <Tippy
-          content="Experiences"
+          content="Experience"
           className="tooltip"
           animation="scale"
           arrow={false}
