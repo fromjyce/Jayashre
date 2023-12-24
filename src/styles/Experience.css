@@ -214,6 +214,27 @@ div .right-aligned-paragraph {
     text-align: right !important;
 }
 
+.fifth-experience {
+    position: relative;
+    top: -900px;
+}
+
+.experience-point.fifth {
+    position: relative;
+    position: relative;
+    top: -1055px;
+    left: 323px;
+}
+
+.experience-box-white-black.fifth-exp{
+    width: 635px;
+    height: 350px;
+    position: relative;
+    top: -900px;
+    left: 350px;
+    justify-content: left !important;
+    text-align: left !important;
+}
 
 
 
