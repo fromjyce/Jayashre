@@ -256,5 +256,47 @@ div .right-aligned-paragraph {
     text-align: right !important;
 }
 
+.seventh-experience {
+    position: relative;
+    top: -1900px;
+}
+
+.experience-point.seventh {
+    position: relative;
+    top: -1055px;
+    left: 323px;
+}
+
+.experience-box-white-black.seventh-exp{
+    width: 635px;
+    height: 350px;
+    position: relative;
+    top: -900px;
+    left: 350px;
+    justify-content: left !important;
+    text-align: left !important;
+}
+
+.eighth-experience {
+    position: relative;
+    top: -1875px;
+}
+
+.experience-point.eighth {
+    position: relative;
+    top: -1070px;
+    left: 323px;
+}
+
+.experience-box-white-black.eighth-exp {
+    width: 635px;
+    height: 325px;
+    position: relative;
+    top: -925px;
+    left: -375px;
+    justify-content: right !important;
+    text-align: right !important;
+}
+
 
 
