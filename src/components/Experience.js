@@ -1,7 +1,7 @@
 import "../styles/Experience.css";
 import { FaPython, FaPenAlt, FaGithub } from "react-icons/fa";
 import { SiTorbrowser } from "react-icons/si";
-import { CgWebsite } from "react-icons/cg";
+import { CgWebsite, CgBrowse } from "react-icons/cg";
 
 
 function Experience () {
@@ -145,7 +145,8 @@ function Experience () {
                 </div>
                 <br />
                 <div className="stack-concepts right-aligned-paragraph">
-                  <strong>Tech Stack & Concepts: </strong>Web Development, UX, HTML, CSS, JS, PHP
+                  <strong>Tech Stack & Concepts: </strong>Web Development, UX,
+                  HTML, CSS, JS, PHP
                 </div>
                 <p className="job-description right-aligned-paragraph">
                   In my role as a web development intern at Code Alpha, I
@@ -162,6 +163,52 @@ function Experience () {
               </div>
             </div>
           </div>
+          <div className="fifth-experience">
+            <div className="experience-point fifth">
+              <div className="e-logo">
+                <CgBrowse size={25} color="#343434" />
+              </div>
+            </div>
+            <div div className="experience-box-white-black fifth-exp">
+              <div className="full-experience-paragraph-left">
+                <div className="date left-aligned-paragraph">
+                  August 2023 - September 2023
+                </div>{" "}
+                <br />
+                <div className="job-title left-aligned-paragraph">
+                  Web Development and Design Intern{" "}
+                  <a href="/#">
+                    <FaGithub size={22} color="#db2b39" />
+                  </a>{" "}
+                </div>
+                <br />
+                <div className="company left-aligned-paragraph">
+                  Oasis Infobyte
+                </div>
+                <br />
+                <div className="stack-concepts left-aligned-paragraph">
+                  <strong>Tech Stack & Concepts: </strong>Web Development, UX,
+                  HTML, CSS, JS, API, React, Node.js, MongoDB, Flask
+                </div>
+                <p className="job-description left-aligned-paragraph">
+                  During my immersive internship at Oasis Infobyte, I progressed
+                  through various web development tasks, starting with personal
+                  portfolios and landing pages and advancing to building tools
+                  like temperature converters and calculators using HTML, CSS,
+                  and JavaScript. I contributed to projects such as a tribute
+                  page and a to-do web app, emphasizing both aesthetics and
+                  usability. Moving into advanced development, I tackled Flask
+                  for login authentication and embraced full-stack development
+                  with React, MongoDB, and Node.js to create a sophisticated
+                  Pizza Delivery Application. This project showcased my skills
+                  in user and admin authentication, dynamic features like pizza
+                  customization, secure payments via Razor Pay, and efficient
+                  inventory management.
+                </p>
+              </div>
+            </div>
+          </div>
+          
         </div>
       </div>
     );
