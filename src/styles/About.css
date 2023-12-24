@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+    box-sizing: border-box;
+	
+}
+
+.about-container {
+    background-color: blue;
+}
+
+.about-title {
+    margin-top:  -100px !important;
+}
+
+.title-about {
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    margin-top: 500px !important;
+}
+
+.rectangle {
+    display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: black;
+  text-align: center;
+}
