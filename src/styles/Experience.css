@@ -1,0 +1,58 @@
+
+
+* {
+	padding: 0;
+	margin: 0;
+    box-sizing: border-box;
+	
+}
+
+div .experience-container {
+    background-color: #343434;
+    background-image: -webkit-linear-gradient(-67.4deg, #343434 50%, #F9F6EE 50%);
+    margin-top: -500px;
+}
+
+div .experience-title {
+    margin-top: 500px;
+    text-align: center;
+    position: relative;
+    top: 80px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    color: #F9F6EE;
+}
+
+.experience-box-contain {
+    margin-top: 125px;
+    display: inline-block;
+    width: 1350px;
+    height: 460px;
+    border-radius: 75px;
+    border: 7px solid #F9F6EE;
+    background-color: violet;
+}
+
+.vertical-line {
+    border-left: 5px solid #db2b39;
+    height: 1000px;
+    margin-left: 760px;
+    margin-top: 165px;
+}
+
+.experience-point {
+    height: 40px;
+  width: 40px;
+  background-color: #CC7722;
+  border-radius: 50%;
+  display: inline-block;
+  justify-content: center;
+}
+
+.experience-point.first {
+    margin-top: 875px;
+    position: relative;
+    right: 377px;
+    justify-content: center;
+    align-items: center;
+}
