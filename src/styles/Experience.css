@@ -298,5 +298,24 @@ div .right-aligned-paragraph {
     text-align: right !important;
 }
 
+.ninth-experience {
+    position: relative;
+    top: -1900px;
+}
 
+.experience-point.ninth {
+    position: relative;
+    top: -1005px;
+    left: 323px;
+}
+
+.experience-box-white-black.ninth-exp{
+    width: 635px;
+    height: 265px;
+    position: relative;
+    top: -900px;
+    left: 350px;
+    justify-content: left !important;
+    text-align: left !important;
+}
 
