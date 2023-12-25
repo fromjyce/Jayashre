@@ -47,7 +47,7 @@ function Home() {
           >
             <Tippy
               content="Mail"
-              className="tooltip"
+              className="home-tooltip"
               animation="scale"
               arrow={false}
               hideOnClick={true}
@@ -61,7 +61,7 @@ function Home() {
             </Tippy>
             <Tippy
               content="LinkedIn"
-              className="tooltip"
+              className="home-tooltip"
               animation="scale"
               arrow={false}
               hideOnClick={true}
@@ -75,7 +75,7 @@ function Home() {
             </Tippy>
             <Tippy
               content="GitHub"
-              className="tooltip"
+              className="home-tooltip"
               animation="scale"
               arrow={false}
               hideOnClick={true}
@@ -89,7 +89,7 @@ function Home() {
             </Tippy>
             <Tippy
               content={["Google Scholar"]}
-              className="tooltip"
+              className="home-tooltip"
               animation="scale"
               arrow={false}
               hideOnClick={true}
@@ -103,7 +103,7 @@ function Home() {
             </Tippy>
             <Tippy
               content={["Download Resume"]}
-              className="tooltip"
+              className="home-tooltip"
               animation="scale"
               arrow={false}
               hideOnClick={true}
