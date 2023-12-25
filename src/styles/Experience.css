@@ -11,7 +11,8 @@
 }
 
 div .experience-container {
-    background-color: blue;
+    background-color: #F9F6EE;
+    background-image: -webkit-linear-gradient(301.5deg, #F9F6EE 50%, #343434 50%);
     margin-top: -500px;
     padding-bottom: 0rem;
 }
@@ -281,7 +282,6 @@ div .right-aligned-paragraph {
 .eighth-experience {
     position: relative;
     top: -1875px;
-    
 }
 
 .experience-point.eighth {
@@ -303,7 +303,6 @@ div .right-aligned-paragraph {
 .ninth-experience {
     position: relative;
     top: -1900px;
-    
 }
 
 .experience-point.ninth {
@@ -312,7 +311,7 @@ div .right-aligned-paragraph {
     left: 323px;
 }
 
-.experience-box-white-black.ninth-exp{
+.experience-box-black-white.ninth-exp{
     width: 635px;
     height: 265px;
     position: relative;
@@ -324,14 +323,29 @@ div .right-aligned-paragraph {
 
 
 
+
 .experience-list {
     list-style: none;
     
-    
+    position: relative;
+    top: -2675px;
+    justify-content: center;
+    margin-left: 115px;
 }
 
 .experience-item {
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 100px;
+}
+
+.exp-button {
+    font-family: 'Outfit', sans-serif;
+    width: 250px;
+    height: 50px;
+    font-size: 25px;
+    color: #db2b39;
+    background-color: #343434;
+    border-radius: 10px;
+    border: 3px solid #F9F6EE;
 }
 
