@@ -1,0 +1,12 @@
+* {
+	padding: 0;
+	margin: 0;
+    box-sizing: border-box;
+	
+}
+
+div .education-container {
+    background-color: red;
+   margin-top: -2550px;
+    padding-bottom: 0rem;
+}
