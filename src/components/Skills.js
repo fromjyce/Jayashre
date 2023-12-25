@@ -14,7 +14,6 @@ import { BiLogoNetlify } from "react-icons/bi";
 import { GoProjectRoadmap } from "react-icons/go";
 import { FaPython, FaGolang } from "react-icons/fa6";
 import { VscTerminalBash } from "react-icons/vsc";
-import { RiEnglishInput } from "react-icons/ri";
 import {
   FaJava,
   FaHtml5,
