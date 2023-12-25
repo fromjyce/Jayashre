@@ -11,7 +11,7 @@
 
 }
 
-.popup-inner {
+.popup-inner-black-white {
     position: relative;
     padding: 32px;
     width: 100%;
@@ -21,7 +21,25 @@
     background-color: #302F2F;
 }
 
-.popup-inner .close-button {
+.popup-inner-white-black {
+    position: relative;
+    padding: 32px;
+    width: 100%;
+    max-width: 765px;
+    border-radius: 50px;
+    border: 7px solid #302F2F;
+    background-color: #F9F6EE;
+}
+
+.popup-inner-black-white .close-button {
+    background-color: transparent !important;
+    border: transparent;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
+.popup-inner-white-black .close-button {
     background-color: transparent !important;
     border: transparent;
     position: absolute;
