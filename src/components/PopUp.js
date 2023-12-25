@@ -5,7 +5,7 @@ import "../styles/PopUp.css";
 function PopUp(props) {
   return props.trigger ? (
     <div className="popup">
-      <div className="popup-inner">
+      <div className="popup-inner-black-white">
         <button
           className="close-button"
           onClick={() => props.setTrigger(false)}
