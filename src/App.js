@@ -14,7 +14,6 @@ function App() {
       <About />
       <Skills />
       <Experience />
-      <Education />
     </React.Fragment>
   );
 }
