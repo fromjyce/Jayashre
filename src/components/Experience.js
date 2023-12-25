@@ -8,9 +8,13 @@ import {
 } from "react-icons/fa";
 import { SiTorbrowser, SiWebpack } from "react-icons/si";
 import { CgWebsite, CgBrowse } from "react-icons/cg";
+import PopUpWB from "./PopUpWB";
+import { useState } from "react";
 
 
 function Experience () {
+  const [virtualPopup, setvirtualbuttonPopup] = useState(false);
+  const [menteePopup, setmenteebuttonPopup] = useState(false);
     return (
       <div className="Experience" id="Experience">
         <div className="experience-container">
@@ -351,7 +355,7 @@ function Experience () {
                 <FaChalkboardTeacher size={25} color="#343434" />
               </div>
             </div>
-            <div div className="experience-box-white-black ninth-exp">
+            <div div className="experience-box-black-white ninth-exp">
               <div className="full-experience-paragraph-left">
                 <div className="date left-aligned-paragraph">
                   April 2021 - Present
@@ -384,13 +388,25 @@ function Experience () {
           <div className="buttons-other">
             <ul className="experience-list">
               <li className="experience-item">
-                <button>Virtual Experience</button>
+                <button className="exp-button" onClick={() => setvirtualbuttonPopup(true)}>Virtual Experience</button>
               </li>
               <li className="experience-item">
-                <button>Mentee Experience</button>
+                <button className="exp-button" onClick={() => setmenteebuttonPopup(true)}>Mentee Experience</button>
               </li>
             </ul>
           </div>
+          <PopUpWB
+            trigger={virtualPopup}
+            setTrigger={setvirtualbuttonPopup}
+          >
+            <h1>HIII</h1>
+          </PopUpWB>
+          <PopUpWB
+            trigger={menteePopup}
+            setTrigger={setmenteebuttonPopup}
+          >
+            <h1>MENTEE</h1>
+          </PopUpWB>
         </div>
       </div>
     );
