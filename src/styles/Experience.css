@@ -11,8 +11,8 @@
 }
 
 div .experience-container {
-    background-color: #F9F6EE;
-    background-image: -webkit-linear-gradient(301.5deg, #F9F6EE 50%, #343434 50%);
+    background-color: blue;
+    
     margin-top: -500px;
     padding-bottom: 0rem;
 }
@@ -27,21 +27,89 @@ div .experience-title {
     color: #343434;
 }
 
-.experience-box-contain {
-    margin-top: 125px;
-    display: inline-block;
-    width: 1350px;
-    height: 460px;
-    border-radius: 75px;
-    border: 7px solid #F9F6EE;
-    background-color: violet;
+.horizontal-line-up {
+    margin: 130px auto;
 }
 
-.vertical-line {
-    border-left: 5px solid #db2b39;
-    height: 3000px;
-    margin-left: 760px;
-    margin-top: 175px;
+.horizontal-line-down {
+    margin: 20px auto;
+}
+
+.job-experience-item {
+    margin-left: 120px;
+    
+}
+
+.job-experience-item.first {
+    margin-top: -110px;
+}
+
+.job-experience-item.second {
+    margin-top: 10px;
+}
+
+.pos-date-item.job-pos.smaller-job-one {
+    font-size: 25px;
+    margin-left: 70px;
+}
+
+.pos-date-item.date.smaller-date-one {
+    font-size: 17px;
+}
+
+.pos-date {
+    list-style: none;
+    justify-content: center;
+}
+
+
+
+.pos-date-item {
+    display: inline-block;
+    margin-right: 130px;
+}
+
+.white-colour {
+    color: #F9F6EE;
+}
+
+.black-colour {
+    color: #343434;
+}
+
+.pos-date-item.job-pos {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 28px;
+}
+
+.pos-date-item.date{
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    color: #db2b39;
+}
+
+.company-stack-description{
+    margin-top: 5px;
+    margin-left: 310px;
+    width: 550px;
+}
+
+.company {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 21px;
+}
+
+.stack-skills {
+    margin-top: 10px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 17px;
+}
+
+.job-description {
+    margin-top: 10px;
+    justify-content: stretch;
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
 }
 
 .experience-point {
@@ -57,269 +125,10 @@ div .experience-title {
     bottom: -7.5px;
 }
 
-.experience-box-black-white {
-    display: inline-block;
-    border-radius: 30px;
-    border: 7px solid #F9F6EE;
-    background-color: #302F2F;
-    color:#F9F6EE;
-}
-
-
-.experience-box-white-black {
-    display: inline-block;
-    border-radius: 30px;
-    border: 7px solid #302F2F;
-    background-color: #F9F6EE;
-    color:#343434;
-}
-
-.date {
-    font-family: 'Oswald', sans-serif;
-    font-size: 19px;
-    position: relative;
-    top: -20px;
-    color: #db2b39;
-}
-
-.job-title{
-    font-family: 'DM Sans', sans-serif;
-    font-size: 30px;
-    position: relative;
-    top: -30px;
-}
-
-.company {
-    font-family: 'DM Sans', sans-serif;
-    font-size: 22px;
-    position: relative;
-    top: -40px;
-}
-
-.stack-concepts {
-    font-family: 'Manrope', sans-serif;
-    font-size: 14px;
-    position: relative;
-    top: -50px;
-}
-
-.job-description {
-    font-family: 'Manrope', sans-serif;
-    font-size: 13px;
-    position: relative;
-    top: -40px;
-}
-
-.full-experience-paragraph-left {
-    position: relative;
-    top: 35px;
-    left: 10px;
-    width: 600px;
-}
-
-.full-experience-paragraph-right {
-    position: relative;
-    top: 35px;
-    left: 10px;
-    width: 600px;
-}
-
 div .left-aligned-paragraph {
     text-align: left;
 }
 
-div .right-aligned-paragraph {
-    text-align: right;
-}
-
-.first-experience {
-    position: relative;
-    top: -2000px;
-}
-
-.experience-point.first {
-    position: relative;
-    top: -1115px;
-    left: 323px;
-}
-
-.experience-box-white-black.first-exp {
-    width: 635px;
-    height: 275px;
-    position: relative;
-    top: -1000px;
-    left: 350px;
-    justify-content: left !important;
-    text-align: left !important;
-}
-
-.second-experience {
-    position: relative;
-    top: -1975px;
-}
-
-.experience-point.second {
-    position: relative;
-    top: -1095px;
-    left: 323px;
-}
-
-.experience-box-white-black.second-exp {
-    width: 635px;
-    height: 275px;
-    position: relative;
-    top: -975px;
-    left: -375px;
-    justify-content: right !important;
-    text-align: right !important;
-}
-
-.third-experience {
-    position: relative;
-    top: -1950px;
-}
-
-.experience-point.third {
-    position: relative;
-    top: -1035px;
-    left: 323px;
-}
-
-.experience-box-white-black.third-exp {
-    width: 635px;
-    height: 275px;
-    position: relative;
-    top: -950px;
-    left: 350px;
-    justify-content: left !important;
-    text-align: left !important;
-}
-
-.fourth-experience {
-    position: relative;
-    top: -1925px;
-}
-
-.experience-point.fourth {
-    position: relative;
-    top: -1065px;
-    left: 323px;
-}
-
-.experience-box-white-black.fourth-exp {
-    width: 635px;
-    height: 315px;
-    position: relative;
-    top: -925px;
-    left: -375px;
-    justify-content: right !important;
-    text-align: right !important;
-}
-
-.fifth-experience {
-    position: relative;
-    top: -1900px;
-}
-
-.experience-point.fifth {
-    position: relative;
-    top: -1055px;
-    left: 323px;
-}
-
-.experience-box-white-black.fifth-exp{
-    width: 635px;
-    height: 350px;
-    position: relative;
-    top: -900px;
-    left: 350px;
-    justify-content: left !important;
-    text-align: left !important;
-}
-
-.sixth-experience {
-    position: relative;
-    top: -1875px;
-}
-
-.experience-point.sixth {
-    position: relative;
-    top: -1070px;
-    left: 323px;
-}
-
-.experience-box-white-black.sixth-exp {
-    width: 635px;
-    height: 325px;
-    position: relative;
-    top: -925px;
-    left: -375px;
-    justify-content: right !important;
-    text-align: right !important;
-}
-
-.seventh-experience {
-    position: relative;
-    top: -1900px;
-}
-
-.experience-point.seventh {
-    position: relative;
-    top: -1055px;
-    left: 323px;
-}
-
-.experience-box-white-black.seventh-exp{
-    width: 635px;
-    height: 350px;
-    position: relative;
-    top: -900px;
-    left: 350px;
-    justify-content: left !important;
-    text-align: left !important;
-}
-
-.eighth-experience {
-    position: relative;
-    top: -1875px;
-}
-
-.experience-point.eighth {
-    position: relative;
-    top: -1070px;
-    left: 323px;
-}
-
-.experience-box-white-black.eighth-exp {
-    width: 635px;
-    height: 325px;
-    position: relative;
-    top: -925px;
-    left: -375px;
-    justify-content: right !important;
-    text-align: right !important;
-}
-
-.ninth-experience {
-    position: relative;
-    top: -1900px;
-}
-
-.experience-point.ninth {
-    position: relative;
-    top: -1005px;
-    left: 323px;
-}
-
-.experience-box-black-white.ninth-exp{
-    width: 635px;
-    height: 265px;
-    position: relative;
-    top: -900px;
-    left: 350px;
-    justify-content: left !important;
-    text-align: left !important;
-}
 
 
 
