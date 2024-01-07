@@ -55,7 +55,7 @@ function Home() {
             >
               <li className="list-item">
                 <a href="/#">
-                  <IoMail size={30} color="#343434" />
+                  <IoMail size={30} />
                 </a>
               </li>
             </Tippy>
@@ -69,7 +69,7 @@ function Home() {
             >
               <li className="list-item">
                 <a href="/#">
-                  <SiLinkedin size={30} color="#343434" />
+                  <SiLinkedin size={30} />
                 </a>
               </li>
             </Tippy>
@@ -83,7 +83,7 @@ function Home() {
             >
               <li className="list-item">
                 <a href="/#">
-                  <FaGithub size={30} color="#343434" />
+                  <FaGithub size={30} />
                 </a>
               </li>
             </Tippy>
@@ -97,7 +97,7 @@ function Home() {
             >
               <li className="list-item">
                 <a href="/#">
-                  <SiGooglescholar size={30} color="#343434" />
+                  <SiGooglescholar size={30} />
                 </a>
               </li>
             </Tippy>
@@ -111,7 +111,7 @@ function Home() {
             >
               <li className="list-item">
                 <a href="/#">
-                  <FaRegFileAlt size={30} color="#343434" />
+                  <FaRegFileAlt size={30} />
                 </a>
               </li>
             </Tippy>
