@@ -1,7 +1,7 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Manrope&family=Oswald&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 * {
 	padding: 0;
@@ -11,7 +11,8 @@
 }
 
 div .experience-container {
-    background-color: blue;
+    background-color: #F9F6EE;
+    background-image: -webkit-linear-gradient(-65.12deg, #F9F6EE 50%, #343434 50%);
     
     margin-top: -500px;
     padding-bottom: 0rem;
@@ -27,6 +28,24 @@ div .experience-title {
     color: #343434;
 }
 
+.experience-list-container{
+    width: 1000px;
+    background:#FFE5B4;
+    margin:170px auto;
+    border-radius: 50px;
+    border: 7px solid #302F2F;
+}
+
+.white-colour {
+    color: #F9F6EE;
+}
+
+.black-colour {
+    color: #343434;
+}
+
+
+
 .horizontal-line-up {
     margin: 130px auto;
 }
@@ -41,20 +60,68 @@ div .experience-title {
 }
 
 .job-experience-item.first {
-    margin-top: -110px;
+    margin-top: 40px;
 }
 
 .job-experience-item.second {
-    margin-top: 10px;
+    margin-top: 30px;
+}
+
+.job-experience-item.third {
+    margin-top: 30px;
+}
+
+.job-experience-item.fourth {
+    margin-top: 30px;
+}
+
+.job-experience-item.fifth {
+    margin-top: 30px;
+}
+
+.job-experience-item.sixth {
+    margin-top: 30px;
+}
+
+.job-experience-item.seventh {
+    margin-top: 30px;
+}
+
+.job-experience-item.eighth {
+    margin-top: 30px;
+}
+
+.job-experience-item.ninth {
+    margin-top: 30px;
+}
+
+.last-experience {
+    margin-bottom: 30px;
+}
+
+.pos-date-item {
+    display: inline-block;
+    margin-right: 130px;
 }
 
 .pos-date-item.job-pos.smaller-job-one {
     font-size: 25px;
-    margin-left: 70px;
+    margin-left: 45px;
 }
 
 .pos-date-item.date.smaller-date-one {
     font-size: 17px;
+    margin-left: -30px;
+}
+
+.pos-date-item.job-pos.smaller-job-two {
+    font-size: 23px;
+    margin-left: 1px;
+}
+
+.pos-date-item.date.smaller-date-two {
+    font-size: 15px;
+    margin-left: -15px;
 }
 
 .pos-date {
@@ -62,20 +129,27 @@ div .experience-title {
     justify-content: center;
 }
 
-
-
-.pos-date-item {
-    display: inline-block;
-    margin-right: 130px;
+.pos-date.still-left{
+    margin-left: -50px;
 }
 
-.white-colour {
-    color: #F9F6EE;
+.pos-date.still-right{
+    margin-left: 30px;
 }
 
-.black-colour {
-    color: #343434;
+.pos-date.still-right-one {
+    margin-left: -15px;
 }
+
+.pos-date.still-left-one{
+    margin-right: -35pt;
+}
+
+
+
+
+
+
 
 .pos-date-item.job-pos {
     font-family: 'DM Sans', sans-serif;
@@ -90,7 +164,7 @@ div .experience-title {
 
 .company-stack-description{
     margin-top: 5px;
-    margin-left: 310px;
+    margin-left: 50px;
     width: 550px;
 }
 
@@ -133,16 +207,16 @@ div .left-aligned-paragraph {
 
 
 
-.experience-list {
+.other-experience-buttons {
     list-style: none;
     
     position: relative;
-    top: -2675px;
     justify-content: center;
-    margin-left: 115px;
+    margin: -120px auto;
+    margin-left: 125px;
 }
 
-.experience-item {
+.other-experience-item {
     display: inline-block;
     margin-right: 100px;
 }
@@ -153,8 +227,18 @@ div .left-aligned-paragraph {
     height: 50px;
     font-size: 25px;
     color: #db2b39;
-    background-color: #343434;
+    background-color: #F9F6EE;
     border-radius: 10px;
-    border: 3px solid #F9F6EE;
+    border: 3px solid black;
 }
 
+.ve-title{
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+}
+
+.ve-list{
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+}
