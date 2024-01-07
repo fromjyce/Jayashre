@@ -98,18 +98,6 @@ function Navbar() {
           </a>
         </Tippy>
         <Tippy
-          content="Contests"
-          className="tooltip"
-          animation="scale"
-          arrow={false}
-          hideOnClick={true}
-        >
-          <a href="/#">
-            <FaRegCompass />
-            <div className="text">Contests</div>
-          </a>
-        </Tippy>
-        <Tippy
           content="Achievements"
           className="tooltip"
           animation="scale"
