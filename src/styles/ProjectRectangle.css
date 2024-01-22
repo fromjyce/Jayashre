@@ -13,31 +13,6 @@
    position: relative;
 }
 
-.project-rectangle:hover {
-  background-color: #FFF8DC;
-  border: 1px solid #FFF8DC; 
-
-  .contributor-name {
-    color: #353935;
-  }
-
-  .project-title-name {
-    color: #353935;
-  }
-
-  .timeline{
-    color: #353935;
-  }
-
-  .project-description{
-    color: #353935;
-  }
-
-  .project-stack {
-    color: #353935;
-  }
-}
-
 .project-rectangle a {
   display: block;
   margin-top: 10px;
