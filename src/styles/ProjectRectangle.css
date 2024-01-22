@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.project-rectangle {
+  font-family: 'Poppins', sans-serif;
+  border: 1px solid #353935;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  width: 300px;
+  height: 500px;
+  background-color: #353935;
+   position: relative;
+}
+
+.project-rectangle:hover {
+  background-color: #F9F6EE;
+  border: 1px solid #F9F6EE; 
+
+  .contributor-name {
+    color: #353935;
+  }
+
+  .project-title-name {
+    color: #353935;
+  }
+
+  .timeline{
+    color: #353935;
+  }
+
+  .project-description{
+    color: #353935;
+  }
+}
+
+.project-rectangle a {
+  display: block;
+  margin-top: 10px;
+}
+
+.contributor-name {
+  text-align: left;
+  color: #D3D3D3;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+
+.project-title-name {
+  text-align: left;
+  color: white;
+  font-size: 35px;
+}
+
+.timeline {
+  text-align: left;
+  color: #FEFEFA;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.project-description {
+  text-align: left;
+  color: #FDFCFA;
+  font-size: 23px;
+  margin-left: -1px;
+  margin-top: 10px;
+}
+
+
+.project-github-icon{
+  text-align: left;
+}
+
+
+.projects-tooltip {
+    background-color: #343434 !important;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #F9F6EE !important;
+}
+
