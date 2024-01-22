@@ -86,18 +86,6 @@ function Navbar() {
           </a>
         </Tippy>
         <Tippy
-          content="Certifications"
-          className="tooltip"
-          animation="scale"
-          arrow={false}
-          hideOnClick={true}
-        >
-          <a href="/#">
-            <TbCertificate />
-            <div className="text">Certifications</div>
-          </a>
-        </Tippy>
-        <Tippy
           content="Achievements"
           className="tooltip"
           animation="scale"
