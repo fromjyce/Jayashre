@@ -8,7 +8,8 @@
 }
 
 .projects-container {
-    background-color: aqua;
+    background-color: #F9F6EE;
+    background-image: -webkit-linear-gradient(-65.12deg, #F9F6EE 50%, #343434 50%);
     margin-top: -40px;
 }
 
