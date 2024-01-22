@@ -48,7 +48,7 @@ const Projects = () => {
       link: "https://example.com/project1",
       contributor: "Solo Contributor",
       timeline: "July 2023 - August 2023",
-      stack: "Kotlin, Android Studio, CameraX, Android, Figma, Latex",
+      stack: "Kotlin, Android Studio, CameraX, Android",
     },
     {
       title: "A Basic To-do Web App",
@@ -79,15 +79,6 @@ const Projects = () => {
       stack: "Java, SwingFX, UX, GUI",
     },
     {
-      title: "Student Management System",
-      description:
-        "Utilized JavaFX for a user-friendly interface, implementing a Student class with attributes to facilitate tasks like adding, editing, and displaying student details, ensuring accurate input validation and information integrity through data storage mechanisms.",
-      link: "https://example.com/project1",
-      contributor: "Solo Contributor",
-      timeline: "August 2023 - September 2023",
-      stack: "Java, SwingFX, UX, GUI",
-    },
-    {
       title: "OpenChain",
       description:
         "A Solidity smart contract transforming the digital content marketplace, was developed using ThirdWeb",
@@ -97,13 +88,32 @@ const Projects = () => {
       stack: "Solidity, Remix IDE, Thirdweb, Blockchain, Ethereum",
     },
     {
+      title: "AirPic",
+      description:
+        "A collaborative project revolutionizing camera interaction. Introduced smile detection, hand gesture-controlled capture, zoom via gestures, and dynamic filters",
+      link: "https://example.com/project1",
+      contributor: "Team Contributor",
+      timeline: "June 2023 - November 2023",
+      stack:
+        "Kotlin, Android, Android Studio, CameraX API, Jetpack Compose, Tensorflow-Keras API, Latex, Figma, UX",
+    },
+    {
       title: "PenGUIn",
       description:
         "Developed a user-friendly Linux app for OS hardening with essential and advanced security options, one-click USB and Tor exit node blocking, Essential and Advanced modes, and additional features like cache cleaning for heightened system security.",
       link: "https://example.com/project1",
-      contributor: "Solo Contributor",
+      contributor: "Team Contributor",
       timeline: "October 2023 - December 2023",
       stack: "Shell Scripting, Operating System, PyGTK, OS Hardening",
+    },
+    {
+      title: "Deepfake Detection with InceptionResNetV2-BiLSTM",
+      description:
+        "This project enhances deepfake detection by combining InceptionResNetV2 and BiLSTM networks, addressing concerns about deceptive content in multimedia.",
+      link: "https://example.com/project1",
+      contributor: "Solo Contributor",
+      timeline: "October 2023 - December 2023",
+      stack: "Python, Deep Learning, ",
     },
   ];
 
