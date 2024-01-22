@@ -115,6 +115,43 @@ const Projects = () => {
       timeline: "October 2023 - December 2023",
       stack: "Python, Deep Learning, ",
     },
+    {
+      title: "HireMeHorizon: Smart Campus Recruiter",
+      description:
+        "Applying machine learning to campus placement data involves analyzing student info, using models, and developing a website for undergraduates to assess placement and predict salaries.",
+      link: "https://example.com/project1",
+      contributor: "Team Contributor",
+      timeline: "October 2023 - December 2023",
+      stack:
+        "Python, HTML, CSS, Javascript, Flask, MySQL, React, Figma, Machine Learning, UX",
+    },
+    {
+      title: "CipherGuard: A Secure Encryption/Decryption Tool",
+      description:
+        "SwingFX Java application for text, document, audio, video, and image encryption using methods like CaesarCipher, OneTimePad, AES, RSA, and RC4",
+      link: "https://example.com/project1",
+      contributor: "Solo Contributor",
+      timeline: "Ongoing" /*December */,
+      stack: "Java, SwingFX, GUI, Cryptography",
+    },
+    {
+      title: "Algorithmic Trading Model Development",
+      description:
+        "Development of an Algorithmic Trading Model for the BTC/USDT Crypto Market",
+      link: "https://example.com/project1",
+      contributor: "Team Contributor",
+      timeline: "Ongoing" /*January */,
+      stack: "Python, Machine Learning, Trading",
+    },
+    {
+      title: "Personal Portfolio Website",
+      description:
+        "Designed a dynamic personal portfolio website showcasing my professional achievements, skills, experiences, achievements, and notable projects",
+      link: "https://example.com/project1",
+      contributor: "Solo Contributor",
+      timeline: "Ongoing" /*January */,
+      stack: "React JS, HTML, CSS, Javascript, Figma, UX",
+    },
   ];
 
   return (
