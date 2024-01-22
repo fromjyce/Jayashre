@@ -1,10 +1,9 @@
 import { useRef } from "react";
-import { FaBars, FaTimes, FaRegCompass } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 import { FaCircleInfo, FaPhone } from "react-icons/fa6";
 import { BsSuitcaseLgFill } from "react-icons/bs";
 import { TbPasswordUser } from "react-icons/tb";
 import { GoProjectRoadmap } from "react-icons/go";
-import { TbCertificate } from "react-icons/tb";
 import { RiGraduationCapFill } from "react-icons/ri";
 import { PiMedalFill } from "react-icons/pi";
 import Tippy  from "@tippyjs/react";
