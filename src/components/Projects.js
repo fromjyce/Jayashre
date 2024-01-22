@@ -65,8 +65,18 @@ const Projects = () => {
         "Crafted a currency converter using Apilayer API, allowing base-to-target currency selection, real-time exchange rates fetching, accurate conversions, and clear result display with target currency symbols.",
       link: "https://example.com/project1",
       contributor: "Solo Contributor",
-      timeline: "February 2023 - July 2023",
+      timeline: "August 2023 - September 2023",
       stack: "Java, Terminal Emulation, API Integration",
+    },
+
+    {
+      title: "Student Management System",
+      description:
+        "Utilized JavaFX for a user-friendly interface, implementing a Student class with attributes to facilitate tasks like adding, editing, and displaying student details, ensuring accurate input validation and information integrity through data storage mechanisms.",
+      link: "https://example.com/project1",
+      contributor: "Solo Contributor",
+      timeline: "August 2023 - September 2023",
+      stack: "Java, SwingFX, UX, GUI",
     },
   ];
 
