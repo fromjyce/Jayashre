@@ -9,7 +9,7 @@
 
 div .education-container {
     background-color: #343434;
-    background-image: -webkit-linear-gradient(-70.4deg, #343434 50%, #F9F6EE 50%);
+    background-image: -webkit-linear-gradient(-71.4deg, #343434 50%, #F9F6EE 50%);
     margin-top: 120px;
 }
 
@@ -33,7 +33,7 @@ div .education-title {
 
 .education-info {
     width: 500px;
-  height: 200px;
+  height: 150px;
   border: 3px solid #F9F6EE;
   border-radius: 45px;
   background-color: #302F2F;
@@ -48,8 +48,12 @@ div .education-title {
   
 }
 
+.edu-title{
+    font-size: 20px;
+}
+
 .college-info {
-    margin-top: 15px;
+    margin-top: 10px;
     text-align: left;
     margin-left: 25px;
     color:#F9F6EE;
@@ -57,7 +61,7 @@ div .education-title {
 }
 
 .school-info {
-    margin-top: 25px;
+    margin-top: 20px;
     text-align: left;
     margin-left: 25px;
     color:#302F2F;
