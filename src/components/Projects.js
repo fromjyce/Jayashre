@@ -128,7 +128,7 @@ const Projects = () => {
     {
       title: "CipherGuard: A Secure Encryption/Decryption Tool",
       description:
-        "SwingFX Java application for text, document, audio, video, and image encryption using methods like CaesarCipher, OneTimePad, AES, RSA, and RC4",
+        "SwingFX Java application for text, document, audio, video, and image encryption",
       link: "https://example.com/project1",
       contributor: "Solo Contributor",
       timeline: "Ongoing" /*December */,
