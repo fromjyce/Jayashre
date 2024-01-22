@@ -32,6 +32,10 @@
   .project-description{
     color: #353935;
   }
+
+  .project-stack {
+    color: #353935;
+  }
 }
 
 .project-rectangle a {
@@ -71,12 +75,12 @@
 
 .project-github-icon{
   text-align: left;
+  margin-top: 10px;
 }
 
-
-.projects-tooltip {
-    background-color: #343434 !important;
-    font-family: 'Josefin Sans', sans-serif;
-    color: #F9F6EE !important;
+.project-stack {
+  text-align: left;
+  color: #FEFEFA;
+  font-size: 14px;
+  margin-top: 10px;
 }
-
