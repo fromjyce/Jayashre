@@ -25,7 +25,7 @@ const ProjectRectangle = ({
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FaSquareGithub size={27} color="#db2b39" />
+        <FaSquareGithub size={32} color="#db2b39" />
       </a>
     </div>
   );
