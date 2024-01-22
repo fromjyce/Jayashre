@@ -96,6 +96,15 @@ const Projects = () => {
       timeline: "October 2023 - November 2023",
       stack: "Solidity, Remix IDE, Thirdweb, Blockchain, Ethereum",
     },
+    {
+      title: "PenGUIn",
+      description:
+        "Developed a user-friendly Linux app for OS hardening with essential and advanced security options, one-click USB and Tor exit node blocking, Essential and Advanced modes, and additional features like cache cleaning for heightened system security.",
+      link: "https://example.com/project1",
+      contributor: "Solo Contributor",
+      timeline: "October 2023 - December 2023",
+      stack: "Shell Scripting, Operating System, PyGTK, OS Hardening",
+    },
   ];
 
   return (
