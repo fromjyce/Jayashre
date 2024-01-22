@@ -3,19 +3,19 @@
 
 .project-rectangle {
   font-family: 'Poppins', sans-serif;
-  border: 1px solid #353935;
+  border: 1px solid #1B1B1B;
   padding: 20px;
   margin: 10px;
   border-radius: 8px;
   width: 300px;
   height: 500px;
-  background-color: #353935;
+  background-color: #1B1B1B;
    position: relative;
 }
 
 .project-rectangle:hover {
-  background-color: #F9F6EE;
-  border: 1px solid #F9F6EE; 
+  background-color: #FFF8DC;
+  border: 1px solid #FFF8DC; 
 
   .contributor-name {
     color: #353935;
