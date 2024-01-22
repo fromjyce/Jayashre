@@ -37,7 +37,7 @@ const Projects = () => {
       description:
         "An ASL Gesture Recognition System in Python using CNNs for Improved Accessibility and Inclusivity.",
       link: "https://example.com/project1",
-      contributor: "Solo Contributor",
+      contributor: "Team Contributor",
       timeline: "March 2023 - May 2023",
       stack: "Python, Tkinter, Tensorflow-Keras, OpenCV",
     },
@@ -77,6 +77,24 @@ const Projects = () => {
       contributor: "Solo Contributor",
       timeline: "August 2023 - September 2023",
       stack: "Java, SwingFX, UX, GUI",
+    },
+    {
+      title: "Student Management System",
+      description:
+        "Utilized JavaFX for a user-friendly interface, implementing a Student class with attributes to facilitate tasks like adding, editing, and displaying student details, ensuring accurate input validation and information integrity through data storage mechanisms.",
+      link: "https://example.com/project1",
+      contributor: "Solo Contributor",
+      timeline: "August 2023 - September 2023",
+      stack: "Java, SwingFX, UX, GUI",
+    },
+    {
+      title: "OpenChain",
+      description:
+        "A Solidity smart contract transforming the digital content marketplace, was developed using ThirdWeb",
+      link: "https://example.com/project1",
+      contributor: "Solo Contributor",
+      timeline: "October 2023 - November 2023",
+      stack: "Solidity, Remix IDE, Thirdweb, Blockchain, Ethereum",
     },
   ];
 
