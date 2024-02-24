@@ -35,7 +35,9 @@ function Achievements() {
             </ul>
           </div>
           <div className="misc-space">
-            &emsp; <br /> &emsp; <br /> &emsp;
+            &emsp; <br /> &emsp; <br /> &emsp; <br /> &emsp; <br /> &emsp;{" "}
+            <br /> <br /> &emsp; <br /> &emsp; <br />
+            &emsp;
           </div>
         </div>
       </div>
