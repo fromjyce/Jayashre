@@ -18,7 +18,12 @@ function Experience() {
               <ul className="pos-date">
                 <li className="pos-date-item job-pos">
                   Python Programming Intern{" "}
-                  <a href="/#" className="github-icon">
+                  <a
+                    href="https://github.com/fromjyce/InternPePrograms"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="github-icon"
+                  >
                     <FaGithub size={22} color="#db2b39" />
                   </a>
                 </li>
@@ -131,7 +136,12 @@ function Experience() {
               <ul className="pos-date still-right">
                 <li className="pos-date-item job-pos">
                   Web Development Intern{" "}
-                  <a href="/#" className="github-icon">
+                  <a
+                    href="https://github.com/fromjyce/CodeAlphaPrograms"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="github-icon"
+                  >
                     <FaGithub size={22} color="#db2b39" />
                   </a>
                 </li>
@@ -173,7 +183,12 @@ function Experience() {
               <ul className="pos-date still-left-one">
                 <li className="pos-date-item job-pos smaller-job-two">
                   Web Development & Design Intern{" "}
-                  <a href="/#" className="github-icon">
+                  <a
+                    href="https://github.com/fromjyce/OasisInfoBytePrograms"
+                    className="github-icon"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <FaGithub size={22} color="#db2b39" />
                   </a>
                 </li>
@@ -220,7 +235,12 @@ function Experience() {
               <ul className="pos-date still-right">
                 <li className="pos-date-item job-pos">
                   Java Programming Intern{" "}
-                  <a href="/#" className="github-icon">
+                  <a
+                    href="https://github.com/fromjyce/CodSoftPrograms"
+                    className="github-icon"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <FaGithub size={22} color="#db2b39" />
                   </a>
                 </li>
@@ -265,7 +285,12 @@ function Experience() {
               <ul className="pos-date still-left still-right">
                 <li className="pos-date-item job-pos">
                   Web Development Intern{" "}
-                  <a href="/#" className="github-icon">
+                  <a
+                    href="https://github.com/fromjyce/InfoAidTechPrograms"
+                    className="github-icon"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <FaGithub size={22} color="#db2b39" />
                   </a>
                 </li>
@@ -312,7 +337,12 @@ function Experience() {
               <ul className="pos-date still-right">
                 <li className="pos-date-item job-pos">
                   Java Programming Intern{" "}
-                  <a href="/#" className="github-icon">
+                  <a
+                    href="https://github.com/fromjyce/CipherBytePrograms"
+                    className="github-icon"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <FaGithub size={22} color="#db2b39" />
                   </a>
                 </li>
