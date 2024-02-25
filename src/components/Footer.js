@@ -33,7 +33,11 @@ function Footer() {
                     hideOnClick={true}
                     placement="left"
                   >
-                    <a href="/#">
+                    <a
+                      href="https://discordapp.com/users/840610453431779348"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <FaDiscord size={30} />
                     </a>
                   </Tippy>
@@ -46,7 +50,11 @@ function Footer() {
                     hideOnClick={true}
                     placement="right"
                   >
-                    <a href="/#">
+                    <a
+                      href="https://www.linkedin.com/in/jayashrek/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <FaLinkedin size={30} />
                     </a>
                   </Tippy>
