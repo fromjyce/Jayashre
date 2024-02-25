@@ -17,7 +17,9 @@ function Footer() {
                 excited about exploring and growing in this ever-evolving
                 field.
               </div>
-              <div className="first-item third-line"></div>
+              <div className="first-item third-line">
+                
+              </div>
             </div>
             <div className="box-item two"></div>
             <div className="box-item three"></div>

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Zeyada&display=swap');
 
 * {
 	padding: 0;
@@ -62,7 +62,6 @@
 }
 
 .name-title.second-half{
-     color: #db2b39;
      color: #F9F6EE;
 }
 
@@ -70,4 +69,7 @@
     text-align: left;
     margin-left: 50px;
     margin-top: 4px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    color: #F9F6EE;
 }
