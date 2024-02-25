@@ -10,7 +10,7 @@ import jyce from "../assets/jyce.png";
 
 function Home() {
   return (
-    <div className="Home" id="Home">
+    <div className="Home" id="home">
       <div className="home-container">
         <motion.img
           src={jyce}

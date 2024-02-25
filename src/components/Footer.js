@@ -8,8 +8,8 @@ import { MdContactMail } from "react-icons/md";
 
 function Footer() {
     return (
-      <div className="Footer" id="Footer">
-        <div className="footer-container" id="Contact">
+      <div className="Footer" id="footer">
+        <div className="footer-container" id="contact">
           <div className="boxes-container">
             <div className="box-item one">
               <div className="first-item first-line">

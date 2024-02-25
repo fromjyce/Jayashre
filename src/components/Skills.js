@@ -48,7 +48,7 @@ function Skills() {
      const [langbuttonPopup, setlangbuttonPopup] = useState(false);
 
     return (
-      <div className="Skills" id="Skills">
+      <div className="Skills" id="skills">
         <div className="skills-container">
           <div className="skills-title">
             <h1 className="title-skills">SKILLS</h1>

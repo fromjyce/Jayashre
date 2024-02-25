@@ -8,7 +8,7 @@ function Experience() {
     const [virtualPopup, setvirtualbuttonPopup] = useState(false);
   const [menteePopup, setmenteebuttonPopup] = useState(false);
     return (
-      <div className="Experience" id="Experience">
+      <div className="Experience" id="experience">
         <div className="experience-container">
           <div className="experience-title">
             <h1 className="title-experience">EXPERIENCE</h1>

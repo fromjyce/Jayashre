@@ -2,7 +2,7 @@ import "../styles/Achievements.css";
 
 function Achievements() {
     return (
-      <div className="Achievements" id="Achievements">
+      <div className="Achievements" id="achievements">
         <div className="achievements-container">
           <div className="achievements-title">
             <h1 className="title-achievements">ACHIEVEMENTS</h1>

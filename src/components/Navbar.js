@@ -31,7 +31,7 @@ function Navbar() {
           arrow={false}
           hideOnClick={true}
         >
-          <a href="/#" id="about">
+          <a href="/#">
             <FaCircleInfo />
             <div className="text">About</div>
           </a>
