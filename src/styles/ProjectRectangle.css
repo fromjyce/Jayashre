@@ -27,12 +27,14 @@
 
 
 .project-title-name {
+  font-family: 'Poppins', sans-serif;
   text-align: left;
   color: white;
   font-size: 35px;
 }
 
 .timeline {
+  font-family: 'Poppins', sans-serif;
   text-align: left;
   color: #FEFEFA;
   font-size: 16px;
