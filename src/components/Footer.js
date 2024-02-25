@@ -3,11 +3,13 @@ import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
 import "tippy.js/animations/scale.css";
 import { FaDiscord, FaLinkedin } from "react-icons/fa6";
+import { TbLocationFilled } from "react-icons/tb";
+import { MdContactMail } from "react-icons/md";
 
 function Footer() {
     return (
       <div className="Footer" id="Footer">
-        <div className="footer-container">
+        <div className="footer-container" id="Contact">
           <div className="boxes-container">
             <div className="box-item one">
               <div className="first-item first-line">
@@ -21,7 +23,7 @@ function Footer() {
                 excited about exploring and growing in this ever-evolving field.
               </div>
               <div className="first-item third-line">
-                <div className="contact-items-list" id="Contact">
+                <div className="contact-items-list">
                   <Tippy
                     content="Discord"
                     className="footer-tooltip"
@@ -67,7 +69,20 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="box-item three"></div>
+            <div className="box-item three">
+              <h2 className="third-item heading">Contact Info</h2>
+              <div className="items-container">
+                <div className="email-con">
+                  <MdContactMail size={30} color="#db2b39" />
+                  &nbsp; &nbsp;
+                  <a href="/#">jaya2004kra@gmail.com</a>
+                </div>
+                <div className="location-con">
+                  <TbLocationFilled size={30} color="#db2b39" />
+                  &nbsp; &nbsp; Chennai, Tamil Nadu, India
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
