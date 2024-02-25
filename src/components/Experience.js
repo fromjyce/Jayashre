@@ -596,7 +596,12 @@ function Experience() {
             <ul className="ve-list">
               <li className="ve-list-items">
                 <strong>SheCodes - </strong>SheCodes Basics Workshop Mentee{" "}
-                <a href="/#" className="github-icon">
+                <a
+                  href="https://github.com/fromjyce/SheCodes/tree/main/SheCodesBasics"
+                  className="github-icon"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FaGithub size={22} color="#db2b39" />
                 </a>
               </li>
@@ -610,7 +615,12 @@ function Experience() {
               </li>
               <li className="ve-list-items">
                 <strong>SheCodes - </strong>SheCodes Plus Workshop Mentee{" "}
-                <a href="/#" className="github-icon">
+                <a
+                  href="https://github.com/fromjyce/SheCodes/tree/main/SheCodesPlus"
+                  className="github-icon"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FaGithub size={22} color="#db2b39" />
                 </a>
               </li>
@@ -623,7 +633,12 @@ function Experience() {
               </li>
               <li className="ve-list-items">
                 <strong>SheCodes - </strong>SheCodes Responsive Workshop Mentee{" "}
-                <a href="/#" className="github-icon">
+                <a
+                  href="https://github.com/fromjyce/SheCodes/tree/main/SheCodesResponsive"
+                  className="github-icon"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FaGithub size={22} color="#db2b39" />
                 </a>
               </li>
