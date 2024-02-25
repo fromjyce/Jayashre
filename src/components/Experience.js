@@ -436,84 +436,130 @@ function Experience() {
               <li className="ve-list-items">
                 <strong>AIG - </strong>Shields Up: Cybersecurity Virtual
                 Experience Program Participant{" "}
-                <a href="/#" className="cert-icon">
+                <a
+                  href="https://drive.google.com/file/d/10oYpeOA89BCWXSthgq7nEZoWv6GcZPBj/view?usp=sharing"
+                  className="cert-icon"
+                >
                   <TbCertificate2 size={20} color="#db2b39" />
                 </a>
               </li>
               <li className="ve-list-items">
                 <strong>Accenture - </strong>Project Management Virtual
                 Experience Program Participant{" "}
-                <a href="/#" className="cert-icon">
+                <a
+                  href="https://drive.google.com/file/d/1w7yeuRAZchHDU4bPoPOmpth5G2xwBrt3/view?usp=sharing"
+                  className="cert-icon"
+                >
                   <TbCertificate2 size={20} color="#db2b39" />
                 </a>
               </li>
               <li className="ve-list-items">
                 <strong>Datacom - </strong>Introduction to Cloud Virtual
                 Experience Program Participant{" "}
-                <a href="/#" className="cert-icon">
+                <a
+                  href="https://drive.google.com/file/d/1lJxrzicpTptLrmwPIUVp4-LkJVIOYVJD/view?usp=sharing"
+                  className="cert-icon"
+                >
                   <TbCertificate2 size={20} color="#db2b39" />
                 </a>
               </li>
               <li className="ve-list-items">
                 <strong>Mastercard - </strong>Cybersecurity Virtual Experience
                 Program Participant{" "}
-                <a href="/#" className="cert-icon">
+                <a
+                  href="https://drive.google.com/file/d/1yl6xdltwzcEnx0dtEwa9HnL8tA7Lm3yv/view?usp=sharing"
+                  className="cert-icon"
+                >
                   <TbCertificate2 size={20} color="#db2b39" />
                 </a>
               </li>
               <li className="ve-list-items">
                 <strong>Telstra - </strong>Cybersecurity Virtual Experience
                 Participant{" "}
-                <a href="/#" className="cert-icon">
+                <a
+                  href="https://drive.google.com/file/d/1JaVzot87MvnxoTvr2Yu0fD3SEOYnkPR_/view?usp=sharing"
+                  className="cert-icon"
+                >
                   <TbCertificate2 size={20} color="#db2b39" />
                 </a>
               </li>
               <li className="ve-list-items">
                 <strong>Datacom - </strong>Cybersecurity Virtual Experience
                 Program Participant{" "}
-                <a href="/#" className="cert-icon">
+                <a
+                  href="https://drive.google.com/file/d/1UxDwUtjhGu7cp0FXt43gi5R8YN3YqMGS/view?usp=sharing"
+                  className="cert-icon"
+                >
                   <TbCertificate2 size={20} color="#db2b39" />
                 </a>
               </li>
               <li className="ve-list-items">
                 <strong>JPMorgan Chase & Co - </strong>Cybersecurity Virtual
                 Experience Program Participant{" "}
-                <a href="/#" className="cert-icon">
+                <a
+                  href="https://drive.google.com/file/d/1P5hPAJ4Mu4ai5OpaMgKDM-Jn6jZK2gh3/view?usp=sharing"
+                  className="cert-icon"
+                >
                   <TbCertificate2 size={20} color="#db2b39" />
                 </a>
               </li>
               <li className="ve-list-items">
                 <strong>PwC - </strong>Cybersecurity Virtual Case Experience
                 Program Participant{" "}
-                <a href="/#" className="cert-icon">
+                <a
+                  href="https://drive.google.com/file/d/1JaVzot87MvnxoTvr2Yu0fD3SEOYnkPR_/view?usp=sharing"
+                  className="cert-icon"
+                >
                   <TbCertificate2 size={20} color="#db2b39" />
                 </a>
               </li>
               <li className="ve-list-items">
                 <strong>ANZ - </strong>Cybersecurity Management Virtual
                 Experience Program Participant{" "}
-                <a href="/#" className="cert-icon">
+                <a
+                  href="https://drive.google.com/file/d/1yAyF-W5VrkRPT2vJDdbA0eUREFvyr8Bg/view?usp=sharing"
+                  className="cert-icon"
+                >
                   <TbCertificate2 size={20} color="#db2b39" />
                 </a>
               </li>
               <li className="ve-list-items">
                 <strong>Clifford Chance - </strong>Cybersecurity Global Virtual
                 Internship Participant{" "}
-                <a href="/#" className="cert-icon">
+                <a
+                  href="https://drive.google.com/file/d/1pGAi27YnkJyPa1VpPBwOG6BcvHTW-e2b/view?usp=sharing"
+                  className="cert-icon"
+                >
                   <TbCertificate2 size={20} color="#db2b39" />
                 </a>
               </li>
               <li className="ve-list-items">
                 <strong>Accenture - </strong>Coding: Development & Advanced
                 Engineering Virtual Experience Program Participant{" "}
-                <a href="/#" className="cert-icon">
+                <a
+                  href="https://drive.google.com/file/d/1ZRMgLFVRzoINeBROBL_RtQ5W3wTrzvyS/view?usp=sharing"
+                  className="cert-icon"
+                >
                   <TbCertificate2 size={20} color="#db2b39" />
                 </a>
               </li>
               <li className="ve-list-items">
                 <strong>JPMorgan Chase & Co - </strong>Agile Virtual Experience
                 Program Participant{" "}
-                <a href="/#" className="cert-icon">
+                <a
+                  href="https://drive.google.com/file/d/1_SnjRI2mNSw5FXeSSQm94s_lPkUHox2i/view?usp=sharing"
+                  className="cert-icon"
+                >
+                  <TbCertificate2 size={20} color="#db2b39" />
+                </a>
+              </li>
+              <li className="ve-list-items">
+                <strong>Cognizant - </strong>Artificial Intelligence Virtual
+                Experience Program Participant{" "}
+                <a
+                  href="https://drive.google.com/file/d/17lEy2FlKBTisG1r-s4-LYBA5Nhc3JqBy/view?usp=sharing"
+                  className="cert-icon"
+                >
                   <TbCertificate2 size={20} color="#db2b39" />
                 </a>
               </li>
@@ -524,9 +570,6 @@ function Experience() {
             <ul className="ve-list">
               <li className="ve-list-items">
                 <strong>SheCodes - </strong>SheCodes Basics Workshop Mentee{" "}
-                <a href="/#" className="cert-icon">
-                  <TbCertificate2 size={20} color="#db2b39" />
-                </a>{" "}
                 <a href="/#" className="github-icon">
                   <FaGithub size={22} color="#db2b39" />
                 </a>
@@ -534,22 +577,13 @@ function Experience() {
               <li className="ve-list-items">
                 <strong>ReSkilll & Microsoft Azure - </strong>#include
                 &lt;her&gt; Cohort 2.0 - AI Cohort Mentee{" "}
-                <a href="/#" className="cert-icon">
-                  <TbCertificate2 size={20} color="#db2b39" />
-                </a>
               </li>
               <li className="ve-list-items">
                 <strong>ReSkilll & Microsoft Azure - </strong>#include
                 &lt;her&gt; Cohort 3.0 Mentee{" "}
-                <a href="/#" className="cert-icon">
-                  <TbCertificate2 size={20} color="#db2b39" />
-                </a>
               </li>
               <li className="ve-list-items">
                 <strong>SheCodes - </strong>SheCodes Plus Workshop Mentee{" "}
-                <a href="/#" className="cert-icon">
-                  <TbCertificate2 size={20} color="#db2b39" />
-                </a>{" "}
                 <a href="/#" className="github-icon">
                   <FaGithub size={22} color="#db2b39" />
                 </a>
@@ -557,8 +591,14 @@ function Experience() {
               <li className="ve-list-items">
                 <strong>ReSkilll & Microsoft Azure - </strong>#include
                 &lt;her&gt; Cohort 4.0 Mentee{" "}
-                <a href="/#" className="cert-icon">
-                  <TbCertificate2 size={20} color="#db2b39" />
+              </li>
+              <li className="ve-list-items">
+                <strong>Codess Cafe - </strong>Mentee{" "}
+              </li>
+              <li className="ve-list-items">
+                <strong>SheCodes - </strong>SheCodes Responsive Workshop Mentee{" "}
+                <a href="/#" className="github-icon">
+                  <FaGithub size={22} color="#db2b39" />
                 </a>
               </li>
             </ul>
