@@ -54,7 +54,7 @@ function Home() {
               placement="bottom"
             >
               <li className="list-item">
-                <a href="/#">
+                <a href="mailto:jaya2004kra@gmail.com">
                   <IoMail size={30} />
                 </a>
               </li>
@@ -68,7 +68,11 @@ function Home() {
               placement="bottom"
             >
               <li className="list-item">
-                <a href="/#">
+                <a
+                  href="https://www.linkedin.com/in/jayashrek/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <SiLinkedin size={30} />
                 </a>
               </li>
@@ -82,7 +86,11 @@ function Home() {
               placement="bottom"
             >
               <li className="list-item">
-                <a href="/#">
+                <a
+                  href="https://github.com/fromjyce"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FaGithub size={30} />
                 </a>
               </li>
@@ -96,7 +104,11 @@ function Home() {
               placement="bottom"
             >
               <li className="list-item">
-                <a href="/#">
+                <a
+                  href="https://scholar.google.com/citations?hl=en&user=PYXemgQAAAAJ&scilu=&scisig=AM0yFCkAAAAAZY2BbsMfQFk24oqw5gwaMQpxj3U&gmla=AH70aAXSzoGtzzJeBtgBuFn-l1bsf6vfmuxD5RqVk8I1DjROCRkX9Dq-clMLshTWqXB5ErrAx_iJjsDcuY9dZtB8LEZht1T0Y1xkYGs&sciund=11893380693895042300"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <SiGooglescholar size={30} />
                 </a>
               </li>
@@ -110,7 +122,7 @@ function Home() {
               placement="bottom"
             >
               <li className="list-item">
-                <a href="/#">
+                <a href={require("../assets/resume.pdf")} download>
                   <FaRegFileAlt size={30} />
                 </a>
               </li>
