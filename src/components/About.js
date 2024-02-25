@@ -1,6 +1,13 @@
 import "../styles/About.css";
 
 function About () {
+const scrollToContact = () => {
+  const contactElement = document.getElementById("contact");
+  if (contactElement) {
+    contactElement.scrollIntoView({ behavior: "smooth" });
+  }
+};
+
     return (
       <div className="About" id="about">
         <div className="about-container">
@@ -22,8 +29,14 @@ function About () {
                 &#128187; &#128274;
               </p>
             </div>
+            <button className="contact-button" onClick={scrollToContact}>
+              Contact Me
+            </button>
           </div>
-          &emsp; <br /> &emsp; <br /> &emsp; <br /> &emsp; <pre><br/></pre>
+          &emsp; <br /> &emsp; <br /> &emsp; <br /> &emsp;{" "}
+          <pre>
+            <br />
+          </pre>
         </div>
       </div>
     );
