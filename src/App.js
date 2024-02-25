@@ -8,6 +8,7 @@ import Education from "./components/Education";
 import Projects from "./components/Projects";
 import Achievements from "./components/Achievements";
 import Footer from "./components/Footer";
+import UpdateFooter from "./components/UpdateFooter";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Projects/>
       <Achievements/>
       <Footer/>
+      <UpdateFooter/>
     </React.Fragment>
   );
 }
