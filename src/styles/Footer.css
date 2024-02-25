@@ -90,6 +90,7 @@
 .contact-items-list a {
     text-decoration: none;
      color: #F9F6EE !important;
+     cursor: pointer;
 
 }
 
@@ -174,4 +175,8 @@
     margin-top: 25px;
     color: #F9F6EE;
     font-size: 1.2rem;
+}
+
+.link-item:hover{
+    cursor: pointer;
 }

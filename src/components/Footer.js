@@ -5,6 +5,7 @@ import "tippy.js/animations/scale.css";
 import { FaDiscord, FaLinkedin } from "react-icons/fa6";
 import { TbLocationFilled } from "react-icons/tb";
 import { MdContactMail } from "react-icons/md";
+import {Link} from "react-scroll";
 
 function Footer() {
     return (
@@ -56,16 +57,52 @@ function Footer() {
               <h2 className="second-item heading">Quick Links</h2>
               <ul className="links-list">
                 <li className="links-item">
-                  <a href="/#">Home</a>
+                  <Link
+                    to="home"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    className="link-item"
+                  >
+                    Home
+                  </Link>
                 </li>
                 <li className="links-item">
-                  <a href="/#">About Me</a>
+                  <Link
+                    to="about"
+                    spy={true}
+                    smooth={true}
+                    offset={-50}
+                    duration={500}
+                    className="link-item"
+                  >
+                    About Me
+                  </Link>
                 </li>
                 <li className="links-item">
-                  <a href="/#">Projects</a>
+                  <Link
+                    to="projects"
+                    spy={true}
+                    smooth={true}
+                    offset={-50}
+                    duration={500}
+                    className="link-item"
+                  >
+                    Projects
+                  </Link>
                 </li>
                 <li className="links-item">
-                  <a href="/#">Contact Me</a>
+                  <Link
+                    to="contact"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    className="link-item"
+                  >
+                    Contact Me
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -75,7 +112,9 @@ function Footer() {
                 <div className="email-con">
                   <MdContactMail size={30} color="#db2b39" />
                   &nbsp; &nbsp;
-                  <a href="mailto:jaya2004kra@gmail.com">jaya2004kra@gmail.com</a>
+                  <a href="mailto:jaya2004kra@gmail.com">
+                    jaya2004kra@gmail.com
+                  </a>
                 </div>
                 <div className="location-con">
                   <TbLocationFilled size={30} color="#db2b39" />
