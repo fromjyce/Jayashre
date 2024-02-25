@@ -439,6 +439,8 @@ function Experience() {
                 <a
                   href="https://drive.google.com/file/d/10oYpeOA89BCWXSthgq7nEZoWv6GcZPBj/view?usp=sharing"
                   className="cert-icon"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <TbCertificate2 size={20} color="#db2b39" />
                 </a>
@@ -449,6 +451,8 @@ function Experience() {
                 <a
                   href="https://drive.google.com/file/d/1w7yeuRAZchHDU4bPoPOmpth5G2xwBrt3/view?usp=sharing"
                   className="cert-icon"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <TbCertificate2 size={20} color="#db2b39" />
                 </a>
@@ -459,6 +463,8 @@ function Experience() {
                 <a
                   href="https://drive.google.com/file/d/1lJxrzicpTptLrmwPIUVp4-LkJVIOYVJD/view?usp=sharing"
                   className="cert-icon"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <TbCertificate2 size={20} color="#db2b39" />
                 </a>
@@ -469,6 +475,8 @@ function Experience() {
                 <a
                   href="https://drive.google.com/file/d/1yl6xdltwzcEnx0dtEwa9HnL8tA7Lm3yv/view?usp=sharing"
                   className="cert-icon"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <TbCertificate2 size={20} color="#db2b39" />
                 </a>
@@ -479,6 +487,8 @@ function Experience() {
                 <a
                   href="https://drive.google.com/file/d/1JaVzot87MvnxoTvr2Yu0fD3SEOYnkPR_/view?usp=sharing"
                   className="cert-icon"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <TbCertificate2 size={20} color="#db2b39" />
                 </a>
@@ -489,6 +499,8 @@ function Experience() {
                 <a
                   href="https://drive.google.com/file/d/1UxDwUtjhGu7cp0FXt43gi5R8YN3YqMGS/view?usp=sharing"
                   className="cert-icon"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <TbCertificate2 size={20} color="#db2b39" />
                 </a>
@@ -499,6 +511,8 @@ function Experience() {
                 <a
                   href="https://drive.google.com/file/d/1P5hPAJ4Mu4ai5OpaMgKDM-Jn6jZK2gh3/view?usp=sharing"
                   className="cert-icon"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <TbCertificate2 size={20} color="#db2b39" />
                 </a>
@@ -509,6 +523,8 @@ function Experience() {
                 <a
                   href="https://drive.google.com/file/d/1JaVzot87MvnxoTvr2Yu0fD3SEOYnkPR_/view?usp=sharing"
                   className="cert-icon"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <TbCertificate2 size={20} color="#db2b39" />
                 </a>
@@ -519,6 +535,8 @@ function Experience() {
                 <a
                   href="https://drive.google.com/file/d/1yAyF-W5VrkRPT2vJDdbA0eUREFvyr8Bg/view?usp=sharing"
                   className="cert-icon"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <TbCertificate2 size={20} color="#db2b39" />
                 </a>
@@ -529,6 +547,8 @@ function Experience() {
                 <a
                   href="https://drive.google.com/file/d/1pGAi27YnkJyPa1VpPBwOG6BcvHTW-e2b/view?usp=sharing"
                   className="cert-icon"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <TbCertificate2 size={20} color="#db2b39" />
                 </a>
@@ -539,6 +559,8 @@ function Experience() {
                 <a
                   href="https://drive.google.com/file/d/1ZRMgLFVRzoINeBROBL_RtQ5W3wTrzvyS/view?usp=sharing"
                   className="cert-icon"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <TbCertificate2 size={20} color="#db2b39" />
                 </a>
@@ -549,6 +571,8 @@ function Experience() {
                 <a
                   href="https://drive.google.com/file/d/1_SnjRI2mNSw5FXeSSQm94s_lPkUHox2i/view?usp=sharing"
                   className="cert-icon"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <TbCertificate2 size={20} color="#db2b39" />
                 </a>
@@ -559,6 +583,8 @@ function Experience() {
                 <a
                   href="https://drive.google.com/file/d/17lEy2FlKBTisG1r-s4-LYBA5Nhc3JqBy/view?usp=sharing"
                   className="cert-icon"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <TbCertificate2 size={20} color="#db2b39" />
                 </a>
