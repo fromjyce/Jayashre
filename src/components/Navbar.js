@@ -31,7 +31,7 @@ function Navbar() {
           arrow={false}
           hideOnClick={true}
         >
-          <a href="/#">
+          <a href="#about">
             <FaCircleInfo />
             <div className="text">About</div>
           </a>
@@ -43,7 +43,7 @@ function Navbar() {
           arrow={false}
           hideOnClick={true}
         >
-          <a href="/#">
+          <a href="#skills">
             <TbPasswordUser />
             <div className="text">Skills</div>
           </a>
@@ -55,7 +55,7 @@ function Navbar() {
           arrow={false}
           hideOnClick={true}
         >
-          <a href="/#">
+          <a href="#experience">
             <BsSuitcaseLgFill />
             <div className="text">Experience</div>
           </a>
@@ -67,7 +67,7 @@ function Navbar() {
           arrow={false}
           hideOnClick={true}
         >
-          <a href="/#">
+          <a href="#education">
             <RiGraduationCapFill />
             <div className="text">Education</div>
           </a>
@@ -79,7 +79,7 @@ function Navbar() {
           arrow={false}
           hideOnClick={true}
         >
-          <a href="/#">
+          <a href="#projects">
             <GoProjectRoadmap />
             <div className="text">Projects</div>
           </a>
@@ -91,7 +91,7 @@ function Navbar() {
           arrow={false}
           hideOnClick={true}
         >
-          <a href="/#">
+          <a href="#achievements">
             <PiMedalFill />
             <div className="text">Achievements</div>
           </a>
@@ -103,7 +103,7 @@ function Navbar() {
           arrow={false}
           hideOnClick={true}
         >
-          <a href="/#">
+          <a href="#contact">
             <FaPhone />
             <div className="text">Contact</div>
           </a>
