@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Dela+Gothic+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Zeyada&display=swap');
 
 * {
 	padding: 0;
@@ -70,16 +70,17 @@
     margin-left: 50px;
     margin-top: 4px;
     font-family: "Josefin Sans", sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     color: #F9F6EE;
     justify-content: flex-start;
+    font-size: 1.3rem;
 }
 
 .contact-items-list{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    margin-top: 10px;
+    margin-top: 12px;
     margin-left: 50px;
 
 
@@ -97,7 +98,35 @@
 }
 
 .footer-tooltip {
-    background-color: #343434 !important;
+    background-color:  #F9F6EE !important;
     font-family: 'Josefin Sans', sans-serif;
-    color: #F9F6EE !important;
+    color: #343434 !important;
+}
+
+
+.second-item{
+    text-align: left;
+    margin-top: 35px;
+    margin-left: 50px;
+     font-family: "Archivo Black", sans-serif;
+     font-size: 2rem;
+     color: #F9F6EE;
+}
+
+.links-list{
+    list-style: none;
+    margin-left: 55px;
+    margin-top: 12px;
+}
+
+.links-item {
+    margin-top: 15px;
+    text-align: left;
+    font-family:  'Josefin Sans', sans-serif;
+    font-size: 1.3rem;
+}
+
+.links-list a{
+    text-decoration: none;
+    color:#F9F6EE;
 }

@@ -28,7 +28,7 @@ function Footer() {
                     animation="scale"
                     arrow={false}
                     hideOnClick={true}
-                    placement="bottom"
+                    placement="left"
                   >
                     <a href="/#">
                       <FaDiscord size={30} />
@@ -41,7 +41,7 @@ function Footer() {
                     animation="scale"
                     arrow={false}
                     hideOnClick={true}
-                    placement="bottom"
+                    placement="right"
                   >
                     <a href="/#">
                       <FaLinkedin size={30} />
@@ -50,7 +50,23 @@ function Footer() {
                 </div>
               </div>
             </div>
-            <div className="box-item two"></div>
+            <div className="box-item two">
+              <h2 className="second-item heading">Quick Links</h2>
+              <ul className="links-list">
+                <li className="links-item">
+                  <a href="/#">Home</a>
+                </li>
+                <li className="links-item">
+                  <a href="/#">About Me</a>
+                </li>
+                <li className="links-item">
+                  <a href="/#">Projects</a>
+                </li>
+                <li className="links-item">
+                  <a href="/#">Contact Me</a>
+                </li>
+              </ul>
+            </div>
             <div className="box-item three"></div>
           </div>
         </div>
