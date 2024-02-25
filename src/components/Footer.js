@@ -75,7 +75,7 @@ function Footer() {
                 <div className="email-con">
                   <MdContactMail size={30} color="#db2b39" />
                   &nbsp; &nbsp;
-                  <a href="/#">jaya2004kra@gmail.com</a>
+                  <a href="mailto:jaya2004kra@gmail.com">jaya2004kra@gmail.com</a>
                 </div>
                 <div className="location-con">
                   <TbLocationFilled size={30} color="#db2b39" />
@@ -90,3 +90,5 @@ function Footer() {
 }
 
 export default Footer;
+
+/*https://discordapp.com/users/840610453431779348*/
