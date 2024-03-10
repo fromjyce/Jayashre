@@ -1,25 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
 
-
 * {
-	padding: 0;
-	margin: 0;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
-
-.main-container{
+.main-container {
     width: 100%;
-    height: 30px;
+    min-width: 150px;
+    height: auto;
     background-color: #db2b39;
-   
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .updation {
-    margin: 0 auto;
     font-size: 1.3rem;
-    text-align: center;
     font-family: "Teko", sans-serif;
+    text-align: center;
+}
 
+@media (max-width: 320px) {
+    .updation {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+    .updation {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+    .updation {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .updation {
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .updation {
+        font-size: 1.4rem;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .updation {
+        font-size: 1.5rem;
+    }
 }
