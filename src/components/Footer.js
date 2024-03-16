@@ -16,7 +16,8 @@ function Footer() {
                 <div class="col-md-12 text-center">
                   <h2 class="footer-heading">
                     <span class="one-letter first-half">J</span>
-                    <span class="one-letter second-half">S</span>&nbsp;&nbsp;
+                    <span class="one-letter second-half">S</span>
+                    &nbsp;&nbsp;&nbsp;
                     <span class="two-letter first-half">JY</span>
                     <span class="two-letter second-half">CE</span>
                   </h2>
