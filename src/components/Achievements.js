@@ -32,6 +32,19 @@ function Achievements() {
                 <strong>October 2023</strong>: Selected for the internal
                 hackathon held at the university for the SIH Hackathon 2023.
               </li>
+              <li className="achievement-item">
+                <strong>February 2024</strong>: Achieved 2nd place at the
+                National level poster presentation on "Visualizing Connectivity:
+                IoT Poster Expo-2024" organized by the Centre for Internet of
+                Things, Madhav Institute of Technology and Science, Gwalior
+                (M.P.).
+              </li>
+              <li className="achievement-item">
+                <strong>March 2024</strong>: Awarded first prize in Cyber
+                Colloquy 3.0: Deepfake Discovery Global Hackathon, organized by
+                Shah And Anchor Kutchhi Engineering College, with a cash prize
+                of Rs. 5000.
+              </li>
             </ul>
           </div>
           <div className="misc-space">
