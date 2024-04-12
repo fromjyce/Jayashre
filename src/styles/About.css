@@ -20,7 +20,7 @@
 
 
 .contact-button {
-    top: 40px;
+    top: 30px;
     background-color: #db2b39;
   border-radius: 8px;
   border-style: none;
@@ -45,6 +45,8 @@
   -webkit-user-select: none;
   user-select: none;
   touch-action: manipulation;
+  width: auto;
+  margin-bottom: 50px;
 }
 
 .contact-button:hover {
@@ -63,9 +65,8 @@
 
 .rectangle {
     margin-top: 150px;
-     width: 90%;
+     width: 100%;
     display: inline-block;
-    height: 460px;
     border-radius: 75px;
     border: 7px solid #F9F6EE;
     background-color: #302F2F;
@@ -73,27 +74,37 @@
     overflow: hidden;
     justify-content: center;
     align-items: center; 
+    padding: 20px; /* Add padding for spacing */
 }
 
 .about-paragraph {
-    margin-top: 90px;
+    margin-top: 35px;
     font-size: 18px;
     text-align: center;
   font-family: 'Prompt', sans-serif;
   line-height: 30px;
   color: #F9F6EE;
-
 }
 
 @media screen and (min-width: 320px) {
     /* Styles for Mobile S */
     .about-title {
         margin-top: 500px;
-        top: 20px;
+        top: 90px;
     }
 
     .rectangle {
-        width: 50%;
+        width: 90%;
+        margin-top: 150px;
+    }
+
+    .about-paragraph {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .contact-button{
+        top: 30px;
     }
 }
 
@@ -101,11 +112,21 @@
     /* Styles for Mobile M */
     .about-title {
         margin-top: 500px;
-        top: 20px;
+        top: 90px;
     }
 
     .rectangle {
-        width: 50%;
+        width: 90%;
+        margin-top: 150px;
+    }
+
+    .about-paragraph {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .contact-button{
+        top: 30px;
     }
 }
 
@@ -113,10 +134,20 @@
     /* Styles for Mobile L */
     .about-title {
         margin-top: 500px;
-        top: 20px;
+        top: 90px;
     }
     .rectangle {
-        width: 60%;
+        width: 90%;
+        margin-top: 150px;
+    }
+
+    .about-paragraph {
+        font-size: 15px;
+        line-height:  20px;
+    }
+
+    .contact-button{
+        top: 30px;
     }
 }
 
@@ -124,11 +155,21 @@
     /* Styles for Tablet */
     .about-title {
         margin-top: 500px;
-        top: 40px;
+        top: 90px;
     }
 
     .rectangle{
-        width: 70%;
+        width: 90%;
+        margin-top: 150px;
+    }
+
+    .about-paragraph {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .contact-button{
+        top: 30px;
     }
 }
 
@@ -136,11 +177,21 @@
     /* Styles for Laptop */
     .about-title {
         margin-top: 500px;
-        top: 60px;
+        top: 90px;
     }
 
     .rectangle{
-        width: 80%;
+        width: 90%;
+        margin-top: 150px;
+    }
+
+    .about-paragraph {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .contact-button{
+        top: 30px;
     }
 }
 
@@ -153,5 +204,15 @@
 
     .rectangle{
         width: 90%;
+        margin-top: 150px;
+    }
+
+    .about-paragraph {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .contact-button{
+        top: 30px;
     }
 }
