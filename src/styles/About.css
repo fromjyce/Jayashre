@@ -10,7 +10,7 @@
 	
 }
 
-div .about-container {
+.about-container {
     background-color: #F9F6EE;
     background-image: -webkit-linear-gradient(-65.12deg, #F9F6EE 50%, #343434 50%);
     margin-top: -500px;
@@ -20,7 +20,7 @@ div .about-container {
 
 
 .contact-button {
-    top: 20px;
+    top: 40px;
     background-color: #db2b39;
   border-radius: 8px;
   border-style: none;
@@ -51,7 +51,7 @@ div .about-container {
   background-color: #F082AC;
 }
 
-div .about-title {
+.about-title {
     margin-top: 500px;
     text-align: center;
     position: relative;
@@ -63,21 +63,95 @@ div .about-title {
 
 .rectangle {
     margin-top: 150px;
+     width: 90%;
     display: inline-block;
-    width: 800px;
     height: 460px;
     border-radius: 75px;
     border: 7px solid #F9F6EE;
     background-color: #302F2F;
     text-align: center;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center; 
 }
 
 .about-paragraph {
-    margin-top: 85px;
+    margin-top: 90px;
     font-size: 18px;
     text-align: center;
   font-family: 'Prompt', sans-serif;
   line-height: 30px;
   color: #F9F6EE;
 
+}
+
+@media screen and (min-width: 320px) {
+    /* Styles for Mobile S */
+    .about-title {
+        margin-top: 500px;
+        top: 20px;
+    }
+
+    .rectangle {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    /* Styles for Mobile M */
+    .about-title {
+        margin-top: 500px;
+        top: 20px;
+    }
+
+    .rectangle {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    /* Styles for Mobile L */
+    .about-title {
+        margin-top: 500px;
+        top: 20px;
+    }
+    .rectangle {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    /* Styles for Tablet */
+    .about-title {
+        margin-top: 500px;
+        top: 40px;
+    }
+
+    .rectangle{
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    /* Styles for Laptop */
+    .about-title {
+        margin-top: 500px;
+        top: 60px;
+    }
+
+    .rectangle{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    /* Styles for Laptop L */
+    .about-title {
+        margin-top: 500px;
+        top: 90px;
+    }
+
+    .rectangle{
+        width: 90%;
+    }
 }
