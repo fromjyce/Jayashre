@@ -8,31 +8,31 @@
 
 .achievements-container {
     background-color: #343434;
-    background-image: -webkit-linear-gradient(-66.3deg, #343434 50%, #F9F6EE 50%);
+    background-image: -webkit-linear-gradient(-62.5deg, #343434 50%, #F9F6EE 50%);
     margin-top: -40px;
-    padding: 20px; /* Added padding for better spacing */
+    padding: 20px; 
 }
 
 .achievements-title {
-    padding-top: 120px; /* Adjusted padding for smaller devices */
+    padding-top: 120px;
     text-align: center;
     font-family: 'Outfit', sans-serif;
     font-size: 20px;
     color: #F9F6EE;
-    margin-bottom: 15px; /* Adjusted margin for smaller devices */
+    margin-bottom: 15px;
 }
 
 .achievements-list {
     list-style: none;
-    margin-top: 20px; /* Adjusted margin for smaller devices */
+    margin-top: 20px; 
 }
 
 .achievement-item {
     font-family: 'Jost', sans-serif;
     color: #F9F6EE;
-    font-size: 16px; /* Adjusted font size for smaller devices */
-    line-height: 1.5; /* Improved readability */
-    padding: 6px; /* Added padding for better spacing */
+    font-size: 16px; 
+    line-height: 1.5; 
+    padding: 6px; 
 }
 
 .achieve-container {
@@ -42,13 +42,11 @@
     background-color: #302F2F;
     padding: 15px;
     overflow: hidden;
-    margin: 0 auto; /* Add this line to center-align the container */
-    display: flex; /* Add this line to use flexbox */
-    justify-content: center; /* Add this line to horizontally center the content */
-    align-items: center; /* Add this line to vertically center the content */
+    margin: 0 auto; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
 }
-
-/* Media Queries */
 
 @media (min-width: 320px) {
     .achievements-title {
