@@ -50,7 +50,7 @@ div .education-title {
 }
 
 .college-info {
-    margin-top: 10px;
+    margin-top: 20px;
     text-align: left;
     margin-left: 25px;
     color:#F9F6EE;
@@ -71,6 +71,7 @@ div .education-title {
     .education-info, .education-info.second {
         width: calc(100% - 20px);
     }
+    
 }
 
 @media only screen and (min-width: 375px) and (max-width: 424px) {
@@ -83,11 +84,19 @@ div .education-title {
     .education-info, .education-info.second {
         width: calc(100% - 40px);
     }
+
+    .college-info, .school-info {
+        margin-top: 7px;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .education-info, .education-info.second {
-        width: calc(50% - 40px);
+        width: calc(100% - 40px);
+    }
+
+    .college-info, .school-info {
+        margin-top: 10px;
     }
 }
 
@@ -95,10 +104,18 @@ div .education-title {
     .education-info, .education-info.second {
         width: calc(50% - 40px);
     }
+
+    .college-info, .school-info {
+        margin-top: 20px;
+    }
 }
 
 @media only screen and (min-width: 1440px) {
     .education-info, .education-info.second {
         width: calc(50% - 40px);
+    }
+
+    .college-info, .school-info {
+        margin-top: 20px;
     }
 }
