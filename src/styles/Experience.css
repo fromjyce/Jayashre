@@ -7,7 +7,6 @@
 	padding: 0;
 	margin: 0;
     box-sizing: border-box;
-	
 }
 
 div .experience-container {
@@ -43,8 +42,6 @@ div .experience-title {
 .black-colour {
     color: #343434;
 }
-
-
 
 .horizontal-line-up {
     margin: 130px auto;
@@ -144,12 +141,6 @@ div .experience-title {
 .pos-date.still-left-one{
     margin-right: -35pt;
 }
-
-
-
-
-
-
 
 .pos-date-item.job-pos {
     font-family: 'DM Sans', sans-serif;
