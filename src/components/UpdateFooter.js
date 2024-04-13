@@ -6,7 +6,7 @@ function UpdateFooter() {
       <div className="update-footer-container">
         <div className="main-container">
           <div className="updation">
-            Last Updated on February 2024 &nbsp; &nbsp; &nbsp; ©️ Developed
+            Last Updated on April 2024 &nbsp; &nbsp; &nbsp; ©️ Developed
             and Maintained by JYCE.
           </div>
         </div>
