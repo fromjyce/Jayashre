@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Default styles */
+.project-rectangle {
+  font-family: 'Poppins', sans-serif;
+  border: 1px solid #1B1B1B;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  width: 250px;
+  background-color: #1B1B1B;
+  position: relative;
+}
+
+.project-rectangle a {
+  display: block;
+  margin-top: 10px;
+}
+
+.contributor-name {
+  text-align: left;
+  color: #D3D3D3;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.project-title-name {
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  color: white;
+  font-size: 35px;
+}
+
+.timeline {
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  color: #FEFEFA;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.project-description {
+  text-align: left;
+  color: #FDFCFA;
+  font-size: 23px;
+  margin-left: -1px;
+  margin-top: 10px;
+}
+
+.project-github-icon {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.project-stack {
+  text-align: left;
+  color: #FEFEFA;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Media Queries */
+
+/* Mobile S (320px) */
+@media only screen and (max-width: 320px) {
+  .project-rectangle {
+    width: 280px;
+    height: auto;
+  }
+}
+
+/* Mobile M (375px) */
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+  .project-rectangle {
+    width: 320px;
+    height: auto;
+  }
+}
+
+/* Mobile L (425px) */
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+  .project-rectangle {
+    width: 370px;
+    height: auto;
+  }
+}
+
+/* Tablet (768px) */
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .project-rectangle {
+    width: 720px;
+    height: auto;
+  }
+}
+
+/* Laptop (1024px) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .project-rectangle {
+    width: 960px;
+    height: auto;
+  }
+}
+
+/* Laptop L (1440px) */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  .project-rectangle {
+    width: 1360px;
+    height: auto;
+  }
+}

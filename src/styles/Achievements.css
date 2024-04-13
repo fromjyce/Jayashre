@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.achievements-container {
+    background-color: #343434;
+    background-image: -webkit-linear-gradient(-62.5deg, #343434 50%, #F9F6EE 50%);
+    margin-top: -40px;
+    padding: 20px; 
+}
+
+.achievements-title {
+    padding-top: 120px;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    color: #F9F6EE;
+    margin-bottom: 15px;
+}
+
+.achievements-list {
+    list-style: none;
+    margin-top: 20px; 
+}
+
+.achievement-item {
+    font-family: 'Jost', sans-serif;
+    color: #F9F6EE;
+    font-size: 16px; 
+    line-height: 1.5; 
+    padding: 6px; 
+}
+
+.achieve-container {
+    max-width: 100%;
+    border: 3px solid #F9F6EE;
+    border-radius: 20px;
+    background-color: #302F2F;
+    padding: 15px;
+    overflow: hidden;
+    margin: 0 auto; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+
+@media (min-width: 320px) {
+    .achievements-title {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 375px) {
+    .achievement-item {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 425px) {
+    .achievement-item {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) {
+    .achieve-container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .achieve-container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .achieve-container {
+        max-width: 1300px;
+    }
+}

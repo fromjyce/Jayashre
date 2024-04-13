@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit&family=Prompt&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+	
+}
+
+.about-container {
+    background-color: #F9F6EE;
+    background-image: -webkit-linear-gradient(-67.12deg, #F9F6EE 50%, #343434 50%);
+    margin-top: -500px;
+    justify-content: center;
+   
+}
+
+
+.contact-button {
+    top: 30px;
+    background-color: #db2b39;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #F9F6EE;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  -webkit-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  margin-bottom: 50px;
+}
+
+.contact-button:hover {
+  background-color: #F082AC;
+}
+
+.about-title {
+    margin-top: 500px;
+    text-align: center;
+    position: relative;
+    top: 90px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    color: #343434;
+}
+
+.rectangle {
+    margin-top: 150px;
+     width: 100%;
+    display: inline-block;
+    border-radius: 75px;
+    border: 7px solid #F9F6EE;
+    background-color: #302F2F;
+    text-align: center;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center; 
+    padding: 20px; /* Add padding for spacing */
+}
+
+.about-paragraph {
+    margin-top: 35px;
+    font-size: 18px;
+    text-align: center;
+  font-family: 'Prompt', sans-serif;
+  line-height: 30px;
+  color: #F9F6EE;
+}
+
+@media screen and (min-width: 320px) {
+    /* Styles for Mobile S */
+    .about-title {
+        margin-top: 500px;
+        top: 90px;
+    }
+
+    .rectangle {
+        width: 90%;
+        margin-top: 150px;
+    }
+
+    .about-paragraph {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .contact-button{
+        top: 30px;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    /* Styles for Mobile M */
+    .about-title {
+        margin-top: 500px;
+        top: 90px;
+    }
+
+    .rectangle {
+        width: 90%;
+        margin-top: 150px;
+    }
+
+    .about-paragraph {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .contact-button{
+        top: 30px;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    /* Styles for Mobile L */
+    .about-title {
+        margin-top: 500px;
+        top: 90px;
+    }
+    .rectangle {
+        width: 90%;
+        margin-top: 150px;
+    }
+
+    .about-paragraph {
+        font-size: 15px;
+        line-height:  20px;
+    }
+
+    .contact-button{
+        top: 30px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    /* Styles for Tablet */
+    .about-title {
+        margin-top: 500px;
+        top: 90px;
+    }
+
+    .rectangle{
+        width: 90%;
+        margin-top: 150px;
+    }
+
+    .about-paragraph {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .contact-button{
+        top: 30px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    /* Styles for Laptop */
+    .about-title {
+        margin-top: 500px;
+        top: 90px;
+    }
+
+    .rectangle{
+        width: 90%;
+        margin-top: 150px;
+    }
+
+    .about-paragraph {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .contact-button{
+        top: 30px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    /* Styles for Laptop L */
+    .about-title {
+        margin-top: 500px;
+        top: 90px;
+    }
+
+    .rectangle{
+        width: 90%;
+        margin-top: 150px;
+    }
+
+    .about-paragraph {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .contact-button{
+        top: 30px;
+    }
+}

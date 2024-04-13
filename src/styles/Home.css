@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@800&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+    box-sizing: border-box;
+	
+}
+
+:root {
+	--icon-colour: #343434;
+    --icon-hover-colour: #db2b39;
+}
+
+.home-container {
+    background-color: #343434;
+    background-image: -webkit-linear-gradient(-67.4deg, #343434 50%, #F9F6EE 50%);
+}
+
+.jyce-image {
+    margin-left: -525px;
+    margin-top: 125px;
+}
+
+.intro-text-1 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+    margin-top:-285px;
+    margin-left:50px;
+}
+
+.intro-text-2 {
+    color: #343434;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 15px;
+    margin-left: 400px;
+}
+
+.contact-items {
+    list-style: none;
+    margin-left: 425px;
+    margin-top: 20px;
+    color: #343434;
+}
+
+.list-item {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.list-item a {
+    display: inline-block;
+    margin-right: 20px;
+    color: var(--icon-colour);
+    text-decoration: none;
+}
+
+.list-item a:hover {
+    color: var(--icon-hover-colour);
+    cursor:pointer;
+}
+
+.home-tooltip {
+    background-color: #343434 !important;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #F9F6EE !important;
+}
