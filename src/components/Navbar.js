@@ -1,105 +1,97 @@
-import "../styles/Navbar.css";
+import React, { useState } from "react";
 import { Link } from "react-scroll";
 import "remixicon/fonts/remixicon.css";
+import "../styles/Navbar.css";
 
 function Navbar() {
+  const [menuOpen, setMenuOpen] = useState(false);
 
-  const navMenu = document.getElementById("nav-menu"),
-    navToggle = document.getElementById("nav-toggle"),
-    navClose = document.getElementById("nav-close");
-
-  /* Menu show */
-  if (navToggle) {
-    navToggle.addEventListener("click", () => {
-      navMenu.classList.add("show-menu");
-    });
-  }
-
-  /* Menu hidden */
-  if (navClose) {
-    navClose.addEventListener("click", () => {
-      navMenu.classList.remove("show-menu");
-    });
-  }
-
-  const navLink = document.querySelectorAll(".nav__link");
-
-  const linkAction = () => {
-    const navMenu = document.getElementById("nav-menu");
-    navMenu.classList.remove("show-menu");
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
   };
-  navLink.forEach((n) => n.addEventListener("click", linkAction));
+
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
 
   return (
     <header className="navbar" id="header">
       <nav className="nav container">
         <Link
-          to="#"
+          to="home"
           spy={true}
           smooth={true}
           offset={-50}
           duration={500}
           className="nav__logo"
+          onClick={closeMenu}
         >
           JYCE.
         </Link>
-        <div className="nav__menu show-menu" id="nav-menu">
+        <div
+          className={`nav__menu ${menuOpen ? "show-menu" : ""}`}
+          id="nav-menu"
+        >
           <ul className="nav__list">
             <li>
               <Link
-                to="#"
+                to="home"
                 spy={true}
                 smooth={true}
                 offset={-50}
                 duration={500}
                 className="nav__link"
+                onClick={closeMenu}
               >
                 Home
               </Link>
             </li>
             <li>
               <Link
-                to="#"
+                to="work"
                 spy={true}
                 smooth={true}
                 offset={-50}
                 duration={500}
                 className="nav__link"
+                onClick={closeMenu}
               >
                 Work
               </Link>
             </li>
             <li>
               <Link
-                to="#"
+                to="info"
                 spy={true}
                 smooth={true}
                 offset={-50}
                 duration={500}
                 className="nav__link"
+                onClick={closeMenu}
               >
                 My Info
               </Link>
             </li>
             <li>
               <Link
-                to="#"
+                to="contact"
                 spy={true}
                 smooth={true}
                 offset={-50}
                 duration={500}
                 className="nav__link"
+                onClick={closeMenu}
               >
                 Contact Me
               </Link>
             </li>
           </ul>
-          <div className="nav__close" id="nav-close">
-            <i class="ri-close-large-line"></i>
+          <div className="nav__close" id="nav-close" onClick={closeMenu}>
+            <i className="ri-close-large-line"></i>
           </div>
         </div>
-        <div className="nav__toggle" id="nav-toggle">
-          <i class="ri-menu-line"></i>
+        <div className="nav__toggle" id="nav-toggle" onClick={toggleMenu}>
+          <i className="ri-menu-line"></i>
         </div>
       </nav>
     </header>
