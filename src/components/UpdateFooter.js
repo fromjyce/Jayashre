@@ -1,17 +1,32 @@
+import React from "react";
 import "../styles/UpdateFooter.css";
+import "remixicon/fonts/remixicon.css";
 
 function UpdateFooter() {
   return (
-    <div className="UpdateFooter" id="UpdateFooter">
+    <div className="update-footer-main-container" id="update-footer">
       <div className="update-footer-container">
-        <div className="main-container">
-          <div className="updation">
-            Last Updated on April 2024 &nbsp; &nbsp; &nbsp; ©️ Developed
-            and Maintained by JYCE.
+          <div className="github-container">
+            <ul className="github-list">
+              <li className="github-list-item branch-icon">
+                <i class="ri-git-branch-fill"></i>
+              </li>
+              <li className="github-list-item branch-name">main</li>
+            </ul>
+          </div>
+          <div className="main-container">
+            <div className="updation">Last Updated on July 2024</div>
+          </div>
+          <div className="smile-container">
+            <ul className="jyce-list">
+              <li className="jyce-list-item emoji">
+                <i class="ri-user-smile-fill"></i>
+              </li>
+              <li className="jyce-list-item jyce-name">JYCE</li>
+            </ul>
           </div>
         </div>
       </div>
-    </div>
   );
 }
 
