@@ -1,0 +1,38 @@
+.actual-sidebar{
+    height: 100%;
+  width: 3.8rem;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #333842 ;
+  overflow-x: hidden;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.icon {
+    font-size: 2rem;
+    margin-left: -2.5rem;
+}
+
+.icon-link{
+    text-decoration: none;
+}
+
+i{
+    color: #9599a0;
+}
+
+.settings-icon {
+    margin-top: 23.5rem;
+    font-size: 2rem;
+}
