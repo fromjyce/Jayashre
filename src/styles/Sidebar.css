@@ -28,11 +28,11 @@
     text-decoration: none;
 }
 
-i{
+.side-icon{
     color: #9599a0;
 }
 
-i:hover{
+.side-icon:hover{
         color: #f9f6ee;
 }
 
