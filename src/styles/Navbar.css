@@ -11,15 +11,13 @@ background-color: #21252b;
 }
 
 .navbar-actual-container{
-    margin-left: -1.3rem;
+    margin-left: 0.45rem;
     display: flex;
     flex-direction: row;
     column-gap: 0.45rem;
     flex-wrap: nowrap;
-}
-
-.nac-item:hover{
-    background-color: blueviolet;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
 }
 
 .home-name, .skills-name, .education-name, .projects-name, .experience-name, .achievement-name, .contact-name {
@@ -52,12 +50,33 @@ color: #fc490b;
     color: #9599a0;
 }
 
+.skills-icon, .home-icon, .education-icon, .projects-icon, .experience-icon, .achievement-icon, .contact-icon{
+    margin-left: -2rem;
+}
+
 .nac-item-list{
     list-style: none;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-left: -0.45rem;
+    border-left: 0.5px solid;
+    border-right: 0.5px solid;
+}
+
+.home-list{
+    border-left: 0px;
+}
+
+.contact-list{
+    border-right: 2px solid;
 }
 
 .nac-item-list-item{
-    font-size: 1.1rem;
+    font-size: 1.075rem;
     display: inline-block;
   margin-right: 0.45rem;
+}
+
+.home-list:hover, .skills-list:hover, .education-list:hover, .projects-list:hover, .experience-list:hover, .achievement-list:hover, .contact-list:hover {
+    background-color: #282c34;
 }
