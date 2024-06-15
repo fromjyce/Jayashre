@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.navbar-main-container{
+background-color: #21252b;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    margin-left: 3.3rem;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.navbar-actual-container{
+    margin-left: -1.3rem;
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.45rem;
+}
+
+.nac-item:hover{
+    background-color: blueviolet;
+}
+
+.home-name, .skills-name, .education-name, .projects-name, .experience-name, .achievement-name, .contact-name {
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  color: #f9f6ee;
+}
+
+.html-icon{
+color: #fc490b;
+}
+
+.js-icon, .json-icon {
+    color: #f7df1e;
+}
+
+.java-icon {
+    color: #ca3132;
+}
+
+.css-icon {
+    color: #3687ff ;
+}
+
+.xlsx-icon {
+    color: #1fb35b;
+}
+
+.md-icon {
+    color: #9599a0;
+}
+
+.nac-item-list{
+    list-style: none;
+}
+
+.nac-item-list-item{
+    font-size: 1.1rem;
+    display: inline-block;
+  margin-right: 0.45rem;
+}
