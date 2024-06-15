@@ -15,6 +15,7 @@ background-color: #21252b;
     display: flex;
     flex-direction: row;
     column-gap: 0.45rem;
+    flex-wrap: nowrap;
 }
 
 .nac-item:hover{
