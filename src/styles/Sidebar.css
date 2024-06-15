@@ -32,6 +32,10 @@ i{
     color: #9599a0;
 }
 
+i:hover{
+        color: #f9f6ee;
+}
+
 .settings-icon {
     margin-top: 23.5rem;
     font-size: 2rem;
