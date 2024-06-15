@@ -39,7 +39,9 @@ position: fixed;
     color: #f9f6ee;
 }
 
-
+.updation:hover{
+    color: #9599a0;
+}
 
 .github-list{
     list-style: none;
@@ -53,6 +55,10 @@ position: fixed;
     font-family: "Ubuntu Mono", monospace;
   font-weight: 400;
   color: #f9f6ee;
+}
+
+.branch-name:hover, .jyce-name:hover {
+    color: #9599a0;
 }
 
 .jyce-list{
