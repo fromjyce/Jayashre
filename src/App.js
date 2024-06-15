@@ -1,12 +1,10 @@
 import React from "react";
-import Sidebar from "./components/Sidebar";
-import UpdateFooter from "./components/UpdateFooter";
+import HeaderFooter from "./components/Header-Footer";
 
 function App() {
   return (
     <React.Fragment>
-      <Sidebar />
-      <UpdateFooter />
+      <HeaderFooter/>
     </React.Fragment>
   );
 }
