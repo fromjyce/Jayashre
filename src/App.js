@@ -1,14 +1,12 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import Home from "./components/Home";
+import Sidebar from "./components/Sidebar";
+import UpdateFooter from "./components/UpdateFooter";
 
 function App() {
   return (
     <React.Fragment>
-      <Navbar />
-      <div style={{ overflow: "hidden" }}>
-        <Home />
-      </div>
+      <Sidebar />
+      <UpdateFooter />
     </React.Fragment>
   );
 }
