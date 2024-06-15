@@ -1,59 +1,118 @@
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
-.main-container {
+
+.update-footer-container{
     width: 100%;
     min-width: 150px;
-    height: auto;
-    background-color: #db2b39;
+    height: 30px;
+    position: fixed;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  right: 0;
+    background-color: #21252b;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.github-container, .smile-container {
+position: fixed;
+  bottom: -0.63rem !important;
+}
+
+.github-container{
+  left: -1.3rem !important;
+}
+
+.smile-container {
+  right: 0.5rem !important;
+}
+
+
 .updation {
-    font-size: 1.3rem;
-    font-family: "Teko", sans-serif;
+    font-size: 1rem;
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
     text-align: center;
+    color: #f9f6ee;
+}
+
+
+
+.github-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.5rem;
+}
+
+.branch-name, .jyce-name {
+    font-size: 1rem;
+    font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
+  color: #f9f6ee;
+}
+
+.jyce-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.5rem;
 }
 
 @media (max-width: 320px) {
-    .updation {
-        font-size: 1rem;
+    .updation, .branch-name, .jyce-name {
+        font-size: 0.7rem;
+    }
+
+    .updation{
+            margin-top: -0.5rem;
     }
 }
 
 @media (min-width: 321px) and (max-width: 375px) {
-    .updation {
-        font-size: 1.1rem;
+    .updation, .branch-name, .jyce-name {
+        font-size: 0.8rem;
+    }
+    .updation{
+            margin-top: -0.5rem;
     }
 }
 
 @media (min-width: 376px) and (max-width: 425px) {
-    .updation {
-        font-size: 1.2rem;
+    .updation, .branch-name, .jyce-name {
+        font-size: 0.8rem;
+    }
+    .updation{
+            margin-top: -0.5rem;
     }
 }
 
 @media (min-width: 426px) and (max-width: 768px) {
-    .updation {
-        font-size: 1.3rem;
+    .updation, .branch-name, .jyce-name {
+        font-size: 0.9rem;
+    }
+    .updation{
+            margin-top: -0.5rem;
     }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
-    .updation {
-        font-size: 1.4rem;
+    .updation, .branch-name, .jyce-name {
+        font-size: 0.9rem;
+    }
+    .updation{
+            margin-top: -0.5rem;
     }
 }
 
 @media (min-width: 1025px) and (max-width: 1440px) {
-    .updation {
-        font-size: 1.5rem;
+    .updation, .branch-name, .jyce-name {
+        font-size: 1;
+    }
+    .updation{
+            margin-top: -0.5rem;
     }
 }
