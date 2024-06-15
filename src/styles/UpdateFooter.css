@@ -68,6 +68,14 @@ position: fixed;
     column-gap: 0.5rem;
 }
 
+.footer-icon{
+    color: #9599a0;
+}
+
+.footer-icon:hover{
+    color: #f9f6ee;
+}
+
 @media (max-width: 320px) {
     .updation, .branch-name, .jyce-name {
         font-size: 0.7rem;
