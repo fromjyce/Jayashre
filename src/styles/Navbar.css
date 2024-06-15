@@ -51,7 +51,7 @@ color: #fc490b;
 }
 
 .skills-icon, .home-icon, .education-icon, .projects-icon, .experience-icon, .achievement-icon, .contact-icon{
-    margin-left: -2rem;
+    margin-left: -1.6rem;
 }
 
 .nac-item-list{
@@ -61,6 +61,7 @@ color: #fc490b;
     margin-left: -0.45rem;
     border-left: 0.5px solid;
     border-right: 0.5px solid;
+    padding-right: 0.6rem;
 }
 
 .home-list{
