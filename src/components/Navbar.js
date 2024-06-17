@@ -24,6 +24,7 @@ function Navbar() {
               </ul>
             </div>
           </Link>
+
           <Link
             to="/#"
             spy={true}
@@ -49,13 +50,13 @@ function Navbar() {
             duration={500}
             className="link-item"
           >
-            <div className="nac-item education-button" id="education-button">
-              <ul className="nac-item-list education-list">
-                <li className="nac-item-list-item education-icon">
+            <div className="nac-item projects-button" id="projects-button">
+              <ul className="nac-item-list projects-list">
+                <li className="nac-item-list-item projects-icon">
                   <i class="ri-java-line java-icon"></i>
                 </li>
-                <li className="nac-item-list-item education-name">
-                  education.java
+                <li className="nac-item-list-item projects-name">
+                  projects.java
                 </li>
               </ul>
             </div>
@@ -68,13 +69,13 @@ function Navbar() {
             duration={500}
             className="link-item"
           >
-            <div className="nac-item projects-button" id="projects-button">
-              <ul className="nac-item-list projects-list">
-                <li className="nac-item-list-item projects-icon">
+            <div className="nac-item education-button" id="education-button">
+              <ul className="nac-item-list education-list">
+                <li className="nac-item-list-item education-icon">
                   <i class="ri-braces-fill json-icon"></i>
                 </li>
-                <li className="nac-item-list-item projects-name">
-                  projects.json
+                <li className="nac-item-list-item education-name">
+                  education.java
                 </li>
               </ul>
             </div>
