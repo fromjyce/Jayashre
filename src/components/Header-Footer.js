@@ -6,9 +6,9 @@ import Navbar from "./Navbar";
 function HeaderFooter() {
   return (
     <React.Fragment>
+      <Navbar />
       <Sidebar />
       <UpdateFooter />
-      <Navbar />
     </React.Fragment>
   );
 }
