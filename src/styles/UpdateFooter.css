@@ -1,135 +1,38 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
-* {
-  box-sizing: border-box;
+.footer-container {
+    height: 30px;
+    width: 100%;
+    background-color: #21252b;
+    color: #f9f6ee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 0 10px;
+    font-family: "Ubuntu", sans-serif;
 }
 
-.update-footer-container{
-    width: 100%;
-    min-width: 150px;
-    height: 30px;
-    position: fixed;
-  z-index: 4;
-  bottom: 0;
-  left: 0;
-  right: 0;
-    background-color: #21252b;
+.left-icon,
+.right-icon {
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
-.github-container, .smile-container {
-position: fixed;
-  bottom: -0.63rem !important;
+.left-icon:hover, .right-icon:hover, .center-text:hover {
+    cursor: pointer;
+    color: #9599a0;
 }
 
-.github-container{
-  left: -1.3rem !important;
+.left-icon span,
+.right-icon span {
+    margin-left: 5px;
 }
 
-.smile-container {
-  right: 0.5rem !important;
-}
-
-
-.updation {
-    font-size: 1rem;
-    font-family: "Ubuntu", sans-serif;
-  font-weight: 400;
+.center-text {
     text-align: center;
+    flex-grow: 1;
     color: #f9f6ee;
-}
-
-.updation:hover{
-    color: #9599a0;
-}
-
-.github-list{
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    column-gap: 0.5rem;
-}
-
-.branch-name, .jyce-name {
-    font-size: 1rem;
-    font-family: "Ubuntu Mono", monospace;
-  font-weight: 400;
-  color: #f9f6ee;
-}
-
-.branch-name:hover, .jyce-name:hover {
-    color: #9599a0;
-}
-
-.jyce-list{
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    column-gap: 0.5rem;
-}
-
-.footer-icon{
-    color: #9599a0;
-}
-
-.footer-icon:hover{
-    color: #f9f6ee;
-}
-
-@media (max-width: 320px) {
-    .updation, .branch-name, .jyce-name {
-        font-size: 0.7rem;
-    }
-
-    .updation{
-            margin-top: -0.5rem;
-    }
-}
-
-@media (min-width: 321px) and (max-width: 375px) {
-    .updation, .branch-name, .jyce-name {
-        font-size: 0.8rem;
-    }
-    .updation{
-            margin-top: -0.5rem;
-    }
-}
-
-@media (min-width: 376px) and (max-width: 425px) {
-    .updation, .branch-name, .jyce-name {
-        font-size: 0.8rem;
-    }
-    .updation{
-            margin-top: -0.5rem;
-    }
-}
-
-@media (min-width: 426px) and (max-width: 768px) {
-    .updation, .branch-name, .jyce-name {
-        font-size: 0.9rem;
-    }
-    .updation{
-            margin-top: -0.5rem;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-    .updation, .branch-name, .jyce-name {
-        font-size: 0.9rem;
-    }
-    .updation{
-            margin-top: -0.5rem;
-    }
-}
-
-@media (min-width: 1025px) and (max-width: 1440px) {
-    .updation, .branch-name, .jyce-name {
-        font-size: 1;
-    }
-    .updation{
-            margin-top: -0.5rem;
-    }
 }
