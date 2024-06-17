@@ -1,47 +1,57 @@
-* {
-  box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
-
-.actual-sidebar{
-    height: 100%;
-  width: 3.8rem;
-  position: fixed;
-  z-index: 3;
-  top: 0;
-  left: 0;
-  background-color: #333842 ;
-  overflow-x: hidden;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-}
-
-.icons-list{
-    list-style: none;
+.sidebar-container {
+    width: 3.8rem;
+    height: calc(100vh - 30px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333842;
     display: flex;
     flex-direction: column;
-    row-gap: 1rem;
+    align-items: center;
+    padding-top: 1rem;
 }
 
-.icon {
-    font-size: 2rem;
-    margin-left: -2.5rem;
+.sidebar-container a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 0;
+    text-decoration: none;
+    font-size: 14px;
+    width: 100%;
 }
 
-.icon-link{
+.sidebar-container a:hover {
+    cursor: pointer;
     text-decoration: none;
 }
 
 .side-icon{
     color: #9599a0;
+    font-size: 1.8rem;
 }
 
-.side-icon:hover{
-        color: #f9f6ee;
+.sidebar-tooltip {
+background-color: #21252b;
+font-family: "Ubuntu", sans-serif;
+  font-weight: 375;
+  color: #f9f6ee !important;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 0.23rem;
 }
 
-.settings-icon {
-    margin-top: 23.5rem;
-    font-size: 2rem;
+.side-icon:hover {
+    color: #f9f6ee;
+}
+
+.bottom-icons {
+    margin-top: auto;
+    padding-bottom: 1rem;
+}
+
+.bottom-icons .icon-link {
+    padding: 14px 0;
 }
