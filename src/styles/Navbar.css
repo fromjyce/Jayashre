@@ -32,6 +32,7 @@ html, body {
 
 .navbar-actual-container a:hover {
     background-color: #282c34;
+    cursor: pointer;
 }
 
 .item-container{
