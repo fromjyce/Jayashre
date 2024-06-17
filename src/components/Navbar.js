@@ -13,7 +13,7 @@ function Navbar() {
           smooth={true}
           offset={-70}
           duration={500}
-          className="navbar-link-item"
+          className="navbar-link-item-home"
         >
           <div className="item-container">
             <i class="ri-html5-fill html-icon"></i>home.html
@@ -85,7 +85,7 @@ function Navbar() {
           smooth={true}
           offset={-70}
           duration={500}
-          className="navbar-link-item"
+          className="navbar-link-item-contact"
         >
           <div className="item-container">
             <i class="ri-markdown-fill md-icon"></i>contact.md
