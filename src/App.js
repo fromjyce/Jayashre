@@ -6,7 +6,9 @@ import Skills from "./components/Skills";
 function App() {
   return (
     <React.Fragment>
-      <HeaderFooter/>
+      <HeaderFooter>
+        <Home />
+      </HeaderFooter>
     </React.Fragment>
   );
 }
