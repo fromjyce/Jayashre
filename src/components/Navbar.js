@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 
 function Navbar() {
   return (
-    <div className="navbar-main-container" id="navbar-container">
+    <div className="navbar-main-container" id="navbar">
       <div className="navbar-actual-container">
         <Link
           to="/#"
