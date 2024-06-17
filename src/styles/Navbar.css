@@ -32,10 +32,49 @@ html, body {
     font-size: 17px;
 }
 
-.navbar-actual-container a:hover {
+.navbar-link-item-home{
+    display: inline-block;
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  color: #f9f6ee;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar-link-item-contact {
+    display: inline-block;
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  color: #f9f6ee;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-right: 0.12rem solid black;
+    border-left: 0.12rem solid black
+}
+
+.navbar-actual-container .navbar-link-item-contact:hover {
     background-color: #282c34;
     cursor: pointer;
 }
+
+.navbar-actual-container .navbar-link-item-home:hover {
+    background-color: #282c34;
+    cursor: pointer;
+}
+
+.navbar-actual-container .navbar-link-item:hover {
+    background-color: #282c34;
+    cursor: pointer;
+}
+
+.navbar-actual-container .navbar-link-item{
+    border-left: 0.12rem solid black;
+}
+
 
 .item-container{
     display: flex;
