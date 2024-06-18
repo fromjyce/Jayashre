@@ -1,5 +1,6 @@
 import React from "react";
 import "remixicon/fonts/remixicon.css";
+import "../styles/Project.css";
 
 function Project({ title, description, link, contributor, timeline, stack }) {
   return (
