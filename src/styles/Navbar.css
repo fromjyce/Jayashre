@@ -53,8 +53,8 @@ html, body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    border-right: 0.12rem solid black;
-    border-left: 0.12rem solid black
+    border-right: 0.03rem solid black;
+    border-left: 0.03rem solid black
 }
 
 .navbar-actual-container .navbar-link-item-contact:hover {
@@ -73,7 +73,7 @@ html, body {
 }
 
 .navbar-actual-container .navbar-link-item{
-    border-left: 0.12rem solid black;
+    border-left: 0.03rem solid black;
 }
 
 
