@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+.projects-list-item {
+  margin-bottom: 20px;
+}
+
+.projects-list-item-container {
+  margin-bottom: 7px;
+}
+
+.title-github-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: -12px;
+}
+
+.project-title {
+  font-size: 1.5rem;
+  color: #f3f3f3;
+  margin-right: 15px;
+  font-weight: 450;
+}
+
+.github-project-link {
+  text-decoration: none;
+  color: #db2b39;
+  font-size: 1.7rem;
+}
+
+.projects-contributor{
+    font-weight: 700;
+    font-size: 0.99rem;
+    color: #abb2bf;
+}
+
+.project-description{
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #d19a66;
+}
+
+.project-stack {
+    font-weight: 650;
+    font-size: 1.09rem;
+    color: #c678dd;
+}
+
+.project-timeline {
+    font-weight: 425;
+    font-size: 1.1rem;
+    color: #abb2bf;
+}
+
+.projects-contributor,
+.project-description,
+.project-stack,
+.project-timeline {
+  margin-bottom: 10px;
+}
+
+.project-timeline {
+  font-size: 0.9rem;
+  color: #aaa;
+}
