@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+.experience-actual-container {
+  padding: 50px;
+  margin-left: 3.8rem;
+  background-color: #282c34;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.experience-title{
+    font-size: 2.8rem;
+    font-weight: 475;
+    color: #98c379;
+}
+
+.internship-main-title, .mentee-main-title, .virtual-main-title {
+    font-size: 1.7rem;
+  color: #42a5f5;
+}
+
+.internship-list{
+    list-style: square;
+}
+
+.internship-list li::marker{
+    font-size: 1.55rem;
+    color: #e06c75;
+}
+
+.internship-name-icon-container, .internship-company, .internship-timeline, .stack-skills, .internship-description {
+    margin-bottom: 7px;
+}
+
+.internship-name-icon-container{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    flex-wrap: nowrap;
+    font-size: 1.55rem;
+    font-family: 600;
+    color: #ffca28;
+    align-items: flex-start;
+}
+
+.experience-link-icon {
+    text-decoration: none;
+    color: #db2b39;
+}
+
+.internship-company {
+    font-size: 1.2rem;
+    color: #c2c2c2;
+}
+
+.internship-timeline {
+    color: #636d83;
+    font-size: 1rem;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.stack-skills {
+    font-size: 1.125rem;
+    color: #e13e76;
+}
+
+.internship-description{
+    font-size: 1.095rem;
+    color: #f3f3f3;
+}
+
+.internship-list-item{
+    margin-bottom: 15px;
+}
