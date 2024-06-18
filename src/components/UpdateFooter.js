@@ -8,7 +8,7 @@ function UpdateFooter() {
       <div className="footer-container">
         <a
           className="footer-link"
-          href="https://www.linkedin.com/in/jayashrek/"
+          href="https://github.com/fromjyce/"
           target="_blank"
           rel="noopener noreferrer"
         >
