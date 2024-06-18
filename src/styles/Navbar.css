@@ -72,6 +72,12 @@ html, body {
     cursor: pointer;
 }
 
+.navbar-link-item-home.active,
+.navbar-link-item.active,
+.navbar-link-item-contact.active {
+  background-color: #282c34;
+}
+
 .navbar-actual-container .navbar-link-item{
     border-left: 0.02rem solid #1B1212;
 }
