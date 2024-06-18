@@ -16,6 +16,14 @@ function Experience () {
                     <div className="internship-name">
                       Summer Research Fellow 2024
                     </div>
+                    <a
+                      className="experience-link-icon"
+                      href="/#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="ri-github-fill experience-icon"></i>
+                    </a>
                   </div>
                   <div className="internship-company">
                     Indian Academy of Sciences, Bengaluru, Indian National
