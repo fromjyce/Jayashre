@@ -4,8 +4,8 @@ import "../styles/Achievements.css";
 
 function Achievements() {
     return (
-      <div className="achievements-main-container">
-        <div className="achievements-actual-container" id="achievements">
+      <div id="achievements" className="achievements-main-container">
+        <div className="achievements-actual-container">
           <h1 className="achievements-title">achievements</h1>
           <div className="publications-container">
             <h2 className="publications-title">My Published Works</h2>
@@ -19,7 +19,7 @@ function Achievements() {
                     </div>
                     <a
                       className="pub-link"
-                      href="/#"
+                      href="https://www.sciencedirect.com/science/article/abs/pii/S0167404824001615"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -44,7 +44,7 @@ function Achievements() {
                     </div>
                     <a
                       className="pub-link"
-                      href="/#"
+                      href="https://ieeexplore.ieee.org/abstract/document/10511469"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -65,11 +65,11 @@ function Achievements() {
                 <div className="publication-info-container">
                   <div className="pub-name-link-container">
                     <div className="publication-name">
-                      Bar Code Based Attendance System (2024)
+                      Bar Code Based Attendance System (2023)
                     </div>
                     <a
                       className="pub-link"
-                      href="/#"
+                      href="https://ieeexplore.ieee.org/abstract/document/10426394"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
