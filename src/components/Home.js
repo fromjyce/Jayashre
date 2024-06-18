@@ -28,7 +28,12 @@ function Home() {
         </div>
         <div className="centered-buttons-container">
           <div className="side-by-side-buttons-container">
-            <a className="home-link" href="https://github.com/fromjyce">
+            <a
+              className="home-link"
+              href="https://github.com/fromjyce"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <div className="button-one">
                 <i class="ri-github-fill button-icon"></i>
                 <div className="button-one-title">Follow! @fromjyce</div>
@@ -37,6 +42,8 @@ function Home() {
             <a
               className="home-link"
               href="https://www.linkedin.com/in/jayashrek/"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <div className="button-two">
                 <i class="ri-linkedin-box-fill button-icon"></i>
@@ -49,10 +56,10 @@ function Home() {
             className="home-link-item"
             activeClassName="active"
           >
-              <div className="middle-button-container">
-                <i class="ri-telegram-2-fill button-icon"></i>
-                <div className="middle-button-title">Contact Me!</div>
-              </div>
+            <div className="middle-button-container">
+              <i class="ri-telegram-2-fill button-icon"></i>
+              <div className="middle-button-title">Contact Me!</div>
+            </div>
           </NavLink>
         </div>
       </div>
