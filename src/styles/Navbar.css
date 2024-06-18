@@ -14,6 +14,7 @@ html, body {
     overflow-x: auto;
     white-space: nowrap;
     background-color: #21252b;
+    position: fixed;
 }
 
 .navbar-actual-container {
