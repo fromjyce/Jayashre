@@ -78,11 +78,14 @@ function Skills() {
               <li className="products-list-item">PyCharm</li>
               <li className="products-list-item">Anaconda</li>
               <li className="products-list-item">Eclipse</li>
+              <li className="products-list-item">Code::Blocks</li>
               <li className="products-list-item">Figma</li>
               <li className="products-list-item">Wireshark</li>
               <li className="products-list-item">CodePen</li>
               <li className="products-list-item">Wordpress</li>
               <li className="products-list-item">Burpsuite</li>
+              <li className="products-list-item">Remix IDE</li>
+              <li className="products-list-item">Truffle Suite</li>
               <li className="products-list-item">Nmap</li>
               <li className="products-list-item">Vercel</li>
               <li className="products-list-item">Nessus</li>
