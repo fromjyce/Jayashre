@@ -38,7 +38,7 @@
     column-gap: 10px;
     flex-wrap: nowrap;
     font-size: 1.55rem;
-    font-family: 600;
+    font-weight:500;
     color: #ffca28;
     align-items: flex-start;
 }
@@ -72,4 +72,53 @@
 
 .internship-list-item{
     margin-bottom: 15px;
+}
+
+.virtual-exp-list, .mentee-exp-list{
+    list-style: square;
+}
+
+.virtual-exp-list li::marker{
+    font-size: 1.55rem;
+    color: #e06c75;
+}
+
+.mentee-exp-list li::marker{
+    font-size: 1.55rem;
+    color: #e06c75;
+}
+
+.virtual-exp-list-item, .mentee-exp-list-item{
+    font-size: 1.3rem;
+    color: #f3f3f3;
+    margin-bottom: 15px;
+}
+
+.company-name{
+font-size: 1.35rem;
+    font-weight:500;
+    color: #56b6c2;
+}
+
+.virtual-icon-link, .mentee-icon-link{
+    text-decoration: none;
+    cursor: pointer;
+    color: #d19a66;
+}
+
+.ve-certificate-icon, .me-certificate-icon{
+    margin-left: 15px;
+    font-size: 1.35rem;
+}
+
+.me-company-name {
+    font-size: 1.35rem;
+    font-weight:500;
+    color: #c678dd;
+}
+
+.me-certificate-icon-github{
+    margin-left: 15px;
+    font-size: 1.35rem;
+    color:#db2b39;
 }
