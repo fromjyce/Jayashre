@@ -4,8 +4,8 @@ import "../styles/Education.css";
 
 function Education() {
     return (
-      <div className="education-main-container">
-        <div className="education-actual-container" id="education">
+      <div id="education" className="education-main-container">
+        <div className="education-actual-container">
           <h1 className="education-title">education</h1>
           <div className="academic-background-container">
             <h2 className="academic-background-title">
@@ -112,7 +112,7 @@ function Education() {
                   <div className="certification-name-icon-container">
                     <div className="certification-name">Data Mining</div>
                     <a
-                      href="/#"
+                      href="https://drive.google.com/file/d/1ZfmfOrs8clm7jlZKBpO7zuXDwNLq2HWt/view?usp=sharing"
                       className="certification-icon-link "
                       target="_blank"
                       rel="noopener noreferrer"
@@ -128,7 +128,7 @@ function Education() {
                   <div className="certification-name-icon-container">
                     <div className="certification-name">Ethical Hacking</div>
                     <a
-                      href="/#"
+                      href="https://drive.google.com/file/d/1RMLDeJzCgEOKBBS6SEcN-AFRR5OG7TeL/view?usp=drive_link"
                       className="certification-icon-link "
                       target="_blank"
                       rel="noopener noreferrer"
@@ -146,7 +146,7 @@ function Education() {
                       Cyber Security and Privacy
                     </div>
                     <a
-                      href="/#"
+                      href="https://drive.google.com/file/d/1vDNEl3IfmQPxMnZcc7fu_WkK6lz1Bc2I/view?usp=drive_link"
                       className="certification-icon-link "
                       target="_blank"
                       rel="noopener noreferrer"
@@ -164,7 +164,7 @@ function Education() {
                       Operating System Basics
                     </div>
                     <a
-                      href="/#"
+                      href="https://drive.google.com/file/d/13Faw9lg3o23B2fhBp3niIHZ6-7AUnb3f/view?usp=drive_link"
                       className="certification-icon-link "
                       target="_blank"
                       rel="noopener noreferrer"
@@ -184,7 +184,7 @@ function Education() {
                       Cyber Threat Management
                     </div>
                     <a
-                      href="/#"
+                      href="https://drive.google.com/file/d/128uWklIQp6SRIjWodR0_JSbxqj2p_w_7/view?usp=drive_link"
                       className="certification-icon-link"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -204,7 +204,7 @@ function Education() {
                       Introduction to Packet Tracer
                     </div>
                     <a
-                      href="/#"
+                      href="https://drive.google.com/file/d/1gTKRVxWyicQ1UuuX-N5clRD1M6IDVIoc/view?usp=drive_link"
                       className="certification-icon-link "
                       target="_blank"
                       rel="noopener noreferrer"
@@ -224,7 +224,7 @@ function Education() {
                       Understanding Google Cloud Security and Operations
                     </div>
                     <a
-                      href="/#"
+                      href="https://drive.google.com/file/d/1JXychy0Hr9fN87xcv1lP_VetFe4kGX1D/view?usp=drive_link"
                       className="certification-icon-link "
                       target="_blank"
                       rel="noopener noreferrer"
@@ -242,7 +242,7 @@ function Education() {
                       Google Workplace Security
                     </div>
                     <a
-                      href="/#"
+                      href="https://drive.google.com/file/d/1C5_yBMmY3Ah5EzHdG8Tsdy9BvMqXfQ98/view?usp=drive_link"
                       className="certification-icon-link "
                       target="_blank"
                       rel="noopener noreferrer"
@@ -260,7 +260,7 @@ function Education() {
                       Information Security
                     </div>
                     <a
-                      href="/#"
+                      href="https://drive.google.com/file/d/1g9Ao5nhQljYe_fwk5kx81mfJ6O98fw2Q/view?usp=drive_link"
                       className="certification-icon-link "
                       target="_blank"
                       rel="noopener noreferrer"
@@ -280,7 +280,7 @@ function Education() {
                       Introduction to Cyber Security
                     </div>
                     <a
-                      href="/#"
+                      href="https://drive.google.com/file/d/1DcMzBjwggfVvW4XD1bGaXb5RAASp9RL9/view?usp=drive_link"
                       className="certification-icon-link "
                       target="_blank"
                       rel="noopener noreferrer"
@@ -300,7 +300,7 @@ function Education() {
                       Project Management Fundamentals
                     </div>
                     <a
-                      href="/#"
+                      href="https://drive.google.com/file/d/18v0_ZVcQqrUJFXKN4QBCQ7c4JBJslEvD/view?usp=drive_link"
                       className="certification-icon-link "
                       target="_blank"
                       rel="noopener noreferrer"
@@ -318,7 +318,7 @@ function Education() {
                       Big Data 101 Foundations
                     </div>
                     <a
-                      href="/#"
+                      href="https://drive.google.com/file/d/1sUIUfoLmrbxXuWZ7hCM6eFTZBGiJW2Mr/view?usp=drive_link"
                       className="certification-icon-link "
                       target="_blank"
                       rel="noopener noreferrer"
@@ -334,7 +334,7 @@ function Education() {
                   <div className="certification-name-icon-container">
                     <div className="certification-name">Level Up: Python</div>
                     <a
-                      href="/#"
+                      href="https://drive.google.com/file/d/135HU6F-U-QgpuFJLsE59p-PgnHR-RouT/view?usp=drive_link"
                       className="certification-icon-link "
                       target="_blank"
                       rel="noopener noreferrer"
@@ -352,7 +352,7 @@ function Education() {
                       Learning Kali Linux on Windows
                     </div>
                     <a
-                      href="/#"
+                      href="https://drive.google.com/file/d/1a_Pz2iJp3iKWbVb0v1yFdRccBPyWPJLU/view?usp=drive_link"
                       className="certification-icon-link "
                       target="_blank"
                       rel="noopener noreferrer"
@@ -368,7 +368,7 @@ function Education() {
                   <div className="certification-name-icon-container">
                     <div className="certification-name">Git From Scratch</div>
                     <a
-                      href="/#"
+                      href="https://drive.google.com/file/d/1bG4kQhUn5s83FjxW27xec7V2j6TdsnLo/view?usp=drive_link"
                       className="certification-icon-link "
                       target="_blank"
                       rel="noopener noreferrer"
@@ -386,7 +386,7 @@ function Education() {
                       Learning Linux Command Line
                     </div>
                     <a
-                      href="/#"
+                      href="https://drive.google.com/file/d/16VSpELv3KPMKy35vcvKgv0mC-L_ZFzrj/view?usp=drive_link"
                       className="certification-icon-link "
                       target="_blank"
                       rel="noopener noreferrer"
@@ -404,7 +404,7 @@ function Education() {
                       Web Programming Foundations
                     </div>
                     <a
-                      href="/#"
+                      href="https://drive.google.com/file/d/16bIbAqRnfoJlqZfdF9b-R6ca1RAz1rD8/view?usp=drive_link"
                       className="certification-icon-link "
                       target="_blank"
                       rel="noopener noreferrer"
@@ -422,7 +422,7 @@ function Education() {
                       Enterprise Design Thinking Practitioner
                     </div>
                     <a
-                      href="/#"
+                      href="https://drive.google.com/file/d/1_kpurOTxDK1UUiks3tA49zHLRnWgESvn/view?usp=drive_link"
                       className="certification-icon-link "
                       target="_blank"
                       rel="noopener noreferrer"
@@ -440,7 +440,7 @@ function Education() {
                       Learning Windows Terminal
                     </div>
                     <a
-                      href="/#"
+                      href="https://drive.google.com/file/d/1ReEIeT4OdhrH4EdfdRKcNekueb2YNKBn/view?usp=drive_link"
                       className="certification-icon-link "
                       target="_blank"
                       rel="noopener noreferrer"
@@ -456,7 +456,7 @@ function Education() {
                   <div className="certification-name-icon-container">
                     <div className="certification-name">Learning GitHub</div>
                     <a
-                      href="/#"
+                      href="https://drive.google.com/file/d/1by9obytti63qN4ZckFtW6kZQtfnOvWyR/view?usp=drive_link"
                       className="certification-icon-link "
                       target="_blank"
                       rel="noopener noreferrer"
@@ -474,7 +474,7 @@ function Education() {
                       Learning SQL Programming
                     </div>
                     <a
-                      href="/#"
+                      href="https://drive.google.com/file/d/15GtbBbPKMhbgnzSea94fjeA-fefLbNnR/view?usp=drive_link"
                       className="certification-icon-link "
                       target="_blank"
                       rel="noopener noreferrer"
@@ -492,7 +492,7 @@ function Education() {
                       Introduction to Linux
                     </div>
                     <a
-                      href="/#"
+                      href="https://drive.google.com/file/d/1H8Q8SOF1LNARr0etMAvyOigPpKXHxuzK/view?usp=drive_link"
                       className="certification-icon-link "
                       target="_blank"
                       rel="noopener noreferrer"
