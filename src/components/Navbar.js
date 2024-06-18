@@ -1,96 +1,75 @@
 import React from "react";
 import "../styles/Navbar.css";
 import "remixicon/fonts/remixicon.css";
-import { Link } from "react-scroll";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
     <div className="navbar-main-container" id="navbar">
       <div className="navbar-actual-container">
-        <Link
-          to="/#"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
+        <NavLink
+          to="/Jayashre"
           className="navbar-link-item-home"
+          activeClassName="active"
         >
           <div className="item-container">
-            <i class="ri-html5-fill html-icon"></i>home.html
+            <i className="ri-html5-fill html-icon"></i>home.html
           </div>
-        </Link>
-        <Link
-          to="/#"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
+        </NavLink>
+        <NavLink
+          to="/skills"
           className="navbar-link-item"
+          activeClassName="active"
         >
           <div className="item-container">
-            <i class="ri-javascript-fill js-icon"></i>skills.js
+            <i className="ri-javascript-fill js-icon"></i>skills.js
           </div>
-        </Link>
-        <Link
-          to="/#"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
+        </NavLink>
+        <NavLink
+          to="/projects"
           className="navbar-link-item"
+          activeClassName="active"
         >
           <div className="item-container">
-            <i class="ri-java-line java-icon"></i>projects.java
+            <i className="ri-java-line java-icon"></i>projects.java
           </div>
-        </Link>
-        <Link
-          to="/#"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
+        </NavLink>
+        <NavLink
+          to="/education"
           className="navbar-link-item"
+          activeClassName="active"
         >
           <div className="item-container">
-            <i class="ri-braces-fill json-icon"></i>education.json
+            <i className="ri-braces-fill json-icon"></i>education.json
           </div>
-        </Link>
-        <Link
-          to="/#"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
+        </NavLink>
+        <NavLink
+          to="/experience"
           className="navbar-link-item"
+          activeClassName="active"
         >
           <div className="item-container">
-            <i class="ri-css3-fill css-icon"></i>experience.css
+            <i className="ri-css3-fill css-icon"></i>experience.css
           </div>
-        </Link>
-        <Link
-          to="/#"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
+        </NavLink>
+        <NavLink
+          to="/achievements"
           className="navbar-link-item"
+          activeClassName="active"
         >
           <div className="item-container">
-            <i class="ri-file-excel-2-fill xlsx-icon"></i>achievements.xlsx
+            <i className="ri-file-excel-2-fill xlsx-icon"></i>achievements.xlsx
           </div>
-        </Link>
-        <Link
-          to="/#"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
+        </NavLink>
+        <NavLink
+          to="/contact"
           className="navbar-link-item-contact"
+          activeClassName="active"
         >
           <div className="item-container">
-            <i class="ri-markdown-fill md-icon"></i>contact.md
+            <i className="ri-markdown-fill md-icon"></i>contact.md
           </div>
-        </Link>
+        </NavLink>
       </div>
     </div>
   );
