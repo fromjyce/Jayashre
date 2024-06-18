@@ -28,6 +28,10 @@
   font-size: 1.7rem;
 }
 
+.github-project-link:hover {
+  color: #9599a0;
+}
+
 .projects-contributor{
     font-weight: 700;
     font-size: 0.99rem;
