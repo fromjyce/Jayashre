@@ -4,8 +4,8 @@ import "../styles/Contact.css";
 
 function Contact () {
     return (
-      <div className="contact-main-container">
-        <div className="contact-actual-container" id="contact">
+      <div id="contact" className="contact-main-container">
+        <div className="contact-actual-container">
           <h1 className="contact-title">contact</h1>
           <div className="contact-container">
             <h2 className="contact-intro-title">Feel free to contact me</h2>
@@ -13,7 +13,7 @@ function Contact () {
               <li className="contact-list-item">
                 <a
                   className="contact-link"
-                  href="/#"
+                  href="https://github.com/fromjyce"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -23,7 +23,7 @@ function Contact () {
               <li className="contact-list-item">
                 <a
                   className="contact-link"
-                  href="/#"
+                  href="https://www.linkedin.com/in/jayashrek/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -33,7 +33,7 @@ function Contact () {
               <li className="contact-list-item">
                 <a
                   className="contact-link"
-                  href="/#"
+                  href="https://discordapp.com/users/840610453431779348"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -43,8 +43,8 @@ function Contact () {
               <li className="contact-list-item">
                 <a
                   className="contact-link"
-                  href="/#"
-                  target="_blank"
+                  href="mailto:jaya2004kra@gmail.com"
+                  target="_top"
                   rel="noopener noreferrer"
                 >
                   Send Mail
@@ -53,7 +53,8 @@ function Contact () {
             </ul>
           </div>{" "}
           <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />{" "}
-          <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />{" "}
+          <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+          <br />{" "}
         </div>
       </div>
     );
