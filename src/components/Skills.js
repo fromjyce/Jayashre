@@ -4,8 +4,8 @@ import "remixicon/fonts/remixicon.css";
 
 function Skills() {
     return (
-      <div className="skills-main-container">
-        <div className="skills-actual-container" id="skills">
+      <div id="skills" className="skills-main-container">
+        <div className="skills-actual-container">
           <h1 className="skills-title">skills</h1>
           <div className="technical-skills-container">
             <h2 className="technical-skills-title">Technical Skills</h2>
