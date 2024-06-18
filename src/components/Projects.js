@@ -7,7 +7,7 @@ const projects = [
   {
     title: "Personal Portfolio Website",
     description:
-      "Designed a dynamic personal portfolio website showcasing my professional achievements, skills, experiences, achievements, and notable projects",
+      "Designed a dynamic personal portfolio website showcasing my professional achievements, skills, experiences, achievements, and notable projects.",
     link: "https://github.com/fromjyce/Jayashre",
     contributor: "Solo Contributor",
     timeline: "Ongoing - Managed by me" /*January */,
@@ -16,7 +16,7 @@ const projects = [
   {
     title: "CipherGuard: A Secure Encryption/Decryption Tool",
     description:
-      "SwingFX Java application for text, document, audio, video, and image encryption",
+      "SwingFX Java application for text, document, audio, video, and image encryption.",
     link: "https://github.com/fromjyce/CipherGuard",
     contributor: "Solo Contributor",
     timeline: "Ongoing" /*December */,
@@ -25,7 +25,7 @@ const projects = [
   {
     title: "BlockSecure",
     description:
-      "A cutting-edge solution revolutionizing secure voting systems with advanced encryption and blockchain-like mechanisms to ensure election integrity",
+      "A cutting-edge solution revolutionizing secure voting systems with advanced encryption and blockchain-like mechanisms to ensure election integrity.",
     link: "https://github.com/fromjyce/BlockSecure",
     contributor: "Team Contributor",
     timeline: "Ongoing" /*January */,
@@ -101,7 +101,7 @@ const projects = [
   {
     title: "AirPic",
     description:
-      "A collaborative project revolutionizing camera interaction. Introduced smile detection, hand gesture-controlled capture, zoom via gestures, and dynamic filters",
+      "A collaborative project revolutionizing camera interaction. Introduced smile detection, hand gesture-controlled capture, zoom via gestures, and dynamic filters.",
     link: "https://github.com/fromjyce/AirPic",
     contributor: "Team Contributor",
     timeline: "June 2023 - November 2023",
@@ -111,7 +111,7 @@ const projects = [
   {
     title: "OpenChain",
     description:
-      "A Solidity smart contract transforming the digital content marketplace, was developed using ThirdWeb",
+      "A Solidity smart contract transforming the digital content marketplace, was developed using ThirdWeb.",
     link: "https://github.com/fromjyce/OpenChain",
     contributor: "Solo Contributor",
     timeline: "October 2023 - November 2023",
@@ -147,7 +147,7 @@ const projects = [
   {
     title: "CameraX",
     description:
-      "An innovative camera app coded in Kotlin, leveraging the power of CameraX library for a seamless photography experience",
+      "An innovative camera app coded in Kotlin, leveraging the power of CameraX library for a seamless photography experience.",
     link: "https://github.com/fromjyce/CameraX",
     contributor: "Solo Contributor",
     timeline: "July 2023 - August 2023",
@@ -165,7 +165,7 @@ const projects = [
   {
     title: "Barcode Based Attendance System",
     description:
-      "Developed a Python-based attendance system using barcode scanning (tkinter GUI, pyzbar, SVM Classifier, OpenCV) and Excel files for user-friendly database management.",
+      "Developed a Python-based attendance system using barcode scanning and Excel files for user-friendly database management.",
     link: "https://github.com/fromjyce/BarCodeAttendanceSystem",
     contributor: "Solo Contributor",
     timeline: "March 2023 - May 2023",
