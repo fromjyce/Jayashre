@@ -4,8 +4,8 @@ import "../styles/Experience.css";
 
 function Experience () {
     return (
-      <div className="experience-main-container">
-        <div className="experience-actual-container" id="experience">
+      <div id="experience" className="experience-main-container">
+        <div className="experience-actual-container">
           <h1 className="experience-title">experience</h1>
           <div className="internship-experience-container">
             <h2 className="internship-main-title">Positions</h2>
@@ -18,7 +18,7 @@ function Experience () {
                     </div>
                     <a
                       className="experience-link-icon"
-                      href="/#"
+                      href="https://github.com/fromjyce/Visual-Based-Malware-Classification"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -73,7 +73,7 @@ function Experience () {
                     </div>
                     <a
                       className="experience-link-icon"
-                      href="/#"
+                      href="https://github.com/fromjyce/InfoAidTechPrograms"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -113,7 +113,7 @@ function Experience () {
                     </div>
                     <a
                       className="experience-link-icon"
-                      href="/#"
+                      href="https://github.com/fromjyce/CodSoftPrograms"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -154,7 +154,7 @@ function Experience () {
                     </div>
                     <a
                       className="experience-link-icon"
-                      href="/#"
+                      href="https://github.com/fromjyce/OasisInfoBytePrograms"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -195,7 +195,7 @@ function Experience () {
                     </div>
                     <a
                       className="experience-link-icon"
-                      href="/#"
+                      href="https://github.com/fromjyce/CodeAlphaPrograms"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -287,7 +287,7 @@ function Experience () {
                     </div>
                     <a
                       className="experience-link-icon"
-                      href="/#"
+                      href="https://github.com/fromjyce/InternPePrograms"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -325,7 +325,7 @@ function Experience () {
                 <strong className="company-name">AIG </strong>- Shields Up:
                 Cybersecurity Virtual Experience Program Participant
                 <a
-                  href="/#"
+                  href="https://drive.google.com/file/d/10oYpeOA89BCWXSthgq7nEZoWv6GcZPBj/view?usp=sharing"
                   className="virtual-icon-link"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -337,7 +337,19 @@ function Experience () {
                 <strong className="company-name">Accenture </strong>- Project
                 Management Virtual Experience Program Participant
                 <a
-                  href="/#"
+                  href="https://drive.google.com/file/d/1w7yeuRAZchHDU4bPoPOmpth5G2xwBrt3/view?usp=sharing"
+                  className="virtual-icon-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="ri-file-text-fill ve-certificate-icon"></i>
+                </a>
+              </li>
+              <li className="virtual-exp-list-item">
+                <strong className="company-name">Datacom </strong>- Introduction
+                to Cloud Virtual Experience Program Participant
+                <a
+                  href="https://drive.google.com/file/d/1lJxrzicpTptLrmwPIUVp4-LkJVIOYVJD/view?usp=sharing"
                   className="virtual-icon-link"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -349,7 +361,7 @@ function Experience () {
                 <strong className="company-name">Mastercard </strong>-
                 Cybersecurity Virtual Experience Program Participant
                 <a
-                  href="/#"
+                  href="https://drive.google.com/file/d/1yl6xdltwzcEnx0dtEwa9HnL8tA7Lm3yv/view?usp=sharing"
                   className="virtual-icon-link"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -361,7 +373,7 @@ function Experience () {
                 <strong className="company-name">Telstra </strong>-
                 Cybersecurity Virtual Experience Participant
                 <a
-                  href="/#"
+                  href="https://drive.google.com/file/d/1SrE4vhBoXjxqJOMkKIk4BG001vaFpxvM/view?usp=sharing"
                   className="virtual-icon-link"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -373,7 +385,7 @@ function Experience () {
                 <strong className="company-name">Datacom </strong>-
                 Cybersecurity Virtual Experience Program Participant
                 <a
-                  href="/#"
+                  href="https://drive.google.com/file/d/1UxDwUtjhGu7cp0FXt43gi5R8YN3YqMGS/view?usp=sharing"
                   className="virtual-icon-link"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -385,7 +397,7 @@ function Experience () {
                 <strong className="company-name">JPMorgan Chase & Co </strong>-
                 Cybersecurity Virtual Experience Program Participant
                 <a
-                  href="/#"
+                  href="https://drive.google.com/file/d/1P5hPAJ4Mu4ai5OpaMgKDM-Jn6jZK2gh3/view?usp=sharing"
                   className="virtual-icon-link"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -397,7 +409,7 @@ function Experience () {
                 <strong className="company-name">PwC </strong>- Cybersecurity
                 Virtual Case Experience Program Participant
                 <a
-                  href="/#"
+                  href="https://drive.google.com/file/d/1JaVzot87MvnxoTvr2Yu0fD3SEOYnkPR_/view?usp=sharing"
                   className="virtual-icon-link"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -409,7 +421,7 @@ function Experience () {
                 <strong className="company-name">ANZ </strong>- Cybersecurity
                 Management Virtual Experience Program Participant
                 <a
-                  href="/#"
+                  href="https://drive.google.com/file/d/1yAyF-W5VrkRPT2vJDdbA0eUREFvyr8Bg/view?usp=sharing"
                   className="virtual-icon-link"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -421,7 +433,7 @@ function Experience () {
                 <strong className="company-name">Clifford Chance </strong>-
                 Cybersecurity Global Virtual Internship Participant
                 <a
-                  href="/#"
+                  href="https://drive.google.com/file/d/1pGAi27YnkJyPa1VpPBwOG6BcvHTW-e2b/view?usp=sharing"
                   className="virtual-icon-link"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -434,7 +446,7 @@ function Experience () {
                 Development & Advanced Engineering Virtual Experience Program
                 Participant
                 <a
-                  href="/#"
+                  href="https://drive.google.com/file/d/1ZRMgLFVRzoINeBROBL_RtQ5W3wTrzvyS/view?usp=sharing"
                   className="virtual-icon-link"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -446,7 +458,7 @@ function Experience () {
                 <strong className="company-name">JPMorgan Chase & Co </strong>-
                 Agile Virtual Experience Program Participant
                 <a
-                  href="/#"
+                  href="https://drive.google.com/file/d/1_SnjRI2mNSw5FXeSSQm94s_lPkUHox2i/view?usp=sharing"
                   className="virtual-icon-link"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -458,7 +470,7 @@ function Experience () {
                 <strong className="company-name">Cognizant </strong>- Artificial
                 Intelligence Virtual Experience Program Participant
                 <a
-                  href="/#"
+                  href="https://drive.google.com/file/d/17lEy2FlKBTisG1r-s4-LYBA5Nhc3JqBy/view?usp=sharing"
                   className="virtual-icon-link"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -476,39 +488,50 @@ function Experience () {
                   ReSkilll & Microsoft Azure{" "}
                 </strong>
                 - #include &lt;her&gt; Cohort 2.0 - AI Cohort Mentee
-                <a
-                  href="/#"
-                  className="mentee-icon-link"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i class="ri-file-text-fill me-certificate-icon"></i>
-                </a>
               </li>
               <li className="mentee-exp-list-item">
                 <strong className="me-company-name">
                   ReSkilll & Microsoft Azure{" "}
                 </strong>
                 - #include &lt;her&gt; Cohort 3.0 Mentee
+              </li>
+              <li className="mentee-exp-list-item">
+                <strong className="me-company-name">SheCodes </strong>- SheCodes
+                Basic Workshop Mentee
                 <a
-                  href="/#"
+                  href="https://www.shecodes.io/certificates/18aa1523af82516a229ea6de6653974c"
                   className="mentee-icon-link"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <i class="ri-file-text-fill me-certificate-icon"></i>
                 </a>
+                <a
+                  href="https://github.com/fromjyce/SheCodes/tree/main/SheCodesBasics"
+                  className="mentee-icon-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="ri-github-fill me-certificate-icon-github"></i>
+                </a>
               </li>
               <li className="mentee-exp-list-item">
                 <strong className="me-company-name">SheCodes </strong>- SheCodes
                 Plus Workshop Mentee
                 <a
-                  href="/#"
+                  href="https://www.shecodes.io/certificates/ba7c2130b4fca4629ec6f2733ef6d6ec"
                   className="mentee-icon-link"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <i class="ri-file-text-fill me-certificate-icon"></i>
+                </a>
+                <a
+                  href="https://github.com/fromjyce/SheCodes/tree/main/SheCodesPlus"
+                  className="mentee-icon-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i class="ri-github-fill me-certificate-icon-github"></i>
                 </a>
               </li>
@@ -517,39 +540,41 @@ function Experience () {
                   ReSkilll & Microsoft Azure{" "}
                 </strong>
                 - #include &lt;her&gt; Cohort 4.0 Mentee
-                <a
-                  href="/#"
-                  className="mentee-icon-link"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i class="ri-file-text-fill me-certificate-icon"></i>
-                </a>
+              </li>
+              <li className="mentee-exp-list-item">
+                <strong className="me-company-name">Google </strong>- Code
+                Vipassana Season 4 Workshop
               </li>
               <li className="mentee-exp-list-item">
                 <strong className="me-company-name">Codess Cafe </strong>-
                 Student Mentee
-                <a
-                  href="/#"
-                  className="mentee-icon-link"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i class="ri-file-text-fill me-certificate-icon"></i>
-                </a>
+              </li>
+              <li className="mentee-exp-list-item">
+                <strong className="me-company-name">Google </strong>- Google Immersion Week Workshop
               </li>
               <li className="mentee-exp-list-item">
                 <strong className="me-company-name">SheCodes </strong>- SheCodes
                 Responsive Workshop Mentee
                 <a
-                  href="/#"
+                  href="https://www.shecodes.io/certificates/cbfc489663bed3a464d17c1b08787b70"
                   className="mentee-icon-link"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <i class="ri-file-text-fill me-certificate-icon"></i>
+                </a>
+                <a
+                  href="https://github.com/fromjyce/SheCodes/tree/main/SheCodesResponsive"
+                  className="mentee-icon-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i class="ri-github-fill me-certificate-icon-github"></i>
                 </a>
+              </li>
+              <li className="mentee-exp-list-item">
+                <strong className="me-company-name">Google </strong>- Code
+                Vipassana Season 5 Workshop
               </li>
             </ul>
           </div>
