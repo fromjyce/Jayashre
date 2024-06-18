@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 .skills-actual-container{
-    padding: 20px;
+    padding: 50px;
   margin-left: 3.8rem;
   background-color: #282c34;
   font-family: "Ubuntu", sans-serif;
@@ -13,7 +13,13 @@
     color: #98c379;
 }
 
-.program-langs-title, .technical-skills-title{
+.program-langs-title, .technical-skills-title, .products-title, .interpersonal-skills-title, .lang-skills-title{
   font-size: 1.7rem;
   color: #42a5f5;
+}
+
+.technical-skills-list, .program-langs-list, .products-list, .interpersonal-skills-list, .lang-skills-list{
+color: #f3f3f3;
+font-size: 0.95rem;
+font-weight: 500;
 }
