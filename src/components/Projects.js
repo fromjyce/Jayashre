@@ -193,8 +193,8 @@ const projects = [
 
 function Projects() {
   return (
-    <div className="projects-main-container">
-      <div className="projects-actual-container" id="projects">
+    <div id="projects" className="projects-main-container">
+      <div className="projects-actual-container">
         <h1 className="projects-title">projects</h1>
         <h2 className="projects-intro-title">
           Some of the projects I've worked on so far.
