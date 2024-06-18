@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.contact-actual-container {
+  padding: 50px;
+  margin-left: 3.8rem;
+  background-color: #282c34;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.contact-title{
+    font-size: 2.8rem;
+    font-weight: 475;
+    color: #98c379;
+}
+
+.contact-intro-title{
+    color: #42a5f5;
+}
+
+.contact-list{
+    list-style: square;
+    color: #c2c2c2;
+    font-size: 1.2rem;
+}
+
+.contact-list li::marker{
+    font-size: 1.2rem;
+}
+
+.contact-link{
+    text-decoration: none;
+    color: #c2c2c2;
+}
+
+.contact-list-item{
+    margin-bottom: 15px;
+}
+
+.contact-link:hover {
+    color: #636d83;
+    cursor: pointer;
+}
