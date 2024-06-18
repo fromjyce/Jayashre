@@ -14,8 +14,8 @@
     color: #98c379;
 }
 
-.achievements-intro-title {
-    font-size: 1.7rem;
+.achievements-list-title, .publications-title {
+   font-size: 1.7rem;
   color: #42a5f5;
 }
 
@@ -37,4 +37,59 @@
 .date-name{
     font-size: 1.125rem;
     color:#c678dd;
+}
+
+.pub-name-link-container{
+    display: flex;
+    flex-direction: row;
+    column-gap: 13px;
+    align-items: center;
+}
+
+.pub-link{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.publications-list{
+    list-style: square;
+}
+
+.publications-list li::marker {
+    font-size: 1.2rem;
+    color: #d19a66;
+}
+
+.publications-list-item{
+    margin-bottom: 10px;
+}
+
+.publication-name{
+    font-size: 1.2rem;
+    color: #d19a66;
+    font-weight: 500;
+}
+
+.paper-icon{
+    font-size: 1.4rem;
+    color: #db2b39;
+}
+
+.paper-icon:hover{
+    color: #9599a0;
+}
+
+.authors-list{
+    font-size: 1.095rem;
+    color: #f9f6ee;
+}
+
+.publisher{
+    font-size: 1.05rem;
+    font-style: italic;
+    color: #abb2bf;
+}
+
+.pub-name-link-container, .authors-list, .publisher {
+    margin-bottom: 5px;
 }

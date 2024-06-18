@@ -6,11 +6,92 @@ function Achievements() {
     return (
       <div className="achievements-main-container">
         <div className="achievements-actual-container" id="achievements">
-          <h1 className="achievements-title">experience</h1>
-          <h2 className="achievements-intro-title">
-            Some accomplishments I have achieved so far
-          </h2>
-          <div className="achieve-container">
+          <h1 className="achievements-title">achievements</h1>
+          <div className="publications-container">
+            <h2 className="publications-title">My Published Works</h2>
+            <ul className="publications-list">
+              <li className="publications-list-item">
+                <div className="publication-info-container">
+                  <div className="pub-name-link-container">
+                    <div className="publication-name">
+                      Safeguarding media integrity: A hybrid optimized deep
+                      feature fusion based deepfake detection in videos (2024)
+                    </div>
+                    <a
+                      className="pub-link"
+                      href="/#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="ri-article-fill paper-icon"></i>
+                    </a>
+                  </div>
+                  <div className="authors-list">
+                    <strong>Jayashre</strong> and M Amsaprabhaa
+                  </div>
+                  <div className="publisher">
+                    Q1 Journal, Computers & Security, Elsevier Advanced
+                    Technology
+                  </div>
+                </div>
+              </li>
+              <li className="publications-list-item">
+                <div className="publication-info-container">
+                  <div className="pub-name-link-container">
+                    <div className="publication-name">
+                      American Sign Language Real Time Detection Using
+                      TensorFlow and Keras in Python (2024)
+                    </div>
+                    <a
+                      className="pub-link"
+                      href="/#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="ri-article-fill paper-icon"></i>
+                    </a>
+                  </div>
+                  <div className="authors-list">
+                    <strong>Jayashre</strong>, M Amsaprabhaa, H Saadhvi Sree,
+                    Kavini Muthamizhvalavan, Nidhi Gummaraju, S Padmajaa
+                  </div>
+                  <div className="publisher">
+                    2024 3rd International Conference for Innovation in
+                    Technology (INOCON), IEEE
+                  </div>
+                </div>
+              </li>
+              <li className="publications-list-item">
+                <div className="publication-info-container">
+                  <div className="pub-name-link-container">
+                    <div className="publication-name">
+                      Bar Code Based Attendance System (2024)
+                    </div>
+                    <a
+                      className="pub-link"
+                      href="/#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="ri-article-fill paper-icon"></i>
+                    </a>
+                  </div>
+                  <div className="authors-list">
+                    <strong>Jayashre</strong>, M Amsaprabhaa, H Saadhvi Sree,
+                    Kavini Muthamizhvalavan, Nidhi Gummaraju, S Padmajaa
+                  </div>
+                  <div className="publisher">
+                    2023 Global Conference on Information Technologies and
+                    Communications (GCITC), IEEE
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2 className="achievements-list-title">
+              Some accomplishments I have achieved so far
+            </h2>
             <ul className="achievements-list">
               <li className="achievement-item">
                 <strong className="date-name">February 2023</strong>: Achieved
@@ -52,10 +133,7 @@ function Achievements() {
                 College, with a cash prize of Rs. 5000.
               </li>
             </ul>
-          </div>{" "}
-          <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />{" "}
-          <br />
-          <br />{" "}
+          </div>
         </div>
       </div>
     );
