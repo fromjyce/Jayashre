@@ -10,7 +10,7 @@ const projects = [
       "Designed a dynamic personal portfolio website showcasing my professional achievements, skills, experiences, achievements, and notable projects",
     link: "https://github.com/fromjyce/Jayashre",
     contributor: "Solo Contributor",
-    timeline: "Ongoing" /*January */,
+    timeline: "Ongoing - Managed by me" /*January */,
     stack: "React JS, HTML, CSS, Javascript, Figma, UX",
   },
   {
@@ -23,13 +23,52 @@ const projects = [
     stack: "Java, SwingFX, GUI, Cryptography",
   },
   {
+    title: "BlockSecure",
+    description:
+      "A cutting-edge solution revolutionizing secure voting systems with advanced encryption and blockchain-like mechanisms to ensure election integrity",
+    link: "https://github.com/fromjyce/BlockSecure",
+    contributor: "Team Contributor",
+    timeline: "Ongoing" /*January */,
+    stack:
+      "Next JS, ViteJS, ReactJS, HTML, CSS, JavaScript, Solidity, Ethereum, Figma",
+  },
+  {
+    title: "SecureDash",
+    description:
+      "A real-time monitoring dashboard leveraging machine learning to enhance Smart Grid security against cyber threats.",
+    link: "https://github.com/fromjyce/SecureDash",
+    contributor: "Solo Contributor",
+    timeline: "March 2024 - May 2024",
+    stack:
+      "Electron JS, HTML, CSS, Javascript, Scapy, Flask, Python, MySQL, PowerBI, CICDDOS2019 Dataset",
+  },
+  {
+    title: "BotDetect",
+    description:
+      "A graph-based ML model for botnet detection utilizing feature selection to enhance detection rates, reduce complexity, and improve robustness against zero-day attacks.",
+    link: "https://github.com/fromjyce/BotDetect",
+    contributor: "Team Contributor",
+    timeline: "March 2024 - April 2024",
+    stack:
+      "Python, Machine Learning, Flask, Pickle & Parquet Files, HTML, CSS, Javascript, CTU-13 Dataset, Wireshark, Scapy, Graph Tool",
+  },
+  {
+    title: "Diamond Bidding Game",
+    description:
+      "A graphical card game using Pygame, where players compete against the computer by selecting and bidding cards to achieve the highest score.",
+    link: "https://github.com/fromjyce/WE-Module3/tree/main/GenAI-Assignment-6",
+    contributor: "Solo Contributor",
+    timeline: "March 2024",
+    stack: "Python, Algorithms, PyGame, Tkinter",
+  },
+  {
     title: "Algorithmic Trading Model Development",
     description:
       "Development of an Algorithmic Trading Model for the BTC/USDT Crypto Market",
     link: "https://github.com/fromjyce/Algorithmic-Trading",
     contributor: "Team Contributor",
     timeline: "January 2024" /*January */,
-    stack: "Python, Machine Learning, Trading",
+    stack: "Python, Machine Learning, Trading, Deep Learning",
   },
   {
     title: "HireMeHorizon: Smart Campus Recruiter",
@@ -48,7 +87,7 @@ const projects = [
     link: "https://github.com/fromjyce/DeepfakeDetection",
     contributor: "Solo Contributor",
     timeline: "October 2023 - December 2023",
-    stack: "Python, Deep Learning, ",
+    stack: "Python, Deep Learning, Tensorflow-Keras, Flask, Numpy, OpenCV",
   },
   {
     title: "PenGUIn",
@@ -57,7 +96,7 @@ const projects = [
     link: "https://github.com/fromjyce/PenGUIn",
     contributor: "Team Contributor",
     timeline: "October 2023 - December 2023",
-    stack: "Shell Scripting, Operating System, PyGTK, OS Hardening",
+    stack: "Shell Scripting, Ubuntu - Operating System, PyGTK, OS Hardening",
   },
   {
     title: "AirPic",
@@ -148,7 +187,7 @@ const projects = [
     link: "https://github.com/fromjyce/SongPlayer-In-C",
     contributor: "Solo Contributor",
     timeline: "October 2022 - December 2022",
-    stack: "C, Terminal Emulation",
+    stack: "C, Terminal Emulation, Code::Blocks",
   },
 ];
 
