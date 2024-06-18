@@ -40,7 +40,7 @@ const projects = [
     contributor: "Solo Contributor",
     timeline: "March 2024 - May 2024",
     stack:
-      "Electron JS, HTML, CSS, Javascript, Scapy, Flask, Python, MySQL, PowerBI, CICDDOS2019 Dataset",
+      "Electron JS, HTML, CSS, Javascript, Scapy, Flask, Python, MySQL, PowerBI, CICDDOS2019 Dataset, Machine Learning, Deep Learning",
   },
   {
     title: "BotDetect",
