@@ -45,6 +45,11 @@
   cursor: pointer;
 }
 
+.home-link-item{
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .button-one, .button-two, .middle-button-container{
   display: flex;
   flex-direction: row;

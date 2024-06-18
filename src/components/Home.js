@@ -1,12 +1,12 @@
 import React from "react";
 import "../styles/Home.css";
 import Typewriter from "typewriter-effect";
-import { Link } from "react-scroll";
+import { NavLink } from "react-router-dom";
 
 function Home() {
   return (
     <div className="home-main-container">
-      <div className="home-container">
+      <div id="home" className="home-container">
         <h1 className="centered-text">Hi! I'm Jayashre.</h1>
         <div className="typewriting-effect-container">
           <p className="prefix-text">I'm </p>
@@ -28,32 +28,32 @@ function Home() {
         </div>
         <div className="centered-buttons-container">
           <div className="side-by-side-buttons-container">
-            <a className="home-link" href="/#">
+            <a className="home-link" href="https://github.com/fromjyce">
               <div className="button-one">
                 <i class="ri-github-fill button-icon"></i>
                 <div className="button-one-title">Follow! @fromjyce</div>
               </div>
             </a>
-            <a className="home-link" href="/#">
+            <a
+              className="home-link"
+              href="https://www.linkedin.com/in/jayashrek/"
+            >
               <div className="button-two">
                 <i class="ri-linkedin-box-fill button-icon"></i>
                 <div className="button-two-title">Connect with me!</div>
               </div>
             </a>
           </div>
-          <Link
-            to="/#"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
+          <NavLink
+            to="/contact"
             className="home-link-item"
+            activeClassName="active"
           >
-            <div className="middle-button-container">
-              <i class="ri-telegram-2-fill button-icon"></i>
-              <div className="middle-button-title">Contact Me!</div>
-            </div>
-          </Link>
+              <div className="middle-button-container">
+                <i class="ri-telegram-2-fill button-icon"></i>
+                <div className="middle-button-title">Contact Me!</div>
+              </div>
+          </NavLink>
         </div>
       </div>
     </div>
