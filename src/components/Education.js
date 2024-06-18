@@ -185,7 +185,7 @@ function Education() {
                     </div>
                     <a
                       href="/#"
-                      className="certification-icon-link "
+                      className="certification-icon-link"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
