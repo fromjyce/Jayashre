@@ -21,7 +21,7 @@
     align-items: center;
 }
 
-.left-icon:hover, .right-icon:hover, .center-text:hover {
+.footer-link:hover, .center-text:hover {
     cursor: pointer;
     color: #9599a0;
 }
@@ -39,4 +39,10 @@
     text-align: center;
     flex-grow: 1;
     color: #f9f6ee;
+}
+
+.footer-link {
+    text-decoration: none;
+    cursor: pointer;
+    color: #9599a0;
 }
