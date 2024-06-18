@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.education-actual-container {
+  padding: 50px;
+  margin-left: 3.8rem;
+  background-color: #282c34;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.education-title{
+    font-size: 2.8rem;
+    font-weight: 475;
+    color: #98c379;
+}
+
+.academic-background-container {
+  margin-top: -10px;
+}
+
+.academic-background-title, .certifications-title {
+  color: #42a5f5;
+}
+
+.academic-background-list{
+  list-style: square;
+}
+
+.academic-background-list li::marker {
+    font-size: 1.2rem;
+    color: #abb2bf; 
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.institution-name, .major-name, .degree-name, .acad-timeline{
+  margin-bottom: 4.2px;
+}
+
+.institution-name {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #abb2bf;
+}
+
+.major-name {
+  font-size: 1.2rem;
+  font-weight: 450;
+  color: #d19a66;
+}
+
+.degree-name {
+  font-size: 1.09rem;
+  font-weight: 450;
+  color: #56b6c2;
+}
+
+.acad-timeline {
+  font-size: 1.05rem;
+  font-style: italic;
+  color: #909295;
+}
+
+.college-courses-list-container{
+  margin-left: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.courses-list-title{
+  font-size: 1.125rem;
+  font-weight: 490;
+  color: #ffca28;
+}
+
+.courses-list {
+  list-style: decimal;
+  margin-top: 7px;
+  color: #f3f3f3;
+  font-size: 1.04rem;
+}
+
+.courses-list li::marker {
+    font-size: 1.04rem;
+    color: #f3f3f3; 
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.certifications-list{
+  margin-top: -4px;
+  list-style: square;
+}
+
+.certifications-list li::marker {
+    font-size: 1.095rem;
+    color: #f3f3f3; 
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.certifications-list-item{
+  margin-bottom: 15px;
+}
+
+.certification-icon-link{
+  text-decoration: none;
+  color: #e44d26;
+}
+
+.certification-icon-link:hover {
+  color: #9599a0;
+}
+
+.certification-name-icon-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  color: #f3f3f3;
+  align-items: center;
+}
+
+.certification-name{
+  font-size: 1.095rem;
+}
+
+.certificate-icon {
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+.certification-name-icon-container, .certification-company{
+  margin-bottom: 3px;
+}
+
+.certification-company{
+  font-size: 1.09rem;
+  color: #909295;
+  font-style: italic;
+}
