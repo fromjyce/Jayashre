@@ -8,7 +8,7 @@ function Experience () {
         <div className="experience-actual-container">
           <h1 className="experience-title">experience</h1>
           <div className="internship-experience-container">
-            <h2 className="internship-main-title">Internship Experience</h2>
+            <h2 className="internship-main-title">Positions</h2>
             <ul className="internship-list">
               <li className="internship-list-item">
                 <div className="internship-info-container">
@@ -316,11 +316,242 @@ function Experience () {
               </li>
             </ul>
           </div>
-          <div className="mentee-experience-container">
-            <h2 className="mentee-main-title">Mentee Experience</h2>
-          </div>
           <div className="virtual-experience-container">
-            <h2 className="virtual-main-title">Virtual Experience</h2>
+            <h2 className="virtual-main-title">
+              Virtual Experience Program Participation
+            </h2>
+            <ul className="virtual-exp-list">
+              <li className="virtual-exp-list-item">
+                <strong className="company-name">AIG </strong>- Shields Up:
+                Cybersecurity Virtual Experience Program Participant
+                <a
+                  href="/#"
+                  className="virtual-icon-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="ri-file-text-fill ve-certificate-icon"></i>
+                </a>
+              </li>
+              <li className="virtual-exp-list-item">
+                <strong className="company-name">Accenture </strong>- Project
+                Management Virtual Experience Program Participant
+                <a
+                  href="/#"
+                  className="virtual-icon-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="ri-file-text-fill ve-certificate-icon"></i>
+                </a>
+              </li>
+              <li className="virtual-exp-list-item">
+                <strong className="company-name">Mastercard </strong>-
+                Cybersecurity Virtual Experience Program Participant
+                <a
+                  href="/#"
+                  className="virtual-icon-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="ri-file-text-fill ve-certificate-icon"></i>
+                </a>
+              </li>
+              <li className="virtual-exp-list-item">
+                <strong className="company-name">Telstra </strong>-
+                Cybersecurity Virtual Experience Participant
+                <a
+                  href="/#"
+                  className="virtual-icon-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="ri-file-text-fill ve-certificate-icon"></i>
+                </a>
+              </li>
+              <li className="virtual-exp-list-item">
+                <strong className="company-name">Datacom </strong>-
+                Cybersecurity Virtual Experience Program Participant
+                <a
+                  href="/#"
+                  className="virtual-icon-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="ri-file-text-fill ve-certificate-icon"></i>
+                </a>
+              </li>
+              <li className="virtual-exp-list-item">
+                <strong className="company-name">JPMorgan Chase & Co </strong>-
+                Cybersecurity Virtual Experience Program Participant
+                <a
+                  href="/#"
+                  className="virtual-icon-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="ri-file-text-fill ve-certificate-icon"></i>
+                </a>
+              </li>
+              <li className="virtual-exp-list-item">
+                <strong className="company-name">PwC </strong>- Cybersecurity
+                Virtual Case Experience Program Participant
+                <a
+                  href="/#"
+                  className="virtual-icon-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="ri-file-text-fill ve-certificate-icon"></i>
+                </a>
+              </li>
+              <li className="virtual-exp-list-item">
+                <strong className="company-name">ANZ </strong>- Cybersecurity
+                Management Virtual Experience Program Participant
+                <a
+                  href="/#"
+                  className="virtual-icon-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="ri-file-text-fill ve-certificate-icon"></i>
+                </a>
+              </li>
+              <li className="virtual-exp-list-item">
+                <strong className="company-name">Clifford Chance </strong>-
+                Cybersecurity Global Virtual Internship Participant
+                <a
+                  href="/#"
+                  className="virtual-icon-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="ri-file-text-fill ve-certificate-icon"></i>
+                </a>
+              </li>
+              <li className="virtual-exp-list-item">
+                <strong className="company-name">Accenture </strong>- Coding:
+                Development & Advanced Engineering Virtual Experience Program
+                Participant
+                <a
+                  href="/#"
+                  className="virtual-icon-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="ri-file-text-fill ve-certificate-icon"></i>
+                </a>
+              </li>
+              <li className="virtual-exp-list-item">
+                <strong className="company-name">JPMorgan Chase & Co </strong>-
+                Agile Virtual Experience Program Participant
+                <a
+                  href="/#"
+                  className="virtual-icon-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="ri-file-text-fill ve-certificate-icon"></i>
+                </a>
+              </li>
+              <li className="virtual-exp-list-item">
+                <strong className="company-name">Cognizant </strong>- Artificial
+                Intelligence Virtual Experience Program Participant
+                <a
+                  href="/#"
+                  className="virtual-icon-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="ri-file-text-fill ve-certificate-icon"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div className="mentee-experience-container">
+            <h2 className="mentee-main-title">Mentee & Workshop Experience</h2>
+            <ul className="mentee-exp-list">
+              <li className="mentee-exp-list-item">
+                <strong className="me-company-name">
+                  ReSkilll & Microsoft Azure{" "}
+                </strong>
+                - #include &lt;her&gt; Cohort 2.0 - AI Cohort Mentee
+                <a
+                  href="/#"
+                  className="mentee-icon-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="ri-file-text-fill me-certificate-icon"></i>
+                </a>
+              </li>
+              <li className="mentee-exp-list-item">
+                <strong className="me-company-name">
+                  ReSkilll & Microsoft Azure{" "}
+                </strong>
+                - #include &lt;her&gt; Cohort 3.0 Mentee
+                <a
+                  href="/#"
+                  className="mentee-icon-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="ri-file-text-fill me-certificate-icon"></i>
+                </a>
+              </li>
+              <li className="mentee-exp-list-item">
+                <strong className="me-company-name">SheCodes </strong>- SheCodes
+                Plus Workshop Mentee
+                <a
+                  href="/#"
+                  className="mentee-icon-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="ri-file-text-fill me-certificate-icon"></i>
+                  <i class="ri-github-fill me-certificate-icon-github"></i>
+                </a>
+              </li>
+              <li className="mentee-exp-list-item">
+                <strong className="me-company-name">
+                  ReSkilll & Microsoft Azure{" "}
+                </strong>
+                - #include &lt;her&gt; Cohort 4.0 Mentee
+                <a
+                  href="/#"
+                  className="mentee-icon-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="ri-file-text-fill me-certificate-icon"></i>
+                </a>
+              </li>
+              <li className="mentee-exp-list-item">
+                <strong className="me-company-name">Codess Cafe </strong>-
+                Student Mentee
+                <a
+                  href="/#"
+                  className="mentee-icon-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="ri-file-text-fill me-certificate-icon"></i>
+                </a>
+              </li>
+              <li className="mentee-exp-list-item">
+                <strong className="me-company-name">SheCodes </strong>- SheCodes
+                Responsive Workshop Mentee
+                <a
+                  href="/#"
+                  className="mentee-icon-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="ri-file-text-fill me-certificate-icon"></i>
+                  <i class="ri-github-fill me-certificate-icon-github"></i>
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
