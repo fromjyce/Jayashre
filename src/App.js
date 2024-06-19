@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
 import HeaderFooter from "./components/Header-Footer";
 import Home from "./components/Home";
 import Skills from "./components/Skills";
@@ -14,8 +14,8 @@ function App() {
     <HashRouter>
       <HeaderFooter>
         <Routes>
-          <Route index path="/" element={<Home />} />
-          <Route path="/Jayashre" element={<Navigate to="/" />} />
+          <Route path="/" element={<Navigate to="/home" />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/education" element={<Education />} />

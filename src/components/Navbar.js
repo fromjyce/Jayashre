@@ -8,7 +8,7 @@ function Navbar() {
     <div className="navbar-main-container" id="navbar">
       <div className="navbar-actual-container">
         <NavLink
-          to="/Jayashre"
+          to="/home"
           className="navbar-link-item-home"
           activeClassName="active"
         >
