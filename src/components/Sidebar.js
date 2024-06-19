@@ -61,7 +61,7 @@ function Sidebar() {
           <div className="sidebar-item resume-five">
             <a
               className="icon-link"
-              href={require("../assets/resume.pdf")}
+              href={`${process.env.PUBLIC_URL}/resume.pdf`}
               download
             >
               <i class="ri-mail-download-fill side-icon"></i>
