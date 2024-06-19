@@ -89,7 +89,7 @@ function Sidebar() {
         </Tippy>
         <div className="bottom-icons">
           <div className="account-icon">
-            <NavLink className="icon-link" to="/Jayashre">
+            <NavLink className="icon-link" to="/home">
               <i class="ri-account-circle-fill side-icon"></i>
             </NavLink>
           </div>
