@@ -14,34 +14,6 @@ function Experience () {
                 <div className="internship-info-container">
                   <div className="internship-name-icon-container">
                     <div className="internship-name">
-                      Summer Research Fellow 2024
-                    </div>
-                    <a
-                      className="experience-link-icon"
-                      href="https://github.com/fromjyce/Visual-Based-Malware-Classification"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i class="ri-github-fill experience-icon"></i>
-                    </a>
-                  </div>
-                  <div className="internship-company">
-                    Indian Academy of Sciences, Bengaluru, Indian National
-                    Science Academy - INSA, New Delhi and The National Academy
-                    of Sciences - India, Allahabad
-                  </div>
-                  <div className="internship-timeline">May 2024 - Ongoing</div>
-                  <div className="stack-skills">
-                    <strong>Skills & Concepts: </strong>Machine Learning,
-                    Malware Classification, Image Processing
-                  </div>
-                  <div className="internship-description">Ongoing</div>
-                </div>
-              </li>
-              <li className="internship-list-item">
-                <div className="internship-info-container">
-                  <div className="internship-name-icon-container">
-                    <div className="internship-name">
                       Educational Operations Coordinator
                     </div>
                   </div>
@@ -62,6 +34,42 @@ function Experience () {
                     preparing assignments and question papers, and addressing
                     any software or technical issues that may arise during
                     classes.
+                  </div>
+                </div>
+              </li>
+              <li className="internship-list-item">
+                <div className="internship-info-container">
+                  <div className="internship-name-icon-container">
+                    <div className="internship-name">
+                      Summer Research Fellow 2024
+                    </div>
+                    <a
+                      className="experience-link-icon"
+                      href="https://github.com/fromjyce/Visual-Based-Malware-Classification"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="ri-github-fill experience-icon"></i>
+                    </a>
+                  </div>
+                  <div className="internship-company">
+                    Indian Academy of Sciences, Bengaluru, Indian National
+                    Science Academy - INSA, New Delhi and The National Academy
+                    of Sciences - India, Allahabad
+                  </div>
+                  <div className="internship-timeline">
+                    May 2024 - July 2024
+                  </div>
+                  <div className="stack-skills">
+                    <strong>Skills & Concepts: </strong>Machine Learning,
+                    Malware Classification, Image Processing, Deep Learning,
+                    Technical Documentation
+                  </div>
+                  <div className="internship-description">
+                    Conducted research on visual-based malware classification
+                    using image processing and machine learning techniques under
+                    the guidance of Dr. Pavan Kumar C at IIIT Dharwad as an
+                    IAS-NASI-INSA Summer Research Fellow.
                   </div>
                 </div>
               </li>
@@ -550,7 +558,8 @@ function Experience () {
                 Student Mentee
               </li>
               <li className="mentee-exp-list-item">
-                <strong className="me-company-name">Google </strong>- Google Immersion Week Workshop
+                <strong className="me-company-name">Google </strong>- Google
+                Immersion Week Workshop
               </li>
               <li className="mentee-exp-list-item">
                 <strong className="me-company-name">SheCodes </strong>- SheCodes
