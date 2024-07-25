@@ -21,16 +21,27 @@ const projects = [
     contributor: "Solo Contributor",
     timeline: "Ongoing" /*December */,
     stack: "Java, SwingFX, GUI, Cryptography",
-  },
+  } /*
   {
     title: "BlockSecure",
     description:
       "A cutting-edge solution revolutionizing secure voting systems with advanced encryption and blockchain-like mechanisms to ensure election integrity.",
     link: "https://github.com/fromjyce/BlockSecure",
     contributor: "Team Contributor",
-    timeline: "Ongoing" /*January */,
+    timeline: "Ongoing" /*January */ /*
     stack:
       "Next JS, ViteJS, ReactJS, HTML, CSS, JavaScript, Solidity, Ethereum, Figma",
+  },*/,
+  ,
+  {
+    title: "Visual Based Malware Classification",
+    description:
+      "Developed a visual-based malware classification system leveraging image processing and machine learning techniques to enhance detection accuracy and efficiency.",
+    link: "https://github.com/fromjyce/Visual-Based-Malware-Classification",
+    contributor: "Solo Contributor",
+    timeline: "May 2024 - July 2024",
+    stack:
+      "Python, Deep Learning, Machine Learning, Image Processing, Feature Extraction, Malware Analysis",
   },
   {
     title: "SecureDash",

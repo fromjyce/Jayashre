@@ -11,16 +11,6 @@ function Sidebar() {
   return (
     <div className="sidebar-main-container" id="sidebar">
       <div className="sidebar-container">
-        <div className="sidebar-item leetcode-zero">
-          <a
-            className="icon-link"
-            href="https://leetcode.com/u/jaya2004kra/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <SiLeetcode className="side-icon" />
-          </a>
-        </div>
         <div className="sidebar-item discord-one">
           <a
             className="icon-link"
@@ -59,6 +49,16 @@ function Sidebar() {
             rel="noopener noreferrer"
           >
             <i class="ri-linkedin-box-fill side-icon"></i>
+          </a>
+        </div>
+        <div className="sidebar-item leetcode-zero">
+          <a
+            className="icon-link"
+            href="https://leetcode.com/u/jaya2004kra/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <SiLeetcode className="side-icon" />
           </a>
         </div>
         <Tippy
