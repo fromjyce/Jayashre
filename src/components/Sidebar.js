@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Sidebar.css";
 import "remixicon/fonts/remixicon.css";
+import { SiLeetcode } from "react-icons/si";
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
 import "tippy.js/animations/scale.css";
@@ -10,6 +11,16 @@ function Sidebar() {
   return (
     <div className="sidebar-main-container" id="sidebar">
       <div className="sidebar-container">
+        <div className="sidebar-item leetcode-zero">
+          <a
+            className="icon-link"
+            href="https://leetcode.com/u/jaya2004kra/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <SiLeetcode className="side-icon" />
+          </a>
+        </div>
         <div className="sidebar-item discord-one">
           <a
             className="icon-link"
