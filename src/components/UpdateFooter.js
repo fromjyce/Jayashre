@@ -17,7 +17,7 @@ function UpdateFooter() {
             <span>main</span>
           </div>
         </a>
-        <div className="center-text">Last Updated on June 2024</div>
+        <div className="center-text">Last Updated on July 2024</div>
         <NavLink className="footer-link" to="/contact">
           <div className="right-icon">
             <i class="ri-user-smile-fill"></i>
