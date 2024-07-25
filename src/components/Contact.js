@@ -13,6 +13,16 @@ function Contact () {
               <li className="contact-list-item">
                 <a
                   className="contact-link"
+                  href="https://leetcode.com/u/jaya2004kra/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Leetcode
+                </a>
+              </li>
+              <li className="contact-list-item">
+                <a
+                  className="contact-link"
                   href="https://github.com/fromjyce"
                   target="_blank"
                   rel="noopener noreferrer"
