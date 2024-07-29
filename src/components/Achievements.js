@@ -14,6 +14,30 @@ function Achievements() {
                 <div className="publication-info-container">
                   <div className="pub-name-link-container">
                     <div className="publication-name">
+                      Integrating Cyber-Physical Systems for Enhanced Efficiency
+                      in Healthcare Solutions (2024)
+                    </div>
+                    <a
+                      className="pub-link"
+                      href="https://www.igi-global.com/gateway/chapter/352443"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="ri-article-fill paper-icon"></i>
+                    </a>
+                  </div>
+                  <div className="authors-list">
+                    <strong>Jayashre</strong>, Padmavathi U, Harshitha R S, Nidhi Gummaraju
+                  </div>
+                  <div className="publisher">
+                    Technologies for Sustainable Healthcare Development, IGI Global
+                  </div>
+                </div>
+              </li>
+              <li className="publications-list-item">
+                <div className="publication-info-container">
+                  <div className="pub-name-link-container">
+                    <div className="publication-name">
                       Safeguarding media integrity: A hybrid optimized deep
                       feature fusion based deepfake detection in videos (2024)
                     </div>
