@@ -91,6 +91,7 @@ function Skills() {
               <li className="products-list-item">Remix IDE</li>
               <li className="products-list-item">Truffle Suite</li>
               <li className="products-list-item">Nmap</li>
+              <li className="products-list-item">PowerBI</li>
               <li className="products-list-item">Vercel</li>
               <li className="products-list-item">Nessus</li>
               <li className="products-list-item">Google Cloud Platform</li>
