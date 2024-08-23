@@ -10,6 +10,29 @@ function Achievements() {
           <div className="publications-container">
             <h2 className="publications-title">My Published Works</h2>
             <ul className="publications-list">
+            <li className="publications-list-item">
+                <div className="publication-info-container">
+                  <div className="pub-name-link-container">
+                    <div className="publication-name">
+Examining Architectural Aspects of Hyperledger Fabric: A Thorough Review (2024)
+                    </div>
+                    <a
+                      className="pub-link"
+                      href="https://ieeexplore.ieee.org/document/10616336"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="ri-article-fill paper-icon"></i>
+                    </a>
+                  </div>
+                  <div className="authors-list">
+                    <strong>Jayashre</strong>, Padmavathi U, Harshitha R S, Nidhi Gummaraju
+                  </div>
+                  <div className="publisher">
+                  2024 International Conference on Innovations and Challenges in Emerging Technologies (ICICET), IEEE
+                  </div>
+                </div>
+              </li>
               <li className="publications-list-item">
                 <div className="publication-info-container">
                   <div className="pub-name-link-container">
