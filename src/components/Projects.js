@@ -69,7 +69,7 @@ const projects = [
     contributor: "Team Contributor",
     timeline: "March 2024 - April 2024",
     stack:
-      "Python, Machine Learning, Flask, Pickle & Parquet Files, HTML, CSS, Javascript, CTU-13 Dataset, Wireshark, Scapy, Graph Tool",
+      "Python, Machine Learning, Flask, Pickle & Parquet Files, HTML/CSS, Javascript, CTU-13 Dataset, Wireshark, Scapy, Graph Tool",
   },
   {
     title: "Diamond Bidding Game",
@@ -97,7 +97,7 @@ const projects = [
     contributor: "Team Contributor",
     timeline: "October 2023 - December 2023",
     stack:
-      "Python, HTML, CSS, Javascript, Flask, MySQL, React, Figma, Machine Learning, UX",
+      "Python, HTML/CSS, Javascript, Flask, MySQL, React JS, Figma, Machine Learning, UX",
   },
   {
     title: "Deepfake Detection with InceptionResNetV2-BiLSTM",
@@ -134,7 +134,7 @@ const projects = [
     link: "https://github.com/fromjyce/OpenChain",
     contributor: "Solo Contributor",
     timeline: "October 2023 - November 2023",
-    stack: "Solidity, Remix IDE, Thirdweb, Blockchain, Ethereum",
+    stack: "Solidity, Remix IDE, Thirdweb, Blockchain, Ethereum, HTML/CSS, JavaScript",
   },/*
   {
     title: "Student Management System",
