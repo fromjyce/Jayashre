@@ -18,7 +18,7 @@ function Home() {
                 "a Researcher.",
                 "an almost Full Stack Developer.",
                 "a Blockchain Enthusiast.",
-                "a Data Engineer",
+                "a Data Engineer.",
                 "a CTF Player.",
                 "Open for Work.",
               ],
