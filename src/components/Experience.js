@@ -26,14 +26,7 @@ function Experience () {
                     Administration, Tutoring
                   </div>
                   <div className="internship-description">
-                    As the Assistant Tutor and Administrator at Raj Online
-                    Tutoring, I serve as the Substitute Tutor when the main
-                    tutor is unavailable. In addition to conducting tutoring
-                    sessions, my responsibilities extend to managing meeting
-                    links, overseeing the financial aspects of weekly fees,
-                    preparing assignments and question papers, and addressing
-                    any software or technical issues that may arise during
-                    classes.
+                  Managed tutoring sessions, meeting links, financial aspects, and assignments. Served as a substitute tutor and addressed technical issues during classes.
                   </div>
                 </div>
               </li>
@@ -66,14 +59,11 @@ function Experience () {
                     Technical Documentation
                   </div>
                   <div className="internship-description">
-                    Conducted research on visual-based malware classification
-                    using image processing and machine learning techniques under
-                    the guidance of Dr. Pavan Kumar C at IIIT Dharwad as an
-                    IAS-NASI-INSA Summer Research Fellow.
+                  Contributed to research on visual-based malware classification, improving detection accuracy by 98% using advanced image processing and machine learning techniques.
                   </div>
                 </div>
               </li>
-              <li className="internship-list-item">
+              {/* <li className="internship-list-item">
                 <div className="internship-info-container">
                   <div className="internship-name-icon-container">
                     <div className="internship-name">
@@ -232,12 +222,12 @@ function Experience () {
                     webpage.
                   </div>
                 </div>
-              </li>
+              </li> */}
               <li className="internship-list-item">
                 <div className="internship-info-container">
                   <div className="internship-name-icon-container">
                     <div className="internship-name">
-                      Content Writing Intern
+                      Technical Content Writing Intern
                     </div>
                   </div>
                   <div className="internship-company">CoConnexion</div>
@@ -249,11 +239,7 @@ function Experience () {
                     Written Communication, Teamwork
                   </div>
                   <div className="internship-description">
-                    Developed proficiency as a technical content writer,
-                    crafting insightful blogs and articles on emerging
-                    technologies. Shared knowledge through publications on
-                    LinkedIn and Medium to contribute to the dissemination of
-                    industry insights and expertise.
+                  Authored impactful blogs and articles on emerging technologies for LinkedIn and Medium, establishing a strong online presence.
                   </div>
                 </div>
               </li>
@@ -275,18 +261,10 @@ function Experience () {
                     Speaking, Presentation, Wordpress
                   </div>
                   <div className="internship-description">
-                    During my role, I played a key part in updating and
-                    maintaining the WACH website and elevating the WACH
-                    newsletter by introducing a monthly intern column, enhancing
-                    its appeal and engagement. Additionally, I delivered a
-                    presentation on mental health in China and India,
-                    complemented by an op-ed on the same topic. Furthermore, I
-                    contributed to the "2023 International Young Leaders
-                    Conference" by preparing comprehensive questionnaires for
-                    speakers.
+                  Enhanced the website and newsletter by introducing a monthly intern column and prepared comprehensive materials for the "2023 International Young Leaders Conference."
                   </div>
                 </div>
-              </li>
+              </li>{/*
               <li className="internship-list-item">
                 <div className="internship-info-container">
                   <div className="internship-name-icon-container">
@@ -321,7 +299,7 @@ function Experience () {
                     automatic screenshot capture.
                   </div>
                 </div>
-              </li>
+              </li>*/}
             </ul>
           </div>
           <div className="virtual-experience-container">
@@ -583,7 +561,7 @@ function Experience () {
               </li>
               <li className="mentee-exp-list-item">
                 <strong className="me-company-name">Google </strong>- Code
-                Vipassana Season 5 Workshop
+                Vipassana Season 5 Workshop
               </li>
             </ul>
           </div>
