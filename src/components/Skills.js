@@ -10,6 +10,9 @@ function Skills() {
           <div className="technical-skills-container">
             <h2 className="technical-skills-title">Technical Skills</h2>
             <ul className="technical-skills-list">
+            <li className="technical-skills-list-item">
+                Data Engineering
+              </li>
               <li className="technical-skills-list-item">
                 Responsive Web Design Development
               </li>
@@ -57,6 +60,7 @@ function Skills() {
               <li className="program-langs-list-item">Sass</li>
               <li className="program-langs-list-item">Javascript</li>
               <li className="program-langs-list-item">Flask</li>
+              <li className="program-langs-list-item">Fast API</li>
               <li className="program-langs-list-item">React JS</li>
               <li className="program-langs-list-item">Node JS</li>
               <li className="program-langs-list-item">PostgreSQL</li>
