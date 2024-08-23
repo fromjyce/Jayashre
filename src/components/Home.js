@@ -14,10 +14,11 @@ function Home() {
             options={{
               strings: [
                 "a Cybersecurity Student.",
+                "a Data Science buff.",
                 "a Researcher.",
-                "a Web Developer.",
-                "an almost Front-End Developer.",
+                "an almost Full Stack Developer.",
                 "a Blockchain Enthusiast.",
+                "a Data Engineer",
                 "a CTF Player.",
                 "Open for Work.",
               ],
