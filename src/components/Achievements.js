@@ -14,6 +14,52 @@ function Achievements() {
                 <div className="publication-info-container">
                   <div className="pub-name-link-container">
                     <div className="publication-name">
+                    Blockchain-Based IoT Computing Services in Medical Healthcare (2024)
+                    </div>
+                    <a
+                      className="pub-link"
+                      href="https://www.igi-global.com/chapter/blockchain-based-iot-computing-services-in-medical-healthcare/355139"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="ri-article-fill paper-icon"></i>
+                    </a>
+                  </div>
+                  <div className="authors-list">
+                    <strong>Jayashre</strong>, Padmavathi U
+                  </div>
+                  <div className="publisher">
+                  Applying Internet of Things and Blockchain in Smart Cities: Industry and Healthcare Perspectives, IGI Global
+                  </div>
+                </div>
+              </li>
+            <li className="publications-list-item">
+                <div className="publication-info-container">
+                  <div className="pub-name-link-container">
+                    <div className="publication-name">
+                    Campus Placement and Salary Prediction: Leveraging Machine Learning for Enhanced Employability (2024)
+                    </div>
+                    <a
+                      className="pub-link"
+                      href="https://link.springer.com/chapter/10.1007/978-3-031-69986-3_9"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="ri-article-fill paper-icon"></i>
+                    </a>
+                  </div>
+                  <div className="authors-list">
+                    <strong>Jayashre</strong>, Raahul R, Roahith R, Shanmathi Ganesan 
+                  </div>
+                  <div className="publisher">
+                  Computational Intelligence in Data Science, ICCIDS 2024, Springer Nature
+                  </div>
+                </div>
+              </li>
+            <li className="publications-list-item">
+                <div className="publication-info-container">
+                  <div className="pub-name-link-container">
+                    <div className="publication-name">
 Examining Architectural Aspects of Hyperledger Fabric: A Thorough Review (2024)
                     </div>
                     <a
