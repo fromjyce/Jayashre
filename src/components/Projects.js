@@ -19,28 +19,9 @@ const projects = [
       "Developed a high-accuracy phishing detection solution using a Chrome extension, ReactJS, FastAPI, and Firebase, achieving 98% accuracy across five machine learning models and enhancing online security.",
     link: "https://github.com/fromjyce/WebShield",
     contributor: "Solo Contributor",
-    timeline: "July 2024 - August 2024" /*January */,
+    timeline: "July 2024 - August 2024",
     stack: "Python, Fast API, HTML/CSS, JavaScript, ReactJS, Firebase, Machine Learning, Phishing Detection",
-  },/*
-  {
-    title: "CipherGuard: A Secure Encryption/Decryption Tool",
-    description:
-      "SwingFX Java application for text, document, audio, video, and image encryption.",
-    link: "https://github.com/fromjyce/CipherGuard",
-    contributor: "Solo Contributor",
-    timeline: "Ongoing" /*December */,/*
-    stack: "Java, SwingFX, GUI, Cryptography",
-  }, /*
-  {
-    title: "BlockSecure",
-    description:
-      "A cutting-edge solution revolutionizing secure voting systems with advanced encryption and blockchain-like mechanisms to ensure election integrity.",
-    link: "https://github.com/fromjyce/BlockSecure",
-    contributor: "Team Contributor",
-    timeline: "Ongoing" /*January */ /*
-    stack:
-      "Next JS, ViteJS, ReactJS, HTML, CSS, JavaScript, Solidity, Ethereum, Figma",
-  },*/
+  },
   {
     title: "Visual Based Malware Classification",
     description:
@@ -135,34 +116,7 @@ const projects = [
     contributor: "Solo Contributor",
     timeline: "October 2023 - November 2023",
     stack: "Solidity, Remix IDE, Thirdweb, Blockchain, Ethereum, HTML/CSS, JavaScript",
-  },/*
-  {
-    title: "Student Management System",
-    description:
-      "Utilized JavaFX for a user-friendly interface, implementing a Student class with attributes to facilitate tasks like adding, editing, and displaying student details, ensuring accurate input validation and information integrity through data storage mechanisms.",
-    link: "https://github.com/fromjyce/CodSoftPrograms/blob/main/StudentManagementSystem.java",
-    contributor: "Solo Contributor",
-    timeline: "August 2023 - September 2023",
-    stack: "Java, SwingFX, UX, GUI",
   },
-  {
-    title: "Real Time Currency Converter",
-    description:
-      "Crafted a currency converter using Apilayer API, allowing base-to-target currency selection, real-time exchange rates fetching, accurate conversions, and clear result display with target currency symbols.",
-    link: "https://github.com/fromjyce/CodSoftPrograms/blob/main/CurrencyConverter.java",
-    contributor: "Solo Contributor",
-    timeline: "August 2023 - September 2023",
-    stack: "Java, Terminal Emulation, API Integration",
-  },
-  {
-    title: "A Basic To-do Web App",
-    description:
-      "Built a minimalist to-do web app with HTML, CSS, and potentially JavaScript, enabling users to efficiently manage tasks, including features for editing, marking completion, and date/time tracking.",
-    link: "https://github.com/fromjyce/OasisInfoBytePrograms/tree/main/LevelTwo/TaskThree",
-    contributor: "Solo Contributor",
-    timeline: "August 2023 - September 2023",
-    stack: "HTML, Figma, Javascript, CSS, UX",
-  },*/
   {
     title: "CameraX",
     description:
