@@ -186,31 +186,16 @@ Examining Architectural Aspects of Hyperledger Fabric: A Thorough Review (2024)
               Some accomplishments I have achieved so far
             </h2>
             <ul className="achievements-list">
-              <li className="achievement-item">
-                <strong className="date-name">February 2023</strong>: Achieved
-                top 10% in Red Hat IT Aptitude Test - India 2023, ranking 89th
-                percentile.
-              </li>
-              <li className="achievement-item">
-                <strong className="date-name">February 2023</strong>: Secured
-                62nd spot nationwide in ICPC Algo Queen 2023 – Amrita Vishwa
-                Vidhyapeetham’s event, backed by ICPC Foundation and IBM
-                Quantum.
-              </li>
-              <li className="achievement-item">
-                <strong className="date-name">March 2023</strong>: Chosen as
-                2023 Women Engineer Scholar, top 1% among 27,000 applicants, in
-                TalentSprint-Google supported program.
-              </li>
-              <li className="achievement-item">
-                <strong className="date-name">July 2023</strong>: Selected for
-                the SheCodes Foundation scholarship, honing web skills, and
-                actively contributing to a vibrant coding community.
-              </li>
-              <li className="achievement-item">
-                <strong className="date-name">October 2023</strong>: Selected
+            <li className="achievement-item">
+                <strong className="date-name">September 2024</strong>: Selected
                 for the internal hackathon held at the university for the SIH
-                Hackathon 2023.
+                Hackathon 2024.
+              </li>
+            <li className="achievement-item">
+                <strong className="date-name">March 2024</strong>: Awarded first
+                prize in Cyber Colloquy 3.0: Deepfake Discovery Global
+                Hackathon, organized by Shah And Anchor Kutchhi Engineering
+                College, with a cash prize of Rs. 5000.
               </li>
               <li className="achievement-item">
                 <strong className="date-name">February 2024</strong>: Achieved
@@ -220,10 +205,36 @@ Examining Architectural Aspects of Hyperledger Fabric: A Thorough Review (2024)
                 Technology and Science, Gwalior (M.P.).
               </li>
               <li className="achievement-item">
-                <strong className="date-name">March 2024</strong>: Awarded first
-                prize in Cyber Colloquy 3.0: Deepfake Discovery Global
-                Hackathon, organized by Shah And Anchor Kutchhi Engineering
-                College, with a cash prize of Rs. 5000.
+                <strong className="date-name">January 2024</strong>: Advanced to the Finals in the Hack-A-Thon at Pragyan 2024, hosted by NIT Trichy.
+              </li>
+              <li className="achievement-item">
+                <strong className="date-name">January 2024</strong>: Ranked among the top 4 teams out of 500 in the Password CTF competition conducted by VIT Chennai.
+              </li>
+              <li className="achievement-item">
+                <strong className="date-name">October 2023</strong>: Selected
+                for the internal hackathon held at the university for the SIH
+                Hackathon 2023.
+              </li>
+              <li className="achievement-item">
+                <strong className="date-name">July 2023</strong>: Selected for
+                the SheCodes Foundation scholarship, honing web skills, and
+                actively contributing to a vibrant coding community.
+              </li>
+              <li className="achievement-item">
+                <strong className="date-name">March 2023</strong>: Chosen as
+                2023 Women Engineer Scholar, top 1% among 27,000 applicants, in
+                TalentSprint-Google supported program.
+              </li>
+              <li className="achievement-item">
+                <strong className="date-name">February 2023</strong>: Secured
+                62nd spot nationwide in ICPC Algo Queen 2023 – Amrita Vishwa
+                Vidhyapeetham’s event, backed by ICPC Foundation and IBM
+                Quantum.
+              </li>
+              <li className="achievement-item">
+                <strong className="date-name">February 2023</strong>: Achieved
+                top 10% in Red Hat IT Aptitude Test - India 2023, ranking 89th
+                percentile.
               </li>
             </ul>
           </div>
