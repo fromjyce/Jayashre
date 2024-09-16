@@ -12,6 +12,7 @@ const projects = [
     contributor: "Solo Contributor",
     timeline: "Ongoing - Managed by me" /*January */,
     stack: "React JS, HTML/CSS, Javascript, Figma, UX",
+    category: "sde",
   },
   {
     title: "WebShield",
@@ -21,6 +22,7 @@ const projects = [
     contributor: "Solo Contributor",
     timeline: "July 2024 - August 2024",
     stack: "Python, Fast API, HTML/CSS, JavaScript, ReactJS, Firebase, Machine Learning, Phishing Detection",
+    category: "ds",
   },
   {
     title: "Visual Based Malware Classification",
@@ -29,8 +31,8 @@ const projects = [
     link: "https://github.com/fromjyce/Visual-Based-Malware-Classification",
     contributor: "Solo Contributor",
     timeline: "May 2024 - July 2024",
-    stack:
-      "Python, Deep Learning, Machine Learning, Image Processing, Feature Extraction, Malware Analysis, Data Engineering",
+    stack: "Python, Deep Learning, Machine Learning, Image Processing, Feature Extraction, Malware Analysis, Data Engineering",
+    category: "ds",
   },
   {
     title: "SecureDash",
@@ -41,6 +43,7 @@ const projects = [
     timeline: "March 2024 - May 2024",
     stack:
       "Electron JS, HTML/CSS, Javascript, Scapy, Flask, Python, MySQL, PowerBI, CICDDOS2019 Dataset, Machine Learning, Deep Learning",
+      category: "ds",
   },
   {
     title: "BotDetect",
@@ -51,6 +54,7 @@ const projects = [
     timeline: "March 2024 - April 2024",
     stack:
       "Python, Machine Learning, Flask, Pickle & Parquet Files, HTML/CSS, Javascript, CTU-13 Dataset, Wireshark, Scapy, Graph Tool",
+      category: "ds",
   },
   {
     title: "Diamond Bidding Game",
@@ -60,6 +64,7 @@ const projects = [
     contributor: "Solo Contributor",
     timeline: "March 2024",
     stack: "Python, Algorithms, PyGame, Tkinter",
+    category: "sde",
   },
   {
     title: "Algorithmic Trading Model Development",
@@ -69,6 +74,7 @@ const projects = [
     contributor: "Team Contributor",
     timeline: "January 2024",
     stack: "Python, Machine Learning, Trading, Deep Learning",
+    category: "ds",
   },
   {
     title: "HireMeHorizon: Smart Campus Recruiter",
@@ -79,6 +85,7 @@ const projects = [
     timeline: "October 2023 - December 2023",
     stack:
       "Python, HTML/CSS, Javascript, Flask, MySQL, React JS, Figma, Machine Learning, UX",
+      category: "ds",
   },
   {
     title: "Deepfake Detection with InceptionResNetV2-BiLSTM",
@@ -88,6 +95,7 @@ const projects = [
     contributor: "Solo Contributor",
     timeline: "October 2023 - December 2023",
     stack: "Python, Deep Learning, Tensorflow-Keras, Flask, Numpy, OpenCV, HTML/CSS, JavaScript, ReactJS",
+    category: "ds",
   },
   {
     title: "PenGUIn",
@@ -97,6 +105,7 @@ const projects = [
     contributor: "Team Contributor",
     timeline: "October 2023 - December 2023",
     stack: "Shell Scripting, Ubuntu - Operating System, PyGTK, OS Hardening",
+    category: "sde",
   },
   {
     title: "AirPic",
@@ -107,6 +116,7 @@ const projects = [
     timeline: "June 2023 - November 2023",
     stack:
       "Kotlin, Android, Android Studio, CameraX API, Jetpack Compose, Tensorflow-Keras API, Latex, Figma, UX",
+      category: "sde",
   },
   {
     title: "OpenChain",
@@ -116,6 +126,7 @@ const projects = [
     contributor: "Solo Contributor",
     timeline: "October 2023 - November 2023",
     stack: "Solidity, Remix IDE, Thirdweb, Blockchain, Ethereum, HTML/CSS, JavaScript",
+    category: "sde",
   },
   {
     title: "CameraX",
@@ -125,6 +136,7 @@ const projects = [
     contributor: "Solo Contributor",
     timeline: "July 2023 - August 2023",
     stack: "Kotlin, Android Studio, CameraX, Android",
+    category: "sde",
   },
   {
     title: "American Sign Language Detection",
@@ -134,6 +146,7 @@ const projects = [
     contributor: "Team Contributor",
     timeline: "March 2023 - May 2023",
     stack: "Python, Tkinter, Tensorflow-Keras, OpenCV",
+    category: "ds",
   },
   {
     title: "Barcode Based Attendance System",
@@ -143,6 +156,7 @@ const projects = [
     contributor: "Solo Contributor",
     timeline: "March 2023 - May 2023",
     stack: "Python, Tkinter, Excel, OpenCV, Pyzbar, OpenPyxl",
+    category: "sde",
   },
   {
     title: "Smile Snap Wave Stop",
@@ -152,6 +166,7 @@ const projects = [
     contributor: "Solo Contributor",
     timeline: "May 2023 - June 2023",
     stack: "Python, OpenCV, Tkinter, Mediapipe, Haarcascade",
+    category: "ds",
   },
   {
     title: "Emotions based Music Player",
@@ -161,10 +176,19 @@ const projects = [
     contributor: "Solo Contributor",
     timeline: "October 2022 - December 2022",
     stack: "C, Terminal Emulation, Code::Blocks",
+    category: "sde",
   },
 ];
 
+const categorizeProjects = (projects, category) => {
+  return projects.filter((project) => project.category === category);
+};
+
 function Projects() {
+  const dataScienceProjects = categorizeProjects(projects, "ds");
+  const sdeProjects = categorizeProjects(projects, "sde");
+  const dataEngineeringProjects = categorizeProjects(projects, "de");
+
   return (
     <div id="projects" className="projects-main-container">
       <div className="projects-actual-container">
@@ -172,9 +196,48 @@ function Projects() {
         <h2 className="projects-intro-title">
           Some of the projects I've worked on so far.
         </h2>
-        <div className="projects-container">
+
+        {/* Data Science Projects */}
+        <div className="projects-category">
+          <h3>Data Science Projects</h3>
           <ul className="projects-list">
-            {projects.map((project, index) => (
+            {dataScienceProjects.map((project, index) => (
+              <Project
+                key={index}
+                title={project.title}
+                description={project.description}
+                link={project.link}
+                contributor={project.contributor}
+                timeline={project.timeline}
+                stack={project.stack}
+              />
+            ))}
+          </ul>
+        </div>
+
+        {/* Software Development Engineering (SDE) Projects */}
+        <div className="projects-category">
+          <h3>SDE Projects</h3>
+          <ul className="projects-list">
+            {sdeProjects.map((project, index) => (
+              <Project
+                key={index}
+                title={project.title}
+                description={project.description}
+                link={project.link}
+                contributor={project.contributor}
+                timeline={project.timeline}
+                stack={project.stack}
+              />
+            ))}
+          </ul>
+        </div>
+
+        {/* Data Engineering Projects */}
+        <div className="projects-category">
+          <h3>Data Engineering Projects</h3>
+          <ul className="projects-list">
+            {dataEngineeringProjects.map((project, index) => (
               <Project
                 key={index}
                 title={project.title}
