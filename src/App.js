@@ -9,6 +9,9 @@ import Experience from './components/Experience';
 import Achievements from './components/Achievements';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import CSResume from './components/CSResume';
+import SDEResume from './components/SDEResume';
+import DSResume from './components/DSResume';
 
 function App() {
   return (
@@ -25,6 +28,9 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Route>
         <Route path="/resume" element={<Resume />} />
+        <Route path="/cs-resume" element={<CSResume />} />
+        <Route path="/sde-resume" element={<SDEResume />} />
+        <Route path="/ds-resume" element={<DSResume />} />
       </Routes>
     </HashRouter>
   );
