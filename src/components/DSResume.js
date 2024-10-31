@@ -8,7 +8,7 @@ function DSResume() {
         style={{ width: '100%', height: '100vh', border: 'none' }}
         title="Resume PDF"
       >
-        This browser does not support PDFs. Please download the PDF to view it: <a href={`${process.env.PUBLIC_URL}/display-resume.pdf`}>Download PDF</a>.
+        This browser does not support PDFs. Please download the PDF to view it: <a href={`${process.env.PUBLIC_URL}/resumes/ds-resume.pdf`}>Download PDF</a>.
       </iframe>
     </div>
   );
