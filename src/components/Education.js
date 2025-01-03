@@ -141,6 +141,27 @@ const certificationsData = [
   },
 ];
 
+const courseData = [
+  { courseCode: 'CS1009', courseName: 'Cyber Security Essentials' },
+  { courseCode: 'CS1001', courseName: 'Programming in C' },
+  { courseCode: 'CS1002', courseName: 'Programming in Python'},
+  { courseCode: 'CS1006T', courseName: 'Data Structures'},
+  { courseCode: 'CS1004', courseName: 'Computer Organization & Architecture'},
+  { courseCode: 'CS1008', courseName: 'Classical Cryptography'},
+  { courseCode: 'CS2003', courseName: 'Object Oriented Programming'},
+  { courseCode: 'CS2001T', courseName: 'Database Management Systems'},
+  { courseCode: 'CS2011', courseName: 'Modern Cryptography'},
+  { courseCode: 'CS2701', courseName: 'Operating Systems + Lab'},
+  { courseCode: 'CS2004', courseName: 'Design and Analysis of Algorithms'},
+  { courseCode: 'CS2002', courseName: 'Computer Networks'},
+  { courseCode: 'CS2016', courseName: 'Foundations of Machine Learning for Cyber Security'},
+  { courseCode: 'CS2702', courseName: 'System Security Management + Lab'},
+  { courseCode: 'CS3015', courseName: 'High Performance Computing and Big Data for Cybersecurity'},
+  { courseCode: 'CS2007', courseName: 'Artifical Intelligence'},
+  { courseCode: 'CS3013', courseName: 'Network Penetration Testing, Ethical Hacking and Social Engineering'},
+  { courseCode: 'CS3687', courseName: 'Data Mining & Visualization'},
+];
+
 function Education() {
     return (
       <div id="education" className="education-main-container">
@@ -168,64 +189,11 @@ function Education() {
                     Few Courses that I have taken until now
                   </div>
                   <ul className="courses-list">
-                    <li className="courses-list-item">
-                      CS1009: Cyber Security Essentials
-                    </li>
-                    <li className="courses-list-item">
-                      CS1703: Digital Design + Lab
-                    </li>
-                    <li className="courses-list-item">
-                      CS1001: Programming in C
-                    </li>
-                    <li className="courses-list-item">
-                      MA1001: Linear Algebra
-                    </li>
-                    <li className="courses-list-item">
-                      PH1001T: Engineering Physics
-                    </li>
-                    <li className="courses-list-item">
-                      MA1002: Probability & Statistics
-                    </li>
-                    <li className="courses-list-item">
-                      CS1002: Programming in Python
-                    </li>
-                    <li className="courses-list-item">
-                      CS1006T: Data & Structures
-                    </li>
-                    <li className="courses-list-item">
-                      CS1004: Computer Organization & Architecture
-                    </li>
-                    <li className="courses-list-item">
-                      CS1008: Classical Cryptography
-                    </li>
-                    <li className="courses-list-item">
-                      MA2001: Discrete Mathematics and Graph Theory
-                    </li>
-                    <li className="courses-list-item">
-                      CS2003: Object Oriented Programming
-                    </li>
-                    <li className="courses-list-item">
-                      CS2001T: Database Management Systems
-                    </li>
-                    <li className="courses-list-item">
-                      CS2011: Modern Cryptography
-                    </li>
-                    <li className="courses-list-item">
-                      CS2701: Operating Systems + Lab
-                    </li>
-                    <li className="courses-list-item">
-                      CS2004: Design and Analysis of Algorithms
-                    </li>
-                    <li className="courses-list-item">
-                      CS2002: Computer Networks
-                    </li>
-                    <li className="courses-list-item">
-                      CS2016: Foundations of Machine Learning for Cyber Security
-                    </li>
-                    <li className="courses-list-item">
-                      CS2702: System Security Management + Lab
-                    </li>
-                    <li className="courses-list-item">MA2004: Graph Theory</li>
+                    {courseData.map((course, index) => (
+                      <li className="courses-list-item" key={index}>
+                        {course.courseCode} - {course.courseName}
+                      </li>
+                    ))}
                   </ul>
                 </div>
               </li>
